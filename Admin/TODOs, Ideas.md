@@ -1,0 +1,1 @@
+- [ ] Add script that adds symbol as preview text
