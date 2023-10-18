@@ -1,9 +1,11 @@
 ---
-mathLink:
+mathLink: 
+aliases:
+  - Minimum Graph Cut
+tags:
+  - NoteType/Definition
+  - CompSci/Theoretical/Algorithmics/Graphs
 ---
-#NoteType/Definition 
-#CompSci/Theoretical/Algorithmics/Graphs 
-
 ## Symbol
 
 C ^symbol

@@ -1,10 +1,10 @@
 ---
 aliases:
   - FindHeavy
+tags:
+  - NoteType/Problem
+  - CompSci/Theoretical/Algorithmics/Graphs
 ---
-#NoteType/Problem 
-#CompSci/Theoretical/Algorithmics/Graphs 
-
 ## Input
 
 - Graph $G$
@@ -15,5 +15,7 @@ aliases:
 All [[T-heavy]] edges in $G$
 
 ## Notes
+
+## Assorted Algorithms
 
 [[Index|APC]]: We assume this exists in $O(m)$ time.

@@ -1,9 +1,10 @@
 ---
 aliases:
   - MST Problem
+tags:
+  - NoteType/Problem
+  - CompSci/Theoretical/Algorithmics/Graphs
 ---
-#NoteType/Problem 
-
 ## Input
 
 [[Weighted Graph]] $G=(V,E),\ w : E \to \mathbb{R}$ or $w(e) = 1$.
@@ -12,3 +13,6 @@ aliases:
 
 [[Minimum Spanning Tree]]
 
+## Notes
+
+## Assorted Algorithms

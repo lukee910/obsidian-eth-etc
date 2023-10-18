@@ -1,9 +1,9 @@
 ---
 mathLink: $\mathcal{A}$
+tags:
+  - NoteType/Definition
+  - CompSci/Theoretical/Algorithmics
 ---
-#NoteType/Definition 
-#CompSci/Theoretical/Algorithmics
-
 ## Symbol
 
 $\mathcal{A}$ ^symbol

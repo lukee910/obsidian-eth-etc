@@ -2,10 +2,10 @@
 mathLink: $G/e$
 aliases:
   - Edge Contraction
+tags:
+  - NoteType/Definition
+  - CompSci/Theoretical/Algorithmics/Graphs
 ---
-#NoteType/Definition 
-#CompSci/Theoretical/Algorithmics/Graphs 
-
 ## Symbol
 
 $G/e$ ^symbol

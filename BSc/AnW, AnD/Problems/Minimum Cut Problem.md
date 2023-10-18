@@ -1,14 +1,18 @@
 ---
 aliases:
   - MinCut
+tags:
+  - NoteType/Problem
+  - CompSci/Theoretical/Algorithmics/Graphs
 ---
-#NoteType/Problem 
-#CompSci/Theoretical/Algorithmics/Graphs 
-
 ## Input
 
  Unweighted or [[Weighted Graph]] G
 
 ## Output
 
-[[Minimum Graph Cut]] C
+[[Minimum Cut]] C
+
+## Notes
+
+## Assorted Algorithms

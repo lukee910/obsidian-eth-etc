@@ -1,9 +1,9 @@
 ---
 mathLink: $p(n)$
+tags:
+  - NoteType/Definition
+  - CompSci/Theoretical/Algorithmics/Probabilistic
 ---
-#NoteType/Definition 
-#CompSci/Theoretical/Algorithmics 
-
 ## Symbol
 
 $p_\mathcal{A}(n)$ ^symbol

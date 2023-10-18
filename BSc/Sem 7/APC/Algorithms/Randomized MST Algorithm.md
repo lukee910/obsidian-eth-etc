@@ -2,11 +2,11 @@
 aliases:
   - Randomized Minimum Spanning Tree Algorithm
   - Randomized MST
+tags:
+  - NoteType/Algorithm
+  - CompSci/Theoretical/Algorithmics/Graphs
+  - CompSci/Theoretical/Algorithmics/Probabilistic
 ---
-#NoteType/Algorithm 
-#CompSci/Theoretical/Algorithmics/Graphs 
-#CompSci/Theoretical/Algorithmics/Probabilistic
-
 ## Problem
 
 [[Minimum Spanning Tree Problem]]

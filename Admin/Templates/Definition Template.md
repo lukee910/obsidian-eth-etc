@@ -1,8 +1,8 @@
 ---
 mathLink: TODO
+tags:
+  - NoteType/Definition
 ---
-#NoteType/Definition 
-
 ## Symbol
 
 TODO ^symbol

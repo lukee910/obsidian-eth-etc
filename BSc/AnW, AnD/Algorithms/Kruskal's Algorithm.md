@@ -1,9 +1,9 @@
 ---
-aliases:
+aliases: 
+tags:
+  - NoteType/Algorithm
+  - CompSci/Theoretical/Algorithmics/Graphs
 ---
-#NoteType/Algorithm  
-#CompSci/Theoretical/Algorithmics/Graphs 
-
 ## Problem
 
 [[Minimum Spanning Tree Problem|MST Problem]]

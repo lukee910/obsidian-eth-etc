@@ -1,8 +1,8 @@
 ---
-aliases:
+aliases: 
+tags:
+  - NoteType/Algorithm
 ---
-#NoteType/Algorithm  
-
 ## Problem
 
 [[Minimum Spanning Tree Problem]]

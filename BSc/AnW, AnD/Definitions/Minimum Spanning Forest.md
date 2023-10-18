@@ -1,10 +1,10 @@
 ---
 aliases:
   - MSF
+tags:
+  - NoteType/Definition
+  - CompSci/Theoretical/Algorithmics/Graphs
 ---
-#NoteType/Definition 
-#CompSci/Theoretical/Algorithmics/Graphs 
-
 ## Symbol
 
 MSF ^symbol

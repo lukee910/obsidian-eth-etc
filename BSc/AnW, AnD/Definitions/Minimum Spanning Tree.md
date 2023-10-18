@@ -2,10 +2,10 @@
 mathLink: 
 aliases:
   - MST
+tags:
+  - NoteType/Definition
+  - CompSci/Theoretical/Algorithmics/Graphs
 ---
-#NoteType/Definition 
-#CompSci/Theoretical/Algorithmics/Graphs 
-
 ## Symbol
 
 MST ^symbol
