@@ -1,5 +1,7 @@
 ---
-mathLink: MST
+mathLink: 
+aliases:
+  - MST
 ---
 #Maths/Definition 
 #CompSci/Theoretical/Algorithmics/Graphs 

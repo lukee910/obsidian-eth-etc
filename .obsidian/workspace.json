@@ -11,11 +11,43 @@
             "id": "f9789eefac5ca23d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "BSc/AnW, AnD/MST Algorithms.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "27e927290b902268",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BSc/Sem 7/APC/Algorithms/Randomized MST Algorithm.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a74c00d8de5e1de8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BSc/Sem 7/APC/Definitions/Ch1/T-heavy.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "BSc/Sem 7/APC/Algorithms/Randomized MST Algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "BSc/Sem 7/APC/Algorithms/Randomized MST Algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +152,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "BSc/Sem 7/APC/Algorithms/Randomized MST Algorithm.md"
+              }
             }
           },
           {
@@ -146,15 +182,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dd3c3d51d0bb2ad7",
+  "active": "27e927290b902268",
   "lastOpenFiles": [
     "BSc/Sem 7/APC/Chapter 1 - Bootstrapping.md",
-    "BSc/AnW, AnD/Definitions/Weighted Graph.md",
-    "BSc/AnW, AnD/MST - Minimum Spanning Trees.md",
+    "BSc/Sem 7/APC/Algorithms/Randomized MST Algorithm.md",
+    "BSc/Sem 7/APC/Algorithms",
+    "BSc/Sem 7/APC/Definitions/Ch1/T-heavy.md",
+    "BSc/AnW, AnD/MST Algorithms.md",
     "BSc/AnW, AnD/Definitions/Minimum Spanning Tree.md",
+    "BSc/Sem 7/APC/Definitions/Ch1/Cheapest incident edge.md",
+    "BSc/Sem 7/APC/Definitions/Ch1/Algorithm Success Probability.md",
+    "BSc/AnW, AnD/Definitions/Weighted Graph.md",
     "BSc/Sem 7/APC/Definitions/Ch1/Algorithm.md",
     "BSc/Sem 7/APC/Definitions/Ch1/Algorithm Runtime.md",
-    "BSc/Sem 7/APC/Definitions/Ch1/Algorithm Success Probability.md",
     "BSc/AnW, AnD/Definitions/Contracted Graph.md",
     "Admin/Templates/Definition.md",
     "BSc/Sem 2/AnW/MSTs - Minimum Spanning Trees/MST - Minimum Spanning Trees.md",
@@ -170,7 +210,6 @@
     "Test.md",
     "BSc/Sem 7/APC/Definitions/Ch1",
     "Admin/TODOs, Ideas.md",
-    "Admin",
     "Templates/{{date}} -.md",
     "BSc/Sem 7/APC/Index.md",
     "BSc Sem 7/APC/Chapter 1 - Bootstrapping/Boostrapping - index.md",

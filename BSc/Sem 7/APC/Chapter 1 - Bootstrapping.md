@@ -10,8 +10,12 @@ For recursion $t(n) \leq \alpha n + \beta t(n/2)$: [[Algorithm Runtime]] through
 ## 1.1 MST in linear time
 Setting:
 - [[Weighted Graph]]
-- See runtimes in [[MST - Minimum Spanning Trees]]
+- See runtimes in [[MST Algorithms]]
 - $w$ injective
-- 
+
+T MST $\Leftrightarrow$ all edges in $e \in (E \setminus E_T)$ are [[T-heavy]]
+
+We use **FindHeavy** as an algorithm to find all T-heavy edges in time $O(m)$.
+
 
 
