@@ -3,6 +3,8 @@ tags:
   - ETH/BSC/S7/APC
   - CompSci/Theoretical/Algorithmics
 ---
+Taught by Prof. Angelika Steger
+
 ## 1.0 Preamble
 
 For recursion $t(n) \leq \alpha n + \beta t(n/2)$: [[Algorithm Runtime]] through $\Sigma_{i=0}^{\log_2 n} (\frac{\beta}{2})^i$
