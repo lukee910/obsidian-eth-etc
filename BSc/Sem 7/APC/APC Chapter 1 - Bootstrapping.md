@@ -22,5 +22,5 @@ T MST $\Leftrightarrow$ all edges in $e \in (E \setminus E_T)$ are [[T-heavy]]
 
 ## 1.2 Minimum Cuts in $O(n^2)$ time
 
-
-
+Problem: [[Minimum Cut Problem|MinCut Problem]]
+Solution: [[APC Randomized Min Cut Algorithm]]

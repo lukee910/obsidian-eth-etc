@@ -18,4 +18,4 @@ All [[T-heavy]] edges in $G$
 
 ## Assorted Algorithms
 
-[[Index|APC]]: We assume this exists in $O(m)$ time.
+#ETH/BSC/S7/APC : We assume this exists in $O(m)$ time.

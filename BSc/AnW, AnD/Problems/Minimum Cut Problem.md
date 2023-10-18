@@ -1,6 +1,6 @@
 ---
 aliases:
-  - MinCut
+  - MinCut Problem
 tags:
   - NoteType/Problem
   - CompSci/Theoretical/Algorithmics/Graphs
@@ -11,8 +11,11 @@ tags:
 
 ## Output
 
-[[Minimum Cut]] C
+[[Size of minimum cut]], implied sometimes [[Minimum Cut]] C
 
 ## Notes
 
 ## Assorted Algorithms
+
+- Flow based
+	- Time: $O(n^4 \log n)$

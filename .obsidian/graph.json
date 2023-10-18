@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "-tag:#Maths/Variable  ",
+  "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1,
+  "scale": 0.713275462622442,
   "close": true
 }

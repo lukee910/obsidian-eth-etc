@@ -4,23 +4,61 @@
     "type": "split",
     "children": [
       {
-        "id": "d738d2948c43c6be",
+        "id": "dcda04b0b0b7c070",
         "type": "tabs",
         "children": [
           {
-            "id": "e6dcba8b707db600",
+            "id": "aa9171e7c5da682d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BSc/Sem 7/APC/Index.md",
+                "file": "BSc/Sem 7/APC/Theorems/APC Theorem 1.5.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1b65b2a22cb7bf03",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/plugins/novel-word-count/styles.css",
+                "staged": false
+              }
+            }
+          },
+          {
+            "id": "3615c6308b0a58bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BSc/Sem 7/APC/Algorithms/APC Randomized Min Cut Algorithm.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3d0d9066f9532f10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BSc/Sem 7/APC/Theorems/APC Lemma 1.3.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#CompSci/Theoretical/Algorithmics/Graphs",
+                "query": "tag:NoteType/Theorem/Lemma",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +124,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BSc/Sem 7/APC/Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +140,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BSc/Sem 7/APC/Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +161,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "BSc/Sem 7/APC/Index.md"
-              }
+              "state": {}
             }
           },
           {
@@ -139,7 +173,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -155,43 +189,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e6dcba8b707db600",
+  "active": "1b65b2a22cb7bf03",
   "lastOpenFiles": [
-    "Test.md",
-    "BSc/Sem 7/APC/Index.md",
-    "BSc/Sem 7/APC/Chapter 1 - Bootstrapping.md",
-    "BSc/Sem 7/APC/Problems/Find T-heavy edges Problem.md",
-    "BSc/Sem 7/APC/Definitions/Ch1/T-heavy.md",
-    "BSc/Sem 7/APC/Definitions/Ch1/Algorithm Success Probability.md",
-    "BSc/Sem 7/APC/Definitions/Ch1/Algorithm Runtime.md",
-    "BSc/Sem 7/APC/Definitions/Ch1/Algorithm.md",
+    "BSc/Sem 7/APC/APC Chapter 2 - Randomized Search Trees.md",
+    "BSc/Sem 7/APC/APC Chapter 1 - Bootstrapping.md",
+    "BSc/Sem 7/APC/Algorithms/APC Randomized Min Cut Algorithm.md",
+    "BSc/Sem 7/APC/Theorems/APC Theorem 1.5.md",
     "BSc/Sem 7/APC/Algorithms/Randomized MST Algorithm.md",
-    "BSc/AnW, AnD/Problems/Minimum Spanning Tree Problem.md",
-    "BSc/AnW, AnD/Problems/Minimum Cut Problem.md",
+    "BSc/Sem 7/APC/Theorems/APC Lemma 1.4.md",
+    "BSc/Sem 7/APC/Theorems/APC Lemma 1.3.md",
+    "BSc/Sem 7/APC/Theorems/APC Lemma 1.2.md",
+    "Admin/Templates/Theorem Template.md",
+    "Admin/Templates/Untitled.md",
+    "BSc/Sem 7/APC/Theorems",
+    "BSc/Sem 7/APC/Tricks/APC Random Tricks.md",
+    "Admin/Untitled.canvas",
+    "BSc/AnW, AnD/Algorithms/Basic Random Min Cut Algorithm.md",
+    "BSc/AnW, AnD/Algorithms/Random Contract.md",
     "BSc/AnW, AnD/Definitions/Weighted Graph.md",
-    "BSc/AnW, AnD/Definitions/Minimum Spanning Tree.md",
-    "BSc/AnW, AnD/Definitions/Minimum Spanning Forest.md",
+    "BSc/AnW, AnD/Problems/Minimum Cut Problem.md",
+    "BSc/AnW, AnD/Problems/Minimum Spanning Tree Problem.md",
+    "BSc/Sem 7/APC/Tricks",
+    "BSc/Maths/Basics/Basic Inequalities.md",
+    "BSc/Maths/Basics",
+    "BSc/Maths/Algebra Tricks/Untitled.md",
+    "BSc/Maths/Algebra Tricks",
+    "BSc/Maths",
+    "BSc/Sem 7/APC/Definitions/Ch1/Õ notation.md",
+    "BSc/Sem 7/APC/Problems/Find T-heavy edges Problem.md",
+    "BSc/AnW, AnD/Definitions/Graph G without edge e.md",
+    "BSc/AnW, AnD/Definitions/Size of minimum cut.md",
     "BSc/AnW, AnD/Definitions/Minimum Cut.md",
-    "BSc/AnW, AnD/Definitions/Contracted Graph.md",
-    "BSc/AnW, AnD/Algorithms/Prim's Algorithm.md",
-    "BSc/AnW, AnD/Algorithms/Kruskal's Algorithm.md",
-    "BSc/AnW, AnD/Algorithms/Boruvka's Algorithm.md",
-    "Admin/TODOs, Ideas.md",
-    "Admin/Templates/Problem Template.md",
-    "Admin/Templates/Definition Template.md",
     "Admin/Templates/Algorithm Template.md",
+    "BSc/Sem 7/APC/ETH Algorithms, Probability and Computing HS 2023.md",
+    "ETH BSC S7 APC.md",
     "BSc/Sem 7/APC/Problems",
-    "BSc/AnW, AnD/MST Algorithms.md",
     "BSc/AnW, AnD/Algorithms",
     "BSc/AnW, AnD/Problems",
     "BSc/Sem 7/APC/Algorithms",
-    "BSc/Sem 7/APC/Definitions/Ch1/Cheapest incident edge.md",
-    "BSc/Sem 2/AnW/MSTs - Minimum Spanning Trees/MST - Minimum Spanning Trees.md",
-    "BSc/Sem 2/AnW/MSTs - Minimum Spanning Trees",
-    "BSc/AnW, AnD/Definitions",
-    "BSc/AnW, AnD",
-    "BSc/Sem 2",
-    "BSc/Misc",
-    "BSc/Sem 7"
+    "BSc/Sem 2/AnW/MSTs - Minimum Spanning Trees"
   ]
 }

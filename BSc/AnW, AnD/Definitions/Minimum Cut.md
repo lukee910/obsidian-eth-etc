@@ -2,6 +2,7 @@
 mathLink: 
 aliases:
   - Minimum Graph Cut
+  - MinCut
 tags:
   - NoteType/Definition
   - CompSci/Theoretical/Algorithmics/Graphs
