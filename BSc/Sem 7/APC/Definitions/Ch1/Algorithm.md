@@ -1,9 +1,8 @@
 ---
 mathLink: $\mathcal{A}$
 ---
-#Maths/Definition 
+#NoteType/Definition 
 #CompSci/Theoretical/Algorithmics
-#ETH/BSC/S7/APC/Ch1 
 
 ## Symbol
 

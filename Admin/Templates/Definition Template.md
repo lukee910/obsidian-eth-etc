@@ -1,7 +1,7 @@
 ---
 mathLink: TODO
 ---
-#Maths/Definition 
+#NoteType/Definition 
 
 ## Symbol
 

@@ -3,7 +3,7 @@ mathLink:
 aliases:
   - MST
 ---
-#Maths/Definition 
+#NoteType/Definition 
 #CompSci/Theoretical/Algorithmics/Graphs 
 
 ## Symbol

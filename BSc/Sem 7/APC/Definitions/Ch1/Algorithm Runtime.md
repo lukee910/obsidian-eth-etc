@@ -1,9 +1,9 @@
 ---
 mathLink: $t(n)$
 ---
-#Maths/Definition
-#CompSci/Theoretical/Algorithmics
-#ETH/BSC/S7/APC/Ch1 
+#NoteType/Definition
+#CompSci/Theoretical/Algorithmics 
+
 ## Symbol
 
 $t_\mathcal{A}(n)$ ^symbol

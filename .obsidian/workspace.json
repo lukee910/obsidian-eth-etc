@@ -4,50 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "da9c92397c9ed518",
+        "id": "d738d2948c43c6be",
         "type": "tabs",
         "children": [
           {
-            "id": "f9789eefac5ca23d",
+            "id": "e6dcba8b707db600",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BSc/AnW, AnD/MST Algorithms.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "27e927290b902268",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BSc/Sem 7/APC/Algorithms/Randomized MST Algorithm.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a74c00d8de5e1de8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BSc/Sem 7/APC/Definitions/Ch1/T-heavy.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -76,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ETH/BSC/S2/AnW",
+                "query": "tag:#CompSci/NoteType/Algorithm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BSc/Sem 7/APC/Algorithms/Randomized MST Algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BSc/Sem 7/APC/Algorithms/Randomized MST Algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "BSc/Sem 7/APC/Algorithms/Randomized MST Algorithm.md"
-              }
+              "state": {}
             }
           },
           {
@@ -166,7 +130,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -182,21 +146,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "27e927290b902268",
+  "active": "e6dcba8b707db600",
   "lastOpenFiles": [
-    "BSc/Sem 7/APC/Chapter 1 - Bootstrapping.md",
     "BSc/Sem 7/APC/Algorithms/Randomized MST Algorithm.md",
-    "BSc/Sem 7/APC/Algorithms",
-    "BSc/Sem 7/APC/Definitions/Ch1/T-heavy.md",
-    "BSc/AnW, AnD/MST Algorithms.md",
+    "BSc/Sem 7/APC/Problems/Find T-heavy edges Problem.md",
+    "BSc/Sem 7/APC/Chapter 1 - Bootstrapping.md",
+    "BSc/Sem 7/APC/Index.md",
+    "BSc/AnW, AnD/Problems/Minimum Cut Problem.md",
+    "BSc/Sem 7/APC/Problems",
+    "BSc/AnW, AnD/Problems/Minimum Spanning Tree Problem.md",
     "BSc/AnW, AnD/Definitions/Minimum Spanning Tree.md",
-    "BSc/Sem 7/APC/Definitions/Ch1/Cheapest incident edge.md",
-    "BSc/Sem 7/APC/Definitions/Ch1/Algorithm Success Probability.md",
-    "BSc/AnW, AnD/Definitions/Weighted Graph.md",
+    "BSc/AnW, AnD/Definitions/Minimum Graph Cut.md",
     "BSc/Sem 7/APC/Definitions/Ch1/Algorithm.md",
+    "BSc/AnW, AnD/MST Algorithms.md",
+    "BSc/AnW, AnD/Algorithms/Boruvka's Algorithm.md",
+    "BSc/AnW, AnD/Algorithms/Kruskal's Algorithm.md",
+    "BSc/AnW, AnD/Algorithms/Prim's Algorithm.md",
+    "Admin/Templates/Algorithm Template.md",
+    "BSc/AnW, AnD/Algorithms",
+    "Admin/Templates/Problem Template.md",
+    "BSc/Sem 7/APC/Definitions/Ch1/T-heavy.md",
+    "BSc/Sem 7/APC/Definitions/Ch1/Algorithm Success Probability.md",
     "BSc/Sem 7/APC/Definitions/Ch1/Algorithm Runtime.md",
+    "Admin/Templates/Definition Template.md",
+    "BSc/AnW, AnD/Definitions/Minimum Spanning Forest.md",
+    "BSc/AnW, AnD/Definitions/Weighted Graph.md",
+    "BSc/AnW, AnD/Problems",
+    "BSc/Sem 7/APC/Algorithms",
+    "BSc/Sem 7/APC/Definitions/Ch1/Cheapest incident edge.md",
     "BSc/AnW, AnD/Definitions/Contracted Graph.md",
-    "Admin/Templates/Definition.md",
     "BSc/Sem 2/AnW/MSTs - Minimum Spanning Trees/MST - Minimum Spanning Trees.md",
     "BSc/Sem 2/AnW/MSTs - Minimum Spanning Trees",
     "BSc/AnW, AnD/Definitions",
@@ -204,15 +182,7 @@
     "BSc/Sem 2",
     "BSc/Misc",
     "BSc/Sem 7",
-    "Untitled 1",
-    "Untitled",
     "$A$.md",
-    "Test.md",
-    "BSc/Sem 7/APC/Definitions/Ch1",
-    "Admin/TODOs, Ideas.md",
-    "Templates/{{date}} -.md",
-    "BSc/Sem 7/APC/Index.md",
-    "BSc Sem 7/APC/Chapter 1 - Bootstrapping/Boostrapping - index.md",
-    "Tags/Tag - Syntax.md"
+    "Test.md"
   ]
 }

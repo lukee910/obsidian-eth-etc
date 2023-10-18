@@ -3,7 +3,7 @@ mathLink: $G/e$
 aliases:
   - Edge Contraction
 ---
-#Maths/Definition 
+#NoteType/Definition 
 #CompSci/Theoretical/Algorithmics/Graphs 
 
 ## Symbol
