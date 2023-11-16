@@ -4,15 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0e1410c893ff693c",
+        "id": "538bed8c0a71a48f",
         "type": "tabs",
         "children": [
           {
-            "id": "47fee063aff880dc",
+            "id": "80e9681e3dc3cdb0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "kanban",
+              "state": {
+                "file": "BSc/Sem 7/BSc Thesis/BSc Thesis Board.md"
+              }
             }
           }
         ]
@@ -81,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "BSc/Sem 7/BSc Thesis/BSc Thesis Board.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "BSc/Sem 7/BSc Thesis/BSc Thesis Board.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "BSc/Sem 7/BSc Thesis/BSc Thesis Board.md"
+              }
             }
           },
           {
@@ -128,13 +134,22 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "c3ee358883352ca7",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
           }
         ],
         "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 277.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,9 +161,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "47fee063aff880dc",
+  "active": "80e9681e3dc3cdb0",
   "lastOpenFiles": [
+    "BSc/Sem 7/BSc Thesis/Untitled.md",
     "BSc/Sem 7/BSc Thesis/BSc Thesis Board.md",
+    "BSc/Sem 7/BSc Thesis/Cards/Setup up thesis environment.md",
+    "BSc/Sem 7/BSc Thesis/Cards/Check rules  Privacy and plagiarism (e.g. background vs Anna's Thesis).md",
+    "BSc/Sem 7/BSc Thesis/BSc Thesis Epics.md",
+    "BSc/Sem 7/BSc Thesis/Cards/Research relevant data for screenplay analysis.md",
+    "BSc/Sem 7/BSc Thesis/Cards/Research topics for background chapter, see 2023-11-15.md",
     "BSc/Sem 7/BSc Thesis/Cards",
     "BSc/TODO.md",
     "BSc/Sem 7/APC/APC Chapter 4 - Linear Programming.md",
@@ -173,11 +194,6 @@
     "BSc/Resources/APC_2_1_search_tree.png",
     "BSc/Resources",
     "BSc/Sem 7/APC/Theorems/APC Theorem 1.5.md",
-    "BSc/Sem 7/APC/Algorithms/Randomized MST Algorithm.md",
-    "BSc/Sem 7/APC/Theorems/APC Lemma 1.4.md",
-    "BSc/Sem 7/APC/Theorems/APC Lemma 1.3.md",
-    "Admin/Templates/Theorem Template.md",
-    "Admin/Templates/Untitled.md",
     "BSc/Sem 7/APC/Theorems",
     "Admin/Untitled.canvas",
     "BSc/Sem 7/APC/Tricks",
