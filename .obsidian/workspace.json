@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "dc868609adb786fc",
+        "id": "0e1410c893ff693c",
         "type": "tabs",
         "children": [
           {
-            "id": "e77acc1e7cc52b99",
+            "id": "47fee063aff880dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BSc/Sem 7/APC/APC Chapter 4 - Linear Programming.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BSc/Sem 7/APC/APC Chapter 4 - Linear Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BSc/Sem 7/APC/APC Chapter 4 - Linear Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "BSc/Sem 7/APC/APC Chapter 4 - Linear Programming.md"
-              }
+              "state": {}
             }
           },
           {
@@ -143,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5,
-    "collapsed": true
+    "width": 277.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,15 +146,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e77acc1e7cc52b99",
+  "active": "47fee063aff880dc",
   "lastOpenFiles": [
-    "BSc/Sem 7/APC/APC Chapter 3 - Point Location.md",
+    "BSc/Sem 7/BSc Thesis/BSc Thesis Board.md",
+    "BSc/Sem 7/BSc Thesis/Cards",
+    "BSc/TODO.md",
     "BSc/Sem 7/APC/APC Chapter 4 - Linear Programming.md",
+    "BSc/Sem 7/BSc Thesis",
+    "BSc/Sem 7/APC/APC Chapter 3 - Point Location.md",
     "BSc/Sem 7/APC/APC Chapter 2 - Randomized Search Trees.md",
     "BSc/Sem 7/APC/Tricks/APC Random Tricks.md",
     "BSc/Sem 7/APC/APC Chapter 1 - Bootstrapping.md",
     "BSc/AnW, AnD/Definitions/Weighted Graph.md",
-    "BSc/TODO.md",
     "2023-11-10.md",
     "BSc/Sem 7/APC/Definitions/Ch2/Binary Search Tree.md",
     "BSc/Sem 7/APC/Algorithms/APC Randomized Min Cut Algorithm.md",
@@ -187,14 +180,10 @@
     "Admin/Templates/Untitled.md",
     "BSc/Sem 7/APC/Theorems",
     "Admin/Untitled.canvas",
-    "BSc/AnW, AnD/Algorithms/Random Contract.md",
-    "BSc/AnW, AnD/Problems/Minimum Spanning Tree Problem.md",
     "BSc/Sem 7/APC/Tricks",
     "BSc/Maths/Basics",
     "BSc/Maths/Algebra Tricks",
     "BSc/Maths",
-    "BSc/Sem 7/APC/Problems",
-    "BSc/AnW, AnD/Algorithms",
-    "BSc/AnW, AnD/Problems"
+    "BSc/Sem 7/APC/Problems"
   ]
 }
