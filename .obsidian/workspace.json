@@ -4,19 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e7990eef8b096345",
+        "id": "538bed8c0a71a48f",
         "type": "tabs",
         "children": [
           {
-            "id": "68c92612ce992fa0",
+            "id": "80e9681e3dc3cdb0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "BSc/Sem 7/Thesis/NLP/2023-11-14 Huggingface NLP Course.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "BSc/Sem 7/BSc Thesis/BSc Thesis Board.md"
               }
             }
           },
@@ -100,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BSc/Sem 7/Thesis/NLP/2023-11-14 Huggingface NLP Course.md",
+                "file": "BSc/Sem 7/BSc Thesis/BSc Thesis Board.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BSc/Sem 7/Thesis/NLP/2023-11-14 Huggingface NLP Course.md",
+                "file": "BSc/Sem 7/BSc Thesis/BSc Thesis Board.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BSc/Sem 7/Thesis/NLP/2023-11-14 Huggingface NLP Course.md"
+                "file": "BSc/Sem 7/BSc Thesis/BSc Thesis Board.md"
               }
             }
           },
@@ -149,6 +146,14 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "c3ee358883352ca7",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
               "state": {}
             }
           }
@@ -170,29 +175,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "48c8a2497f277521",
+  "active": "80e9681e3dc3cdb0",
   "lastOpenFiles": [
-    "BSc/Sem 7/Thesis/images/full_nlp_pipeline.svg",
-    "BSc/Sem 7/Thesis/NLP/2023-11-14 Huggingface NLP Course.md",
-    "BSc/Sem 7/Thesis/images/transformers.svg",
-    "BSc/Sem 7/Thesis/images",
-    "BSc/Sem 7/Thesis/NLP/Untitled",
-    "BSc/Sem 7/Thesis/NLP",
-    "BSc/Sem 7/Thesis",
-    "BSc/Sem 7/APC/Definitions/Ch2/Binary Search Tree.md",
-    "BSc/Sem 7/APC/APC Chapter 2 - Randomized Search Trees.md",
-    "BSc/Sem 7/APC/Theorems/APC Theorem 1.5.md",
-    "BSc/Sem 7/APC/Algorithms/APC Randomized Min Cut Algorithm.md",
-    "BSc/Sem 7/APC/Theorems/APC Lemma 1.4.md",
-    "BSc/Sem 7/APC/Theorems/APC Lemma 1.2.md",
-    "BSc/Sem 7/APC/Theorems/APC Lemma 1.3.md",
-    "BSc/Sem 7/APC/Algorithms/Randomized MST Algorithm.md",
-    "BSc/Sem 7/APC/APC Chapter 1 - Bootstrapping.md",
+    "BSc/Sem 7/BSc Thesis/Untitled.md",
+    "BSc/Sem 7/BSc Thesis/BSc Thesis Board.md",
+    "BSc/Sem 7/BSc Thesis/Cards/Setup up thesis environment.md",
+    "BSc/Sem 7/BSc Thesis/Cards/Check rules  Privacy and plagiarism (e.g. background vs Anna's Thesis).md",
+    "BSc/Sem 7/BSc Thesis/BSc Thesis Epics.md",
+    "BSc/Sem 7/BSc Thesis/Cards/Research relevant data for screenplay analysis.md",
+    "BSc/Sem 7/BSc Thesis/Cards/Research topics for background chapter, see 2023-11-15.md",
+    "BSc/Sem 7/BSc Thesis/Cards",
+    "BSc/TODO.md",
     "BSc/Sem 7/APC/APC Chapter 4 - Linear Programming.md",
+    "BSc/Sem 7/BSc Thesis",
     "BSc/Sem 7/APC/APC Chapter 3 - Point Location.md",
+    "BSc/Sem 7/APC/APC Chapter 2 - Randomized Search Trees.md",
     "BSc/Sem 7/APC/Tricks/APC Random Tricks.md",
     "BSc/AnW, AnD/Definitions/Weighted Graph.md",
-    "BSc/TODO.md",
     "2023-11-10.md",
     "BSc/AnW, AnD/Definitions/Contracted Graph.md",
     "BSc/AnW, AnD/Problems/Minimum Cut Problem.md",
@@ -204,12 +203,13 @@
     "BSc/Sem 7/APC/Definitions/Ch2",
     "BSc/Resources/APC_2_1_search_tree.png",
     "BSc/Resources",
-    "Admin/Templates/Theorem Template.md",
-    "Admin/Templates/Untitled.md",
+    "BSc/Sem 7/APC/Theorems/APC Theorem 1.5.md",
     "BSc/Sem 7/APC/Theorems",
     "Admin/Untitled.canvas",
     "BSc/Sem 7/APC/Tricks",
     "BSc/Maths/Basics",
-    "BSc/Maths/Algebra Tricks"
+    "BSc/Maths/Algebra Tricks",
+    "BSc/Maths",
+    "BSc/Sem 7/APC/Problems"
   ]
 }

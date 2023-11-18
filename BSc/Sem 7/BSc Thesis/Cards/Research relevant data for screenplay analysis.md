@@ -1,0 +1,6 @@
+- Non-Disney
+	- [x] Script Magazine example
+	- [ ] Other sources, literature?
+- Disney
+	- [ ] Paula Jones
+	- [ ] Other places where analysis happens?

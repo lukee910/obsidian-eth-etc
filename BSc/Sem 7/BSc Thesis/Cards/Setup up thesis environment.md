@@ -1,0 +1,9 @@
+- [x] Where (GitHub, git.drz.li, ...)
+	- Can use Overleaf, for collaboration's sake
+	- Can sync to GitLab repo -> new repo?
+	- [ ] Create repo
+- [x] Include (new) Vault in repo?
+	- No
+- [x] Where to store notes, drive or Obsidian?
+	- Google drive desktop sync to get both, but not very readable
+	- Result: Google drive for collaboration's sake
