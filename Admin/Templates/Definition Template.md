@@ -1,5 +1,5 @@
 ---
-mathLink: TODO
+mathLink: 
 tags:
   - NoteType/Definition
 ---
