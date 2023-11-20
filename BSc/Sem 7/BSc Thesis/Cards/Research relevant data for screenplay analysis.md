@@ -2,5 +2,5 @@
 	- [x] Script Magazine example
 	- [ ] Other sources, literature?
 - Disney
-	- [ ] Paula Jones
+	- [x] Paula Jones
 	- [ ] Other places where analysis happens?

@@ -20,26 +20,27 @@ kanban-plugin: basic
 
 ## Waiting
 
-- [ ] Check & upload thesis description<br>#Thesis/Admin
 
 
 ## Paused
 
 - [ ] Huggingface course<br>#Thesis/NLP
+- [ ] Look at existing tools<br>#Thesis/Background
+- [ ] [[Research relevant data for screenplay analysis]]<br>#Thesis/Background/UseCases
+- [ ] [[Setup up thesis environment]]<br>#Thesis/Background/Writing
 
 
 ## In Progress
 
-- [ ] [[Research relevant data for screenplay analysis]]<br>#Thesis/Background/UseCases
-- [ ] Look at existing tools<br>#Thesis/Background
-- [ ] Get collection of videos and articles about story room from Steven<br>#Thesis/Misc
-- [ ] [[Setup up thesis environment]]<br>#Thesis/Background/Writing
+- [ ] Process notes Paula Jones<br>#Thesis/Background/UseCases
 
 
 ## Done
 
 **Complete**
 - [x] [[Check rules  Privacy and plagiarism (e.g. background vs Anna's Thesis)]]<br>#Thesis/Admin
+- [x] Get collection of videos and articles about story room from Steven<br>#Thesis/Misc
+- [x] Check & upload thesis description<br>#Thesis/Admin
 
 
 
