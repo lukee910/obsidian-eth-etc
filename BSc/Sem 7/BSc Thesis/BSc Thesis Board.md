@@ -8,14 +8,14 @@ kanban-plugin: basic
 
 - [ ] Prepare screenplay for summaries<br>#Thesis/NLP
 - [ ] Create summaries, estimate performance<br>#Thesis/NLP
-- [ ] Research data structures for screenplay/stoy/book data<br>#Thesis/Background/DataStructures
-- [ ] Look at references of Graph-Based Framework synopsis paper<br>#Thesis/Background/DataStructures
-- [ ] Research topics for background chapter, see 2023-11-15<br>#Thesis/Background
 - [ ] Research Use Cases<br>#Thesis/Background/UseCases
+- [ ] Research data structures for screenplay/stoy/book data<br>#Thesis/Background/DataStructures
+- [ ] Research topics for background chapter, see 2023-11-15<br>#Thesis/Background
 - [ ] Write: Screenplay background (Tools, Format, ...)<br>#Thesis/Background/Writing
 - [ ] Write: Creative process background<br>#Thesis/Background/Writing
 - [ ] Write: Film theory, narrative theory<br>#Thesis/Background/Writing
-- [ ] Check Anna's thesis for related work, Disney tools<br>#Thesis/Background
+- [ ] Manually process screenplays, e.g. summaries, actions, themes<br>#Thesis/Background
+- [ ] Look at references of Graph-Based Framework synopsis paper<br>#Thesis/Background/DataStructures
 
 
 ## Waiting
@@ -32,7 +32,9 @@ kanban-plugin: basic
 
 ## In Progress
 
+- [ ] Check Anna's thesis for related work, Disney tools<br>#Thesis/Background
 - [ ] Process notes Paula Jones<br>#Thesis/Background/UseCases
+- [ ] Find out about internship results Anna Kiehn (GitLab StoryTech)<br>#Thesis/Background
 
 
 ## Done
