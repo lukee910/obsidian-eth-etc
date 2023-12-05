@@ -1,7 +1,7 @@
 - [x] Where (GitHub, git.drz.li, ...)
 	- Can use Overleaf, for collaboration's sake
 	- Can sync to GitLab repo -> new repo?
-	- [ ] Create repo
+	- Result: Overleaf
 - [x] Include (new) Vault in repo?
 	- No
 - [x] Where to store notes, drive or Obsidian?
