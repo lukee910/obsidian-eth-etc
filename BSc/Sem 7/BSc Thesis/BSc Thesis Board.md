@@ -6,34 +6,32 @@ kanban-plugin: basic
 
 ## TO DO
 
-- [ ] Prepare screenplay for summaries<br>#Thesis/NLP
-- [ ] Create summaries, estimate performance<br>#Thesis/NLP
-- [ ] Research Use Cases<br>#Thesis/Background/UseCases
-- [ ] Research data structures for screenplay/stoy/book data<br>#Thesis/Background/DataStructures
 - [ ] Research topics for background chapter, see 2023-11-15<br>#Thesis/Background
-- [ ] Manually process screenplays, e.g. summaries, actions, themes<br>#Thesis/Background
+- [ ] Look at existing tools<br>#Thesis/Background
+- [ ] Check Anna's thesis for related work, Disney tools<br>#Thesis/Background
+- [ ] Entity recognition<br>#Thesis/Implementation
+- [ ] Action recognition<br>#Thesis/Implementation
+- [ ] Research data structures for screenplay/stoy/book data<br>#Thesis/Background/DataStructures
 - [ ] Write: Screenplay background (Tools, Format, ...)<br>#Thesis/Background/Writing
 - [ ] Write: Creative process background<br>#Thesis/Background/Writing
 - [ ] Write: Film theory, narrative theory<br>#Thesis/Background/Writing
+- [ ] Finish Phase 1 summary<br>#Thesis/Background/Writing
+- [ ] Manually process screenplays, e.g. summaries, actions, themes<br>#Thesis/Background
 - [ ] Look at references of Graph-Based Framework synopsis paper<br>#Thesis/Background/DataStructures
-- [ ] Entity recognition<br>#Thesis/Implementation
-- [ ] Action recognition<br>#Thesis/Implementation
 
 
 ## Waiting
 
-
-
-## Paused
-
-- [ ] Look at existing tools<br>#Thesis/Background
 - [ ] [[Research relevant data for screenplay analysis]]<br>#Thesis/Background/UseCases
+
+
+## On the board
+
 
 
 ## In Progress
 
-- [ ] Check Anna's thesis for related work, Disney tools<br>#Thesis/Background
-- [ ] Process notes Paula Jones<br>#Thesis/Background/UseCases
+- [ ] Make Use Case visualization draft v1<br>#Thesis/Background/UseCases
 
 
 ## Done
@@ -45,6 +43,10 @@ kanban-plugin: basic
 - [x] Find out about internship results Anna Kiehn (GitLab StoryTech)<br>#Thesis/Background
 - [x] Huggingface course<br>#Thesis/NLP
 - [x] [[Setup up thesis environment]]<br>#Thesis/Background/Writing
+- [x] Prepare screenplay for summaries<br>#Thesis/NLP
+- [x] Create summaries, estimate performance<br>#Thesis/NLP
+- [x] Research Use Cases<br>#Thesis/Background/UseCases
+- [x] Process notes Paula Jones<br>#Thesis/Background/UseCases
 
 
 
