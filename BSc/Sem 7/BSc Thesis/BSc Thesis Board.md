@@ -31,7 +31,8 @@ kanban-plugin: basic
 
 ## In Progress
 
-- [ ] Make Use Case visualization draft v1<br>#Thesis/Background/UseCases
+- [ ] Key Aspect Use Cases<br>#Thesis/Background/UseCases
+- [ ] Use Case priority list<br>#Thesis/Background/UseCases
 
 
 ## Done
@@ -47,6 +48,7 @@ kanban-plugin: basic
 - [x] Create summaries, estimate performance<br>#Thesis/NLP
 - [x] Research Use Cases<br>#Thesis/Background/UseCases
 - [x] Process notes Paula Jones<br>#Thesis/Background/UseCases
+- [x] Make Use Case visualization draft v1<br>#Thesis/Background/UseCases
 
 
 
