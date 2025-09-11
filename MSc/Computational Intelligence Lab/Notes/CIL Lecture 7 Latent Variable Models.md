@@ -119,7 +119,3 @@ Then, optimize $\theta_z$. Q: What distribution?
 Popular choice: Gaussian Mixture Model, because Center Limit Theorem (everything goes gaussian on the sample mean with enough samples)
 
 ![[M-Step EM for Gaussian.png]]
-
-# Topic Models
-Special case of latent variable models
-
