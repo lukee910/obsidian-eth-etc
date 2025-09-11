@@ -1,4 +1,4 @@
-## 2.4.2
+## 2.4.2 Separable Least Squares
 Separate loss to depend on a column $v_j$ of $V$:
 $$
 	l_U(v_j) = \frac{1}{2}v_j^T(\Sigma_i \omega_{ij} u_i u_j^T + 2 \lambda I) v_j - (\Sigma_i \omega_{ij} a_{ij} u_i^T) v_j
@@ -13,3 +13,7 @@ $$
 $V^{t+1} \leftarrow \arg \min_{V} l(U^t, V),\ U^{t+1} \leftarrow \arg \min_{U} l(U, V^t)$
 
 Note: Only finds local minimum.
+
+Approximates [[SVD]] in the weighted case, the weights being $\omega_{ij}$.
+
+[[SVD, Matrix Approximation Runtime#Weighted low-rank approximation runtime]].

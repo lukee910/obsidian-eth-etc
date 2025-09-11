@@ -1,4 +1,4 @@
 Alternating Least Squares
 
-[[Separable Least Squares]]
+[[ALS Algorithm]]
 [[ALS Loss Function]]

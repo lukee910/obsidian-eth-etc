@@ -49,5 +49,26 @@
       "key": "T"
     }
   ],
-  "workspace:close-window": []
+  "workspace:close-window": [],
+  "editor:open-link-in-new-leaf": [],
+  "editor:follow-link": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Enter"
+    },
+    {
+      "modifiers": [],
+      "key": "F12"
+    }
+  ],
+  "switcher:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
+    }
+  ]
 }
