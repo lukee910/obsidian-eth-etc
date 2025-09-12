@@ -107,6 +107,7 @@ FeRH
 FapOmnN
 FF
 Functions
+Forward
 each
 exists
 expressed
@@ -171,6 +172,7 @@ eB
 eD
 eZI
 especially
+error
 matrix
 matrices
 mA
@@ -239,6 +241,8 @@ mv
 mr
 map
 maps
+minibatch
+much
 there
 that
 the
@@ -321,6 +325,7 @@ tQ
 tu
 tJ
 them
+training
 orthogonal
 optimizing
 on
@@ -392,6 +397,8 @@ oversample
 otwv
 oq
 oj
+obtain
+omitted
 and
 as
 an
@@ -458,6 +465,12 @@ au
 atj
 axm
 amount
+aka
+activation
+activations
+accumulate
+approximate
+asymmetric
 such
 symmetric
 semidefinite
@@ -542,6 +555,11 @@ sqf
 sLS
 series
 scalars
+see
+step
+single
+signal
+session
 can
 centered
 ctq
@@ -630,6 +648,12 @@ cyb
 cp
 cpOD
 changeable
+compositionality
+changes
+changed
+chain
+calculated
+concrete
 be
 by
 bT
@@ -691,6 +715,7 @@ bW
 biiA
 brtH
 bZT
+backwards
 Any
 Analysis
 AV
@@ -842,6 +867,11 @@ pODDDD
 pi
 pD
 pOCD
+partial
+previous
+prop
+pass
+prep
 non
 negatively
 nKDN
@@ -902,6 +932,7 @@ nek
 nE
 nP
 nn
+notes
 diagonalized
 data
 definition
@@ -982,6 +1013,9 @@ dk
 dQN
 differentiable
 derivations
+derivatives
+delta
+depends
 with
 wd
 wq
@@ -1116,6 +1150,7 @@ rj
 rAL
 rZo
 representations
+rate
 loss
 largest
 lc
@@ -1185,6 +1220,9 @@ lPK
 learning
 layers
 linearity
+layer
+logistic
+lecture
 is
 io
 in
@@ -1239,6 +1277,7 @@ implementation
 ii
 iBd
 intermediate
+input
 given
 gAMA
 gj
@@ -1294,6 +1333,7 @@ gxL
 gE
 ge
 generally
+gradients
 formed
 fx
 fKg
@@ -1361,6 +1401,7 @@ fFY
 fd
 fuv
 factors
+forward
 Principle
 Prop
 Polynomial
@@ -1437,6 +1478,8 @@ Pt
 PWWG
 PUek
 Perceptron
+Parameter
+Perform
 Component
 Characteristic
 Cd
@@ -1498,6 +1541,8 @@ CaDZ
 CA
 CO
 Composition
+Calculate
+Convergence
 Where
 Wn
 Wy
@@ -1931,6 +1976,7 @@ qC
 qK
 qDTE
 qxi
+quantifies
 EDDDDD
 Et
 EDDD
@@ -1997,6 +2043,8 @@ EEE
 Ev
 EN
 EP
+Error
+Everything
 XDD
 Xd
 Xc
@@ -2163,6 +2211,7 @@ unX
 uN
 uH
 unknown
+unit
 Bd
 Bi
 BE
@@ -2218,6 +2267,8 @@ BN
 Btb
 BR
 Bhg
+Backpropagation
+Backpropagate
 Qr
 Qd
 QDDDDDDJR
@@ -2523,6 +2574,7 @@ Dd
 Dv
 DDDDDm
 Deep
+Delta
 Kp
 Kt
 KN
@@ -2682,6 +2734,7 @@ On
 Ovc
 Oi
 OiW
+Optimal
 kzd
 kg
 kS
@@ -2956,6 +3009,8 @@ MC
 Mk
 Maps
 Multilayer
+Map
+Methods
 Zb
 ZF
 Zi
@@ -3072,6 +3127,7 @@ JlUu
 Jy
 Jq
 JSm
+Jacobi
 Uz
 UK
 Use
@@ -3134,6 +3190,7 @@ Ub
 Ua
 UZVOVL
 Un
+Update
 hard
 hN
 hM
@@ -3201,6 +3258,7 @@ hs
 hHW
 handcrafted
 has
+how
 Yq
 YTC
 Yb

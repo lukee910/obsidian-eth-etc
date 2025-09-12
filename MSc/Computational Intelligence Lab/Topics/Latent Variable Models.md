@@ -1,5 +1,5 @@
 Chapter 3
 
-[[CIL Lecture 7 Latent Variable Models]]
-[[CIL Lecture 7-8 Topic Models]]
-[[CIL Lecture 8 Embeddings]]
+[[CIL Lecture 07 Latent Variable Models]]
+[[CIL Lecture 07-8 Topic Models]]
+[[CIL Lecture 08 Embeddings]]
