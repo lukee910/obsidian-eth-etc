@@ -1,4 +1,4 @@
-
+[[Remember for Exam]]
 $|| A ||_*$
 
 $$

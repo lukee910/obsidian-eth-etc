@@ -1,6 +1,6 @@
 {
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "/",
-  "newFileLocation": "folder",
-  "newFileFolderPath": "MSc/Computational Intelligence Lab/Files"
+  "attachmentFolderPath": "MSc/Computational Intelligence Lab/Files",
+  "newFileLocation": "current",
+  "newFileFolderPath": ""
 }
