@@ -256,6 +256,7 @@ momentum
 moving
 may
 mw
+mathLink
 there
 that
 the
@@ -343,6 +344,7 @@ tune
 too
 tSw
 tC
+term
 orthogonal
 optimizing
 on
@@ -1095,6 +1097,7 @@ define
 decay
 dN
 dZW
+derivative
 with
 wd
 wq
@@ -1584,6 +1587,7 @@ Prevent
 Problem
 Pz
 Pc
+PDE
 Component
 Characteristic
 Cd
@@ -1930,6 +1934,7 @@ Small
 Strong
 Saddle
 SE
+Symbol
 IHDR
 IDATx
 IR
@@ -2468,6 +2473,7 @@ QPPp
 QqY
 Qe
 QQ
+Quasilinear
 RN
 RC
 Ru
@@ -2730,6 +2736,7 @@ Delta
 DR
 DwP
 DL
+Definition
 Kp
 Kt
 KN
@@ -2838,6 +2845,7 @@ jUeY
 jW
 ji
 jE
+just
 Ox
 OzI
 Often
@@ -3113,6 +3121,7 @@ NxJ
 NW
 Nestrov
 NmDu
+NoteType
 Mv
 Mg
 MLs
@@ -3444,6 +3453,7 @@ history
 hT
 hF
 hH
+highest
 Yq
 YTC
 Yb

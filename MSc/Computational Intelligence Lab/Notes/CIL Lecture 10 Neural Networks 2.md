@@ -116,4 +116,75 @@ Updated RMSProp
 
 Adaptive Momentum Estimation
 
-TODO: 1:09:00
+$h_{i}^k$: Energy accumulated, like RMSProp
+$g_{i}^{k}$: Apply momentum from previous step too
+$$
+\begin{array}{l l}{{g_{i}^{k}=\beta g_{i}^{k-1}+(1-\beta)\partial_{i}\ell(\theta^{k}),}}&{{\beta\in[0;1],}}&{{g_{i}^{0}:=\partial_{i}\ell(\theta^{0})}}\\ {{h_{i}^{k}=\alpha h_{i}^{k-1}+(1-\alpha)[\partial_{i}\ell(\theta^{k})]^{2},}}&{{\alpha\in[0;1],}}&{{h_{i}^{0}:=[\partial_{i}\ell(\theta^{0})]^{2}}}\end{array}
+$$
+Update rule:
+$$
+\theta_{i}^{k+1}=\theta_{i}^{k}-\eta_{i}^{k}g_{i}^{k},\quad\eta_{i}^{k}:=\frac{\eta}{\sqrt{h_{i}^{k}+\delta}}
+$$
+With typical values:
+* $\beta = 0.9$
+* $\alpha = 0.999$
+* $\delta = 10^{-8}$
+* $\eta = 10^{-3}$
+
+## Convolutional Neural Networks
+
+Motivation: Time signal $f : \mathbb{R} \to \mathbb{R}^m$. Transform to function $Tf : \mathbb{R} \to \mathbb{R}^m$ via operator $T$.
+
+If our operator $T$ is linear, we can represent it via a (linear) kernel:
+
+Given Kernel $H : \mathbb{R}^2 \to \mathbb{R}$ and an invterval $t_1, t_2 \in \mathbb{R} \cup \{ -\infty, \infty \}$, we can define an operator (assuming intergral exists) via:
+$$
+(Tf)(u) = \int_{t_{1}}^{t_{2}} H(u,t)f(t)dt
+$$
+If it's linear, we can do stuff like $T(f+g) = Tf + Tg$.
+
+### Convolutions
+
+**Shift-invariant operators**: Any linear shift-invariant operator can be represented as a **convolution**:
+$$
+(f * h)(u):=\int_{-\infty}^{\infty}h(u-t)f(t)\,d t=\int_{-\infty}^{\infty}f(u-t)h(t)\,d t
+$$
+
+Signals are digitally sampled => **discrete convolutions**:
+
+1d:
+$$
+(f*h)[u]:=\sum_{t=-\infty}^{\infty}f[t]\,h[u-t]
+$$
+2d:
+$$
+(f*h)[x,y]:=\sum_{u=-\infty}^{\infty}\sum_{v=-\infty}^{\infty}\ f[u,v]\,h[x-u,y-v]
+$$
+(Rectangular brackets suggest arrays)
+
+Examples:
+* Gaussian Kernel: Smoothes out
+* 1D edge detection, asymmetric kernel
+
+Instead of having to flip the kernel for asymmetric ones, use **cross-correlation**: (sliding inner product)
+$$
+(h\star f)[u]:=\sum_{t=-\infty}^{\infty}h[t]\,f[u+t]
+$$
+Note $u + t$ vs convolution's $u-t$.
+Note: Kernel is "flipped", cross correlation is equivalent to applying a convolution on the flipped kernel $\bar{h}$:
+$$
+(h\star f)=(\bar{h}\ast f),\quad\mathrm{where}\ \ \bar{h}[t]:=h[-t],
+$$
+
+### CNNs
+
+Allows us to exploit locality.
+
+Kernel weights $\theta_{i,(\delta_{x}, \delta_{y}, j)}$:
+$j$: Input dimension
+$i$: Output dimension
+$\delta_{x},\ \delta_{y} \in \{ \ldots, -1, 0, 1, \ldots \}$: Position where we apply the kernel to the image
+Outputs a vector of depth $k$ as a result of that kernel.
+
+
+
