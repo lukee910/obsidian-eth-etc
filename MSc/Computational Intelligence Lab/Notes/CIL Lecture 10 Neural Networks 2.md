@@ -116,4 +116,4 @@ Updated RMSProp
 
 Adaptive Momentum Estimation
 
-TODO: This
+TODO: 1:09:00
