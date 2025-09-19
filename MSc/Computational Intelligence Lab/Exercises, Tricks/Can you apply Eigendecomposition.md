@@ -1,3 +1,4 @@
+[[Remember for Exam]]
 If:
 1. Square
 2. Symmetric

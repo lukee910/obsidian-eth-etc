@@ -39,6 +39,8 @@ $$
 $$
 (via $p(x_ij | d_i) = p(w_j | d_i) \cdot I_{x_{ij} = w_j}$, which then sums to $N_{ij}$)
 
+This is the **probabilistic Latent Semantic Analysis (pLSA)**.
+
 # Preparatory Session
 
 $k$-dimensional probability simplex: $\Delta^{k-1}$ is the set of $k$-dimensional probability distributions: $x \in [0,1]^k$: $x \in \Delta^{k-1} \Leftrightarrow x_i \geq 0, \sum^{1}_{i=1}x_i = 1$.
