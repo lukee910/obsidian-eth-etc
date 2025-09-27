@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:MSc  ",
+  "search": "path:Bsc",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.2414543899483097,
-  "close": true
+  "scale": 0.7479210758808428,
+  "close": false
 }

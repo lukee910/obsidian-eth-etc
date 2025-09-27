@@ -4,4 +4,3 @@
 [[Moore-Penrose Inverse]]
 [[Vector binomials]]
 [[Principal Components]]
-
