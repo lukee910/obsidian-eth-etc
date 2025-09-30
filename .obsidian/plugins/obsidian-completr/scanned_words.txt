@@ -221,6 +221,10 @@ edges
 equational
 ellipsoid
 ellipsoids
+except
+endpoints
+either
+empty
 matrix
 matrices
 mA
@@ -304,6 +308,8 @@ multigraph
 many
 multiple
 method
+manifold
+mesh
 there
 that
 the
@@ -404,6 +410,7 @@ tree
 trick
 theorem
 thickening
+triangles
 orthogonal
 optimizing
 on
@@ -709,6 +716,11 @@ script
 strong
 squishing
 solving
+self
+share
+simple
+said
+shapes
 can
 centered
 ctq
@@ -834,6 +846,9 @@ combining
 cascading
 conversion
 cream
+common
+closed
+connected
 be
 by
 bT
@@ -1107,6 +1122,7 @@ parents
 paper
 proof
 polyhedron
+pointy
 non
 negatively
 nKDN
@@ -1285,6 +1301,8 @@ duplicate
 diagram
 decomposition
 duality
+defines
+disconnected
 with
 wd
 wq
@@ -1444,6 +1462,8 @@ runtimes
 rolls
 recap
 relaxed
+ring
+removing
 loss
 largest
 lc
@@ -1604,6 +1624,9 @@ implied
 influence
 injective
 ized
+intersecting
+intersection
+incident
 given
 gAMA
 gj
@@ -1756,6 +1779,8 @@ failure
 factory
 feasible
 feasibility
+faces
+face
 Principle
 Prop
 Polynomial
@@ -1852,6 +1877,9 @@ Prof
 Preamble
 Point
 Planar
+Parametric
+Polygon
+Polygonal
 Component
 Characteristic
 Cd
@@ -1932,6 +1960,9 @@ Counting
 Closest
 Cutting
 Construction
+Curves
+Circle
+Closed
 Where
 Wn
 Wy
@@ -2087,6 +2118,7 @@ vyN
 vertices
 very
 versions
+vertex
 Get
 GW
 Gd
@@ -2258,6 +2290,7 @@ Searching
 Segment
 Salesman
 Subtour
+Simple
 IHDR
 IDATx
 IR
@@ -2527,6 +2560,7 @@ ETH
 Example
 Expected
 Encoding
+Edges
 XDD
 Xd
 Xc
@@ -3136,6 +3170,7 @@ Depth
 Direct
 Diet
 Duality
+Definitions
 Kp
 Kt
 KN
@@ -3442,6 +3477,7 @@ Vj
 VS
 Volumes
 Voronoi
+Vertices
 zk
 zRG
 zN
@@ -3655,6 +3691,8 @@ Maths
 MST
 Minimum
 Metric
+Mesh
+Manifolds
 Zb
 ZF
 Zi
