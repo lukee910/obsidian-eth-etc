@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:\"MSc/Computer Graphics\"  ",
+  "search": "",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.7479210758808428,
+  "scale": 0.6117636113781438,
   "close": true
 }

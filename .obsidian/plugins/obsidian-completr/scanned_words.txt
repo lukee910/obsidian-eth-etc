@@ -100,6 +100,11 @@ TWW
 TN
 TVP
 Topology
+Temporal
+These
+Total
+Therefore
+Taylor
 For
 Find
 FB
@@ -200,6 +205,9 @@ FVAG
 Fl
 FVf
 FyY
+Forces
+Force
+Field
 each
 exists
 expressed
@@ -320,6 +328,9 @@ eHK
 eeh
 eIL
 everywhere
+external
+equations
+elastic
 matrix
 matrices
 mA
@@ -434,6 +445,9 @@ mFK
 mP
 mM
 mHQ
+mass
+motion
+mechanical
 there
 that
 the
@@ -571,6 +585,9 @@ tü
 tN
 tFi
 topology
+thermal
+translation
+true
 orthogonal
 optimizing
 on
@@ -688,6 +705,8 @@ ops
 oAki
 oc
 open
+object
+outside
 and
 as
 an
@@ -810,6 +829,9 @@ aJ
 awB
 aef
 along
+apart
+analytical
+approximating
 such
 symmetric
 semidefinite
@@ -971,6 +993,16 @@ soA
 seG
 sbH
 sWUP
+springs
+spring
+stiffness
+solvable
+second
+state
+systems
+system
+simulate
+solution
 can
 centered
 ctq
@@ -1133,6 +1165,11 @@ crIS
 choose
 cuts
 curve
+conservative
+condition
+certain
+controllable
+conditions
 be
 by
 bT
@@ -1239,6 +1276,9 @@ bIWYY
 bJ
 ball
 boundary
+back
+broken
+build
 Any
 Analysis
 AV
@@ -1360,6 +1400,8 @@ Azz
 AcP
 AFf
 Av
+Approximation
+Approximations
 positive
 projection
 principal
@@ -1503,6 +1545,8 @@ pQ
 pdD
 pK
 pA
+pulling
+problems
 non
 negatively
 nKDN
@@ -1603,6 +1647,8 @@ nj
 nxv
 nyi
 nzt
+node
+numerically
 diagonalized
 data
 definition
@@ -1746,6 +1792,15 @@ dIf
 dSP
 disk
 disconnecting
+discretization
+during
+deformation
+deformed
+describing
+differential
+dissipate
+damping
+diffusion
 with
 wd
 wq
@@ -1846,6 +1901,7 @@ wUu
 wyBk
 wVQ
 wph
+world
 rank
 reconstruction
 rc
@@ -1960,6 +2016,8 @@ rz
 rT
 rbh
 rF
+respect
+rotation
 loss
 largest
 lc
@@ -2076,6 +2134,7 @@ lSD
 li
 lxJ
 locally
+lost
 is
 io
 in
@@ -2175,6 +2234,11 @@ iM
 iia
 iSZk
 iYmZ
+inFolder
+internal
+initial
+idea
+instants
 given
 gAMA
 gj
@@ -2271,6 +2335,7 @@ gwi
 gqp
 gBk
 genus
+general
 formed
 fx
 fKg
@@ -2388,6 +2453,9 @@ fD
 fkB
 fEy
 fV
+forces
+force
+friction
 Principle
 Prop
 Polynomial
@@ -2517,6 +2585,8 @@ PyM
 PiQ
 Phjn
 PSos
+Physically
+Picard
 Component
 Characteristic
 Cd
@@ -2643,6 +2713,7 @@ CBi
 CFf
 CaQw
 Cyq
+Calculation
 Where
 Wn
 Wy
@@ -2740,6 +2811,7 @@ WN
 WM
 WFl
 WbY
+Work
 value
 vog
 vnuT
@@ -2844,6 +2916,7 @@ vph
 vpppph
 vEiqf
 vicinity
+velocity
 Get
 GW
 Gd
@@ -3087,6 +3160,15 @@ SP
 SfZ
 SY
 Se
+Simulations
+Spring
+Systems
+Solve
+Springs
+Stored
+Spatial
+Second
+Series
 IHDR
 IDATx
 IR
@@ -3191,6 +3273,8 @@ IssI
 IDAT
 Ixz
 IhK
+Initial
+Integration
 HIG
 HU
 HA
@@ -3288,6 +3372,7 @@ HHHPc
 Hj
 HKI
 HIf
+Higher
 qj
 qO
 qM
@@ -3482,6 +3567,12 @@ EkgI
 EAI
 EbD
 EYO
+Elastic
+Equations
+Equivalently
+Expansion
+Explicit
+Euler
 XDD
 Xd
 Xc
@@ -3767,6 +3858,8 @@ uQZZ
 ukfc
 uEd
 ues
+undeformed
+uniquely
 Bd
 Bi
 BE
@@ -3876,6 +3969,7 @@ BAA
 BMM
 BK
 BGG
+Based
 Qr
 Qd
 QDDDDDDJR
@@ -4063,6 +4157,8 @@ RXZ
 Rz
 RVS
 Re
+Result
+Relations
 LE
 Lh
 Lc
@@ -4172,6 +4268,8 @@ Ltv
 LUE
 LTT
 LGF
+Lindelöf
+Law
 xV
 xz
 xzTS
@@ -4395,6 +4493,10 @@ DGk
 Dmm
 DDSs
 DHe
+Dynamics
+Differential
+Discretization
+Damping
 Kp
 Kt
 KN
@@ -4475,6 +4577,7 @@ KXRR
 KQ
 KQP
 KSQ
+Kinematic
 jn
 jw
 jfY
@@ -4657,6 +4760,10 @@ Oj
 OY
 OF
 One
+Ordinary
+Order
+ODEs
+ODE
 kzd
 kg
 kS
@@ -4828,6 +4935,8 @@ VLk
 VUf
 VDH
 VaY
+Value
+Velocity
 zk
 zRG
 zN
@@ -5012,6 +5121,9 @@ NcM
 Nkh
 NFT
 NLWI
+Newton
+Network
+Numerical
 Mv
 Mg
 MLs
@@ -5131,6 +5243,8 @@ ML
 ME
 MMiQi
 Manifold
+MSc
+Mass
 Zb
 ZF
 Zi
