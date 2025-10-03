@@ -1,0 +1,3 @@
+.MathJax {
+  border-left: var(--border-width) solid var(--background-modifier-border);
+}
