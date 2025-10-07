@@ -78,3 +78,5 @@ $$
 Note: Approximate slope at midpoint with Explicit Euler.
 
 Note: Similar effort to Explicit Euler at step size $\frac{h}{2}$, however error is much better.
+### Takeaways for Model Selection
+* For [[Stiff Problem]]s: Use implicit methods.

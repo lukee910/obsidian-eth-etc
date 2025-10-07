@@ -30,7 +30,7 @@ Comparing is challenging, depends on the case/model.
 | $y'(t)=\lambda y(t)$ | $y(t)= e^{\lambda t}y_{0}$ |
 
 For $\lambda \in \mathbb{R}$:
-* $\lambda < 0$: Exponential Decay (e.g. damping)
+* $\lambda < 0$: Exponential Decay (e.g. [[Damped Systems]])
 * $\lambda > 0$: Exponential Growth
 
 For $\lambda \in \mathbb{C}$: $\lambda = a+ib \Rightarrow y(t) = y_{0} \cdot e^{at} \cdot e^{ibt}$
@@ -60,6 +60,8 @@ y_{n+1} &= y_{n} + h\lambda y_{n} \\
 $$
 Stability Condition: For $|(1+h\lambda)^{n} y_{1}| < \infty$, we need $|(1 + h\lambda)| < 1$.
 (Recall: Damped system $\Rightarrow$ $\lambda < 0$)
+
+Especially bad for [[Stiff Problem]]s.
 #### Implicit Euler
 [[Solving ODEs#Implicit Euler]]
 Implicit Euler Update: $y_{n+1} = y_{n} + h \lambda y_{n+1}$

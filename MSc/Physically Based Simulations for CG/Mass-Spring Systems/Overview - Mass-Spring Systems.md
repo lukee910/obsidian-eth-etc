@@ -8,7 +8,7 @@ Sample object with mass points
 ## Forces
 Define internal and external forces. Use [[Hookean Springs]].
 
-Real-world mechanical systems dissipate energy over time (internal friction $\to$ thermal energy $\to$ outside of the system). Therefore, apply damping to simulate controllable diffusion.
+Real-world mechanical systems dissipate energy over time (internal friction $\to$ thermal energy $\to$ outside of the system). Therefore, apply damping to simulate controllable diffusion. [[Damped Systems]].
 
 ### Linear Damping Force
 $f^{visc} = -\gamma v$

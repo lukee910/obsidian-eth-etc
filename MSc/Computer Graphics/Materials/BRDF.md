@@ -18,3 +18,8 @@ $$
 ## Isotropic
 #TODO 
 isotropic vs anisotropic
+## BRDF of Ideal Specular Reflection
+#TODO: This
+$$
+f_{r}(x, \vec{\omega_{i}}, \vec{\omega_{r}}) = F_{r}(\vec{\omega_{i}}) \#TODO: This
+$$

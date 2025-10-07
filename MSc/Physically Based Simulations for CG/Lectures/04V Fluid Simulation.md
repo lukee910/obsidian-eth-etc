@@ -147,3 +147,4 @@ Note: Why we are taking the gradient is, because we don't yet have the pressure 
 
 #TODO: What is in which step of stable fluids?
 
+#TODO: Book referenced

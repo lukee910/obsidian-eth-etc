@@ -1,5 +1,5 @@
 ## Light
-[[Light, Radiometry]]
+[[_T Light, Radiometry]]
 ### Intro
 (Intro: Wave Theory vs Corpuscular Theory)
 ### Blackbody
@@ -13,7 +13,7 @@
 #TODO: Integration on slide 69
 
 ## Material
-[[Materials]]
+[[_T Materials]]
 ### BRDF vs BTDF, reflection vs refraction
 #TODO: Slide 88
 ### Example BRDFs, BTDFs

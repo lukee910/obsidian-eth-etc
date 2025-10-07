@@ -1,6 +1,6 @@
 From [[Motion from Newton's Second Law]]: $f_{i}(t) = m_{i}a_{i}(t)$
 
-We build a system of 3 second order [[ODEs]] per mass point or for the whole system. 3 ODEs since we are in 3D.
+We build a system of 3 second order [[_T ODEs]] per mass point or for the whole system. 3 ODEs since we are in 3D.
 ## For one mass point
 $$
 f_{i}(t) = m_{i}\frac{d^{2} x_{i}(t)}{dt^2}
