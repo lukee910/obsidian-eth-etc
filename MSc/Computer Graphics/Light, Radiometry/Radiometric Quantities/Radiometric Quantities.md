@@ -1,4 +1,28 @@
-#TODO: Put all their relations here, e.g. slide 71
+## Overview
+[[Flux]]
+$$
+\Phi(A) \quad \left[ \frac{J}{s} = W \right]
+$$
+[[Irradiance]]
+$$
+E(x) = \frac{d\Phi(A)}{dA(x)} \quad \left[ \frac{W}{m^{2}} \right]
+$$
+[[Radiosity]]
+$$
+B(x) = \frac{d\Phi(A)}{dA(x)} \quad \left[ \frac{W}{m^{2}} \right]
+$$
+[[Radiant Intensity]]
+$$
+I(\overrightarrow{\omega}) = \frac{d\Phi}{d\overrightarrow{\omega}} \quad \left[ \frac{W}{sr} \right]
+$$
+[[Radiance]]
+$$
+L(x, \vec{\omega}) = \frac{d^{2} \Phi(A)}{\cos(\theta)\ d A(x)\ d \vec{\omega}} \quad \left[ \frac{W}{m^{2}sr} \right]
+$$
+![[Overview of Radiometric Quantities.png]]
+## TODOs
+
+#TODO: Include the relation equations
 
 #TODO : Include integration relations
 
