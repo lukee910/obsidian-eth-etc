@@ -39,7 +39,6 @@ $$
 Non-linear equations $\Rightarrow$ Solve with Newton's method.
 ### Applying Newton's Method
 ![[Newton's method on g(x_n+1)=0.png]]
-#TODO : How do Euler steps and newton's method interact?
 
 Problems:
 * System matrix may be singular or non-definite

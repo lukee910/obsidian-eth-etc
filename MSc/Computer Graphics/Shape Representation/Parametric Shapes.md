@@ -28,6 +28,10 @@ s(u,v) &= r\left( \cos(u) \cos(v), \sin(u) \cos(v), \sin(v) \right) \\
 (u,v) &\in [0,2\pi) \times [-\pi/2,\pi/2]
 \end{align}
 $$
+#### Sphere Equation
+$$
+\| x-c \|^{2} - r^{2} = 0
+$$
 ### Bezier Surface
 On a grid of $m \times n$ points:
 $$

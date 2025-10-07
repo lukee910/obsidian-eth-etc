@@ -134,6 +134,8 @@ Torrance
 Takeaways
 Take
 Taking
+Tangents
+Triangle
 For
 Find
 FB
@@ -717,6 +719,7 @@ tell
 times
 taking
 theory
+tangents
 orthogonal
 optimizing
 on
@@ -859,6 +862,8 @@ overall
 off
 outgoing
 otherwise
+onto
+origin
 and
 as
 an
@@ -1022,6 +1027,7 @@ analogous
 approaches
 advection
 angles
+away
 such
 symmetric
 semidefinite
@@ -1241,6 +1247,15 @@ sampling
 shrinks
 side
 structured
+splines
+slides
+sphere
+square
+squished
+squish
+stays
+shortest
+subject
 can
 centered
 ctq
@@ -1461,6 +1476,9 @@ composed
 cons
 commute
 contributions
+circle
+closest
+chord
 be
 by
 bT
@@ -1748,6 +1766,8 @@ Advanced
 Assumes
 Applying
 Analyzing
+Angle
+Algebraic
 positive
 projection
 principal
@@ -1929,6 +1949,7 @@ proportional
 problematic
 pros
 progress
+pointing
 non
 negatively
 nKDN
@@ -2047,6 +2068,7 @@ nabla
 needed
 newton
 nonzero
+needs
 diagonalized
 data
 definition
@@ -2230,6 +2252,7 @@ domain
 diffuse
 damped
 definite
+distance
 with
 wd
 wq
@@ -2507,6 +2530,7 @@ rest
 reality
 reliable
 root
+rational
 loss
 largest
 lc
@@ -3195,6 +3219,8 @@ Phong
 PDF
 Practice
 Per
+Projects
+Plane
 Component
 Characteristic
 Cd
@@ -3907,6 +3933,9 @@ Since
 Selection
 Setup
 System
+Surface
+Subtended
+Solid
 IHDR
 IDATx
 IR
@@ -4043,6 +4072,8 @@ Interpreting
 Integrating
 Interpretation
 Implicitly
+Intersection
+Insert
 HIG
 HU
 HA
@@ -4250,6 +4281,7 @@ qjua
 qDD
 qmF
 qs
+quadratic
 EDDDDD
 Et
 EDDD
@@ -5079,6 +5111,9 @@ Regular
 Reflection
 Refraction
 Rough
+Radius
+Reject
+Reduces
 LE
 Lh
 Lc
@@ -5206,6 +5241,7 @@ Lagrangian
 Look
 Lambertian
 Limitations
+Length
 xV
 xz
 xzTS
@@ -5481,6 +5517,7 @@ Derivative
 Difference
 Dirac
 Discretize
+Derive
 Kp
 Kt
 KN
@@ -6207,6 +6244,8 @@ Notably
 NOTE
 Navier
 Normalized
+Normals
+Nearest
 Mv
 Mg
 MLs
