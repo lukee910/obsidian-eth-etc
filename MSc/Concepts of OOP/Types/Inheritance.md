@@ -1,0 +1,1 @@
+Code reuse via extending a given class to a new one.

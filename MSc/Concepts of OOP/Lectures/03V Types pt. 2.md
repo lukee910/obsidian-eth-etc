@@ -112,3 +112,6 @@ Only stronger.
 Only stronger.
 #### History Constraints
 Only stronger.
+#### Overriding Methods of Subtypes
+Weaker preconditions.
+Stronger Postconditions.
