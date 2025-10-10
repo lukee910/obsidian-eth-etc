@@ -45,7 +45,7 @@ $$
 [[_T Microfacets]]
 Explains off-specular peaks (that look specular).
 
-Assumes surface is composed of many micro-grooves, each of which is perfectly flat. Each facet can be specular or diffuse.
+Assumes surface is composed of many micro-grooves, each of which is perfectly flat. Each facet is perfectly specular.
 
 #### General Microfacet Model
 $$
@@ -81,5 +81,17 @@ Idea: Microfacets may be shadowed by other microfacets.
 #TODO: Formula for Torrance-Sparrow (Blinn Distribution)
 #### Sampling the Microfacet Model
 Idea: Start by sampling $\vec{\omega_{h}}$ with PDF proportional to D, because that's the most problematic one.
+#### Layered Surface
+Note: When adding a coating, you have to account for intra-layer reflections and refractions.
+### Oren-Nayar Model
+Same concept as the microfacets, but assumes the facets are **diffuse**.
+
+No analytic solution, fitted approximation exists.
+### Data-Driven BRDFs
+e.g.:
+* [http://www.merl.com/brdf/]
+* [http://rgl.epfl.ch/materials]
 
 
+
+#TODO: Smooth, Rough, Diffuse, Dielectric...: Write and document terms.

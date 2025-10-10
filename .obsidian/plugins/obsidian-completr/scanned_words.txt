@@ -144,6 +144,8 @@ TFt
 TFj
 Tp
 TQQ
+Transforming
+That
 For
 Find
 FB
@@ -278,6 +280,8 @@ FST
 FEq
 FPa
 FhR
+Flipping
+Flexible
 each
 exists
 expressed
@@ -445,6 +449,10 @@ extending
 eiq
 eZi
 easily
+evaluate
+expected
+equals
+extension
 matrix
 matrices
 mA
@@ -592,6 +600,7 @@ mrK
 mym
 mKe
 multithreading
+matching
 there
 that
 the
@@ -768,6 +777,8 @@ tGa
 tet
 tcJ
 tPi
+theta
+top
 orthogonal
 optimizing
 on
@@ -924,6 +935,8 @@ ocr
 oR
 oB
 oAV
+outcome
+original
 and
 as
 an
@@ -1102,6 +1115,10 @@ aQqm
 aGM
 aj
 aLZ
+adding
+account
+able
+ambient
 such
 symmetric
 semidefinite
@@ -1353,6 +1370,17 @@ suC
 sfrg
 separate
 shenanigans
+sophisticated
+stochastics
+straight
+spheres
+squares
+scale
+shape
+strategy
+stretching
+switch
+sky
 can
 centered
 ctq
@@ -1599,6 +1627,11 @@ cI
 cNZ
 clean
 conceptual
+correct
+complex
+canonical
+cancels
+cancel
 be
 by
 bT
@@ -1738,6 +1771,7 @@ bML
 bqq
 bGY
 bsR
+bounds
 Any
 Analysis
 AV
@@ -1909,6 +1943,11 @@ AWN
 AeV
 Alternatives
 Aggregation
+Always
+Adding
+Arbitrary
+Antiderivative
+Ambient
 positive
 projection
 principal
@@ -2105,6 +2144,10 @@ pDO
 pJgIV
 pv
 ppc
+pick
+performance
+possible
+polar
 non
 negatively
 nKDN
@@ -2419,6 +2462,13 @@ dyE
 dHdH
 dPNN
 dSu
+dimensionality
+dimensions
+densities
+domains
+distributed
+discrepancy
+determinant
 with
 wd
 wq
@@ -2552,6 +2602,9 @@ wNJX
 wh
 wji
 wlu
+wished
+white
+why
 rank
 reconstruction
 rc
@@ -2721,6 +2774,8 @@ reuse
 rBME
 rDe
 rTim
+roughly
+rendering
 loss
 largest
 lc
@@ -3016,6 +3071,12 @@ iUx
 iek
 implemented
 ignore
+intra
+integrand
+integrands
+inverse
+illuminated
+ify
 given
 gAMA
 gj
@@ -3129,6 +3190,9 @@ grooves
 generic
 gp
 gts
+generators
+give
+gets
 formed
 fx
 fKg
@@ -3279,6 +3343,7 @@ further
 fr
 fLR
 fQX
+files
 Principle
 Prop
 Polynomial
@@ -3446,6 +3511,8 @@ Plane
 Post
 Pa
 PDZ
+Properties
+Pseudo
 Component
 Characteristic
 Cd
@@ -3621,6 +3688,9 @@ CGa
 CAKv
 Cuy
 Cjm
+Carlo
+Cumulative
+CDF
 Where
 Wn
 Wy
@@ -3744,6 +3814,7 @@ WDW
 Weaker
 WaR
 WIe
+Works
 value
 vog
 vnuT
@@ -3865,6 +3936,7 @@ vvv
 variance
 vw
 vnw
+varied
 Get
 GW
 Gd
@@ -4209,6 +4281,8 @@ SlX
 Superclass
 Subtypes
 States
+Switch
+Simplified
 IHDR
 IDATx
 IR
@@ -4352,6 +4426,10 @@ Inheritance
 IPh
 IeJo
 Immutable
+Implementation
+Inefficient
+Importance
+Inversion
 HIG
 HU
 HA
@@ -4732,6 +4810,9 @@ Ekb
 ElI
 EZ
 Eiffel
+Evaluate
+Estimator
+Even
 XDD
 Xd
 Xc
@@ -5228,6 +5309,8 @@ BtB
 BHT
 BqO
 Bx
+Being
+Between
 Qr
 Qd
 QDDDDDDJR
@@ -5466,6 +5549,8 @@ Rk
 RMNdKo
 Rqq
 Rv
+Rejection
+Recipe
 LE
 Lh
 Lc
@@ -5600,6 +5685,9 @@ LLUr
 LLM
 LuN
 LV
+Layered
+Las
+Linearity
 xV
 xz
 xzTS
@@ -5890,6 +5978,12 @@ DBB
 DQC
 DjD
 Dcj
+Densities
+Discrete
+Disk
+Draw
+Distributions
+Diffuse
 Kp
 Kt
 KN
@@ -6225,6 +6319,10 @@ OmOk
 Owt
 OSh
 Ocg
+Own
+Optimally
+Obtain
+Occlusion
 kzd
 kg
 kS
@@ -6442,6 +6540,9 @@ VeSZ
 VSkG
 VGC
 VLKi
+Vegas
+Variables
+Variance
 zk
 zRG
 zN
@@ -6677,6 +6778,7 @@ NY
 Nfg
 NeT
 Nrsg
+Numbers
 Mv
 Mg
 MLs
@@ -6831,6 +6933,7 @@ Mb
 MIc
 MbZ
 More
+Monte
 Zb
 ZF
 Zi
@@ -7165,6 +7268,8 @@ Ull
 UqB
 UgzX
 Ulx
+Unbiased
+Uniformly
 hard
 hN
 hM
@@ -7304,6 +7409,7 @@ hEMW
 hFh
 hhY
 hrw
+hemispheres
 Yq
 YTC
 Yb
