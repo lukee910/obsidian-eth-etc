@@ -1,0 +1,1 @@
+Designed to model rubber or rubber-like material. Relation between strain and stress is clear.

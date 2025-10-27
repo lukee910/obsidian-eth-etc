@@ -70,5 +70,19 @@
       ],
       "key": "I"
     }
+  ],
+  "editor:toggle-highlight": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "H"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "J"
+    }
   ]
 }

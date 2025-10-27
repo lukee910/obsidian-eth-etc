@@ -75,7 +75,13 @@ H^{k} = \begin{bmatrix}
 $$
 Where each of these entries is $\in \mathbb{R}^{3 \times 3}$.
 
+Hessian $H$ for a spring network:
+* Compute $H^{k}$ for each spring
+* Add entries of $H^{k}$ to corresponding locations in $H$.
+
 Facts about $H$:
 * $H$ is block-structured: See above.
 * $H$ is symmetric: $H_{ij} = H_{ji}^{T}$
 * $H$ is sparse: $H_{ij}$ is only nonzero if there is a spring between the nodes $i$ and $j$.
+
+Note: Spring networks typically have sparse Hessians.
