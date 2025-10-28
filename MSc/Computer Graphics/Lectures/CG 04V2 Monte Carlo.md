@@ -118,7 +118,7 @@ Cons:
 - Inefficient
 - Problems with low-discrepancy sampling
 
-Used for: Complex shapes. If you have an analytical solution (See [[CG04V2 Monte Carlo#Inversion Method Process]]), use that.
+Used for: Complex shapes. If you have an analytical solution (See [[CG 04V2 Monte Carlo#Inversion Method Process]]), use that.
 ## Importance Sampling
 Assume: $p(x) = cf(x)$ ($f$ our integrand)
 #TODO: Slide 75
