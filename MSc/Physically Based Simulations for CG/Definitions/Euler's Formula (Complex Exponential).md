@@ -1,3 +1,3 @@
 $$
-e^{ibt} = \cos(tb) + i \sin(tb)
+e^{i \theta} = \cos(\theta) + i \sin(\theta)
 $$

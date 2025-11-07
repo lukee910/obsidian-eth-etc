@@ -34,7 +34,7 @@ For $\lambda \in \mathbb{R}$:
 * $\lambda > 0$: Exponential Growth
 
 For $\lambda \in \mathbb{C}$: $\lambda = a+ib \Rightarrow y(t) = y_{0} \cdot e^{at} \cdot e^{ibt}$
-Where: $e^{at}$ models damping, $e^{ibt}$ models oscillation (cos on real axis, sin on imaginary axis) ([[Euler's Formula (Complex Exponential)|Euler's Formula]])
+Where: $e^{at}$ models damping, $e^{ibt}$ models oscillation (cos on real axis, sin on imaginary axis) ($e^{i tb} = \cos(tb) + i \sin(tb)$, [[Euler's Formula (Complex Exponential)|Euler's Formula]])
 Then we get:
 * $a < 0$: Damped oscillator
 * $a = 0$: Undamped oscillator

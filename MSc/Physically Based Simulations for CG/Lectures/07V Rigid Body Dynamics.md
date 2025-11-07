@@ -1,4 +1,3 @@
-NOTE: Everything until [[#Rigid Body Dynamics]] is "Rigid Body Dynamics"
 ## Rigid Body Idea
 So far:
 Keep track of $x$ and $v$, solve ODE $f=ma$.
@@ -201,4 +200,20 @@ At each time step:
 		- $R_{i+1} = Rot\left(h|\omega_{i+1}|, \frac{\omega_{i+1}}{|\omega_{i+1}|}\right)R_{i}$.
 		- More precise, but slower
 
+From here on: Last part of 08V
+## Quaternions
+[[Quaternions]]
+## Time Stepping using Quaternions
+Continues from [[#Time Stepping Scheme (Symplectic Euler)]].
+### Update Orientation Step
+Option 1:
+$$
+q_{i+1} = q(h|\omega_{i+1}|, \frac{\omega_{i+1}}{|\omega_{i+1}|})q_{i}
+$$
+Option 2:
+#TODO:
+
+In the limit, these two options are equivalent.
+
+Note: For option 2, we still need to do the normalization, but it's much easier than Gram-Schmidt orthonormalization. #TODO: How.
 
