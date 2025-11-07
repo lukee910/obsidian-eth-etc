@@ -9,3 +9,5 @@ Volumetric shadow that is parallel, however it appears to converge because of th
 ### Anti-Crepuscular Rays
 The opposite.
 ## Volume Rendering Equation
+[[Solving the Volume Rendering Equation]]
+## Volumetric Photon Mapping

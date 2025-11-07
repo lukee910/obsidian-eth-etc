@@ -1216,6 +1216,7 @@ own
 originally
 overview
 occlusion
+opposite
 and
 as
 an
@@ -1465,6 +1466,7 @@ arrives
 analytically
 accept
 aiiI
+appears
 such
 symmetric
 semidefinite
@@ -2844,6 +2846,7 @@ picture
 practice
 prevent
 precompute
+perspective
 non
 negatively
 nKDN
@@ -4837,6 +4840,7 @@ Classes
 Convention
 Combined
 Cce
+Crepuscular
 Where
 Wn
 Wy

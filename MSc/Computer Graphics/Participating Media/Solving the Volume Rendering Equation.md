@@ -37,3 +37,5 @@ This is not feasible.
 [[Volumetric Path Tracing]]
 ## Other Approaches
 See Slides 16 Slide 112. Lots of new approaches.
+
+[[Volumetric Photon Mapping]]
