@@ -1817,6 +1817,7 @@ scattered
 simplifications
 spot
 sWmc
+speedup
 can
 centered
 ctq
@@ -2169,6 +2170,7 @@ concentrations
 combined
 cbi
 cXg
+cores
 be
 by
 bT
@@ -3264,6 +3266,8 @@ double
 dupes
 differently
 difference
+deposit
+deposited
 with
 wd
 wq
@@ -3650,6 +3654,7 @@ rejection
 reject
 represents
 riH
+reasonable
 loss
 largest
 lc
@@ -5598,6 +5603,7 @@ Samples
 Scatter
 Slides
 Sensitive
+Show
 IHDR
 IDATx
 IR
@@ -6892,6 +6898,7 @@ Beer
 Bounces
 Biased
 ByH
+Beam
 Qr
 Qd
 QDDDDDDJR
@@ -8478,6 +8485,7 @@ Validate
 Veach
 Volumetric
 VBI
+Validation
 zk
 zRG
 zN
@@ -8986,6 +8994,7 @@ March
 Marching
 Majorant
 MMh
+Miss
 Zb
 ZF
 Zi
