@@ -1552,6 +1552,7 @@ advance
 arq
 aok
 aPmf
+appropriate
 such
 symmetric
 semidefinite
@@ -6575,6 +6576,7 @@ EpS
 EDL
 EDlb
 EDDd
+Enforce
 XDD
 Xd
 Xc
