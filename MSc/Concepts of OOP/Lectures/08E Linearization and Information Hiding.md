@@ -100,6 +100,3 @@ Approach:
 1. Write the `C,C' DOT ...`
 2. Do all of them separately
 3. Remove redundant, keep right
-
-For slide 87 example:
-1. 

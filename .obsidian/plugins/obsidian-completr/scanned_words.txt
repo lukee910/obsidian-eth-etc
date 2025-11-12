@@ -387,6 +387,7 @@ FKs
 FFP
 FFH
 Fdsr
+Friend
 each
 exists
 expressed
@@ -1562,6 +1563,7 @@ accesses
 accessible
 annotations
 allows
+auxiliary
 such
 symmetric
 semidefinite
@@ -1924,6 +1926,8 @@ simply
 sif
 superclass
 specialization
+signatures
+superclasses
 can
 centered
 ctq
@@ -2289,6 +2293,9 @@ crg
 calls
 combines
 checker
+controlled
+cooperating
+creation
 be
 by
 bT
@@ -2723,6 +2730,8 @@ AAAh
 AcoQ
 APQ
 Accessibility
+Ambiguities
+Ambiguity
 positive
 projection
 principal
@@ -2999,6 +3008,10 @@ prime
 private
 programming
 polymorphism
+public
+protected
+packages
+possibly
 non
 negatively
 nKDN
@@ -3436,6 +3449,10 @@ declarations
 declaration
 dynamically
 drawbacks
+dependencies
+default
+declared
+diamonds
 with
 wd
 wq
@@ -3844,6 +3861,7 @@ rTk
 relationship
 receiver
 rejected
+reused
 loss
 largest
 lc
@@ -4028,6 +4046,7 @@ lower
 lnF
 lxa
 language
+languages
 is
 io
 in
@@ -4248,6 +4267,10 @@ itZ
 information
 icU
 iVV
+internals
+interface
+implementations
+instantiable
 given
 gAMA
 gj
@@ -5091,6 +5114,8 @@ CNf
 CuF
 CEd
 CGo
+Clean
+Client
 Where
 Wn
 Wy
@@ -5885,6 +5910,7 @@ SqZ
 SJuu
 Simplicity
 Scala
+Subclass
 IHDR
 IDATx
 IR
@@ -6085,6 +6111,7 @@ Inconvenient
 IZK
 IrP
 Interfaces
+Interface
 HIG
 HU
 HA
@@ -6612,6 +6639,7 @@ EDDd
 Enforce
 Existence
 Establishes
+Extend
 XDD
 Xd
 Xc
@@ -7042,6 +7070,7 @@ ukqC
 uVT
 uvO
 uzb
+understood
 Bd
 Bi
 BE
@@ -7580,6 +7609,8 @@ Radical
 Rate
 ROG
 Readability
+Repeated
+Rest
 LE
 Lh
 Lc
@@ -8617,6 +8648,7 @@ OIv
 Ofc
 Ouf
 OOm
+Override
 kzd
 kg
 kS
@@ -9219,6 +9251,7 @@ NJJBVV
 NGrr
 NGG
 Nvb
+Newly
 Mv
 Mg
 MLs
@@ -10058,6 +10091,7 @@ hPXX
 happen
 happening
 ho
+hiding
 Yq
 YTC
 Yb
