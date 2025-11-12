@@ -207,6 +207,7 @@ TBh
 TgK
 Tmm
 TDl
+Tool
 For
 Find
 FB
@@ -634,6 +635,7 @@ ecc
 enn
 erK
 eU
+enables
 matrix
 matrices
 mA
@@ -851,6 +853,7 @@ mvvv
 mmt
 mDr
 mSlP
+membership
 there
 that
 the
@@ -1092,6 +1095,7 @@ tuf
 tgK
 tuQ
 ttX
+technically
 orthogonal
 optimizing
 on
@@ -1289,6 +1293,7 @@ oiG
 oPd
 ooR
 oTo
+optimizations
 and
 as
 an
@@ -1553,6 +1558,10 @@ arq
 aok
 aPmf
 appropriate
+accesses
+accessible
+annotations
+allows
 such
 symmetric
 semidefinite
@@ -1913,6 +1922,8 @@ sequence
 sequences
 simply
 sif
+superclass
+specialization
 can
 centered
 ctq
@@ -2275,6 +2286,9 @@ curse
 clumping
 converges
 crg
+calls
+combines
+checker
 be
 by
 bT
@@ -2708,6 +2722,7 @@ App
 AAAh
 AcoQ
 APQ
+Accessibility
 positive
 projection
 principal
@@ -2981,6 +2996,9 @@ pwo
 places
 placement
 prime
+private
+programming
+polymorphism
 non
 negatively
 nKDN
@@ -3414,6 +3432,10 @@ dri
 dlDo
 dVQD
 dtS
+declarations
+declaration
+dynamically
+drawbacks
 with
 wd
 wq
@@ -3819,6 +3841,9 @@ regularities
 reintroduce
 rMR
 rTk
+relationship
+receiver
+rejected
 loss
 largest
 lc
@@ -4002,6 +4027,7 @@ lRSSY
 lower
 lnF
 lxa
+language
 is
 io
 in
@@ -4583,6 +4609,7 @@ fXU
 fvo
 fQJ
 filling
+functionality
 Principle
 Prop
 Polynomial
@@ -4811,6 +4838,7 @@ PFw
 PIE
 PVG
 Plm
+Performance
 Component
 Characteristic
 Cd
@@ -5216,6 +5244,7 @@ WAR
 WNv
 WVV
 WZo
+Wider
 value
 vog
 vnuT
@@ -5379,6 +5408,7 @@ vvd
 vtt
 vPuX
 vnC
+versioning
 Get
 GW
 Gd
@@ -5853,6 +5883,8 @@ SLt
 SEDm
 SqZ
 SJuu
+Simplicity
+Scala
 IHDR
 IDATx
 IR
@@ -6052,6 +6084,7 @@ IHS
 Inconvenient
 IZK
 IrP
+Interfaces
 HIG
 HU
 HA
@@ -6577,6 +6610,8 @@ EDL
 EDlb
 EDDd
 Enforce
+Existence
+Establishes
 XDD
 Xd
 Xc
@@ -7544,6 +7579,7 @@ Rooks
 Radical
 Rate
 ROG
+Readability
 LE
 Lh
 Lc
@@ -8128,6 +8164,7 @@ Dimensionality
 DKK
 DMB
 DJo
+Determine
 Kp
 Kt
 KN

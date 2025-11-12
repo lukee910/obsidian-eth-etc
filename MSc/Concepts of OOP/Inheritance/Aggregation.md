@@ -1,0 +1,1 @@
+Establishes "has-a" relation. Two objects at runtime, no subtyping, relation can change at any time.

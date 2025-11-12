@@ -1,1 +1,0 @@
-[[Subtyping]] + [[Inheritance]]

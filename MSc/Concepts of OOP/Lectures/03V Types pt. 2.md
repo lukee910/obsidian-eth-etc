@@ -16,7 +16,7 @@ class Sub <: Super {
 ```
 Perspective: Given client code on super, can the sub handle everything?
 
-$\Rightarrow$ **Contravariant Parameters**: Overriding must not require more specific parameter types.
+$\Rightarrow$ **[[Contravariant]] Parameters**: Overriding must not require more specific parameter types.
 
 Overloading vs Overriding: Can cause ambiguity, e.g. Java does not allow overriding with different parameters (it's automatically overloading then).
 ### Result Types
@@ -32,7 +32,7 @@ class Sub <: Super {
 ```
 Perspective: Given client code on super, can it handle the sub returns?
 
-$\Rightarrow$ Contravariant results
+$\Rightarrow$ [[Contravariant]] results
 (Also applies to exceptions, out parameters, ...)
 ### Fields
 ```
@@ -45,11 +45,12 @@ class Sub <: Super {
 	String t; // client code on Super can write too much in here
 }
 ```
-Fields have to be read and written $\Rightarrow$ contravariant and covariant $\Rightarrow$ cannot be overridden.
+Fields have to be read and written $\Rightarrow$ [[contravariant]] and [[covariant]] $\Rightarrow$ cannot be overridden.
 
 What if we make it immutable?
 Problem: It has to be initialized! E.g. super constructor can write too much to covariant sub field.
 ## Covariant Arrays
+[[Contravariant]]
 Problems if you allow it.
 
 C#, Java allow covariant arrays, which causes type issues (runtime check at each array update).
@@ -102,6 +103,7 @@ History constraints relate visible states (with old-expressions). Must hold for 
 	* Cons
 		* Expressiveness: Not everything can be properly checked (e.g. Is an array sorted? Too expensive to check every visible state!)
 ## Contracts and Subtyping
+See also: [[Behavioural Subtyping]]
 ### Rules for Subtyping
 Subtype objects must fulfill contracts of supertypes.
 #### Preconditions

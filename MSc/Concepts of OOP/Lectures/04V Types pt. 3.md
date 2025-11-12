@@ -48,25 +48,3 @@ Invariants over inherited field f can be violated by methods that have access to
 We can strengthen inherited invariants, but we cannot constrain the inherited fields further when strengthening!
 
 This conflicts with "Stronger invariant: Requires S' <: S"!
-## Inheritance
-[[Inheritance]]
-### Inheritance vs Subtyping
-Subtyping expresses classification
-vs
-Inheritance is a means of code reuse
-
-Inheritance is usually coupled with subtyping
-
-Terminology: [[Subclassing]]
-
-Note: Inheritance is **not a core concept**, OOP can be done without inheritance (subtyping + aggregation). Subtyping is a core concept, though! (Still useful)
-#### Simulating Subclassing without Inheritance
-![[Subclassing without Inheritance.png]]
-### Immutable Example
-TL;DR clean solution is to have two separate classes, cannot use inheritance easily.
-
-Alternatives:
-1. Common Superclass
-2. Aggregation
-3. Inheritance without Subtyping
-	1. Can be done in C++ (also Eiffel)
