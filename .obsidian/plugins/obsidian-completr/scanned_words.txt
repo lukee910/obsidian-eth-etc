@@ -210,6 +210,7 @@ TDl
 Tool
 Tree
 TQvv
+Twist
 For
 Find
 FB
@@ -393,6 +394,8 @@ Friend
 Flatten
 FDDDDr
 FDDDD
+Frequency
+Frames
 each
 exists
 expressed
@@ -647,6 +650,11 @@ eDP
 eKn
 eddH
 elmm
+efficiently
+evaluated
+eigenvalue
+eigenvalues
+evaluating
 matrix
 matrices
 mA
@@ -866,6 +874,8 @@ mDr
 mSlP
 membership
 mlk
+movements
+modes
 there
 that
 the
@@ -1310,6 +1320,7 @@ ooR
 oTo
 optimizations
 oJJ
+optimality
 and
 as
 an
@@ -1584,6 +1595,7 @@ aii
 ancestor
 argument
 appear
+artefacts
 such
 symmetric
 semidefinite
@@ -1951,6 +1963,9 @@ superclasses
 sVVV
 sH
 says
+subspace
+significant
+stochastic
 can
 centered
 ctq
@@ -2327,6 +2342,9 @@ cKHH
 cSl
 create
 complexity
+captures
+called
+cubic
 be
 by
 bT
@@ -2521,6 +2539,7 @@ bgq
 baaa
 bases
 bdddH
+boring
 Any
 Analysis
 AV
@@ -3048,6 +3067,9 @@ public
 protected
 packages
 possibly
+preprocessing
+polynomials
+pays
 non
 negatively
 nKDN
@@ -3496,6 +3518,9 @@ diamonds
 dddpk
 dffb
 dxzz
+decouple
+deformations
+dependency
 with
 wd
 wq
@@ -3910,6 +3935,7 @@ receiver
 rejected
 reused
 rightmost
+ripples
 loss
 largest
 lc
@@ -4100,6 +4126,7 @@ lLL
 logic
 leading
 loop
+little
 is
 io
 in
@@ -4334,6 +4361,9 @@ instantiation
 invent
 infinitely
 infinite
+integrating
+induce
+incurs
 given
 gAMA
 gj
@@ -4936,6 +4966,7 @@ PVG
 Plm
 Performance
 PDDDD
+Project
 Component
 Characteristic
 Cd
@@ -5198,6 +5229,12 @@ CWW
 CHH
 CeZZZ
 CMG
+Computing
+Corresponding
+Case
+Cubic
+Complexity
+Cubature
 Where
 Wn
 Wy
@@ -5708,6 +5745,7 @@ Generics
 GDT
 Grr
 GDDDd
+Goals
 SGD
 See
 Sn
@@ -6007,6 +6045,9 @@ Sptt
 STODDDd
 Suo
 SOJG
+Stiffness
+Somewhat
+Scale
 IHDR
 IDATx
 IR
@@ -6742,6 +6783,10 @@ Equivalencies
 Eppp
 Eff
 EDJ
+Eigenvectors
+Eigenvector
+Eigenvalue
+Eigenmodes
 XDD
 Xd
 Xc
@@ -7180,6 +7225,7 @@ understood
 upper
 ubiiiR
 uceL
+ultra
 Bd
 Bi
 BE
@@ -7389,6 +7435,9 @@ BhY
 Bip
 BFw
 BrQbD
+Bishop
+Basis
+Better
 Qr
 Qd
 QDDDDDDJR
@@ -7729,6 +7778,10 @@ Resolving
 RBi
 RnY
 RDDD
+Rods
+Reduced
+Rayleigh
+Resulting
 LE
 Lh
 Lc
@@ -7921,6 +7974,7 @@ LhY
 LMU
 Lyx
 LiT
+Larger
 xV
 xz
 xzTS
@@ -8598,6 +8652,7 @@ jmE
 jeRs
 jGN
 jXZZ
+jitters
 Ox
 OzI
 Often
@@ -9078,6 +9133,7 @@ VQT
 VYV
 Vxd
 Versus
+Variant
 zk
 zRG
 zN
@@ -9613,6 +9669,8 @@ MMMmNI
 MVg
 Msd
 Müller
+Modal
+Math
 Zb
 ZF
 Zi
@@ -10243,6 +10301,7 @@ ho
 hiding
 hPh
 hQP
+hessian
 Yq
 YTC
 Yb
