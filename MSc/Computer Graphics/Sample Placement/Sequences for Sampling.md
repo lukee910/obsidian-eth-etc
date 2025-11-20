@@ -10,7 +10,7 @@ Idea: Do the radical inverse on relatively prime bases.
 
 Result: A well distributed placement that does *not* require the number of samples in advance.
 
-Problem: There's nothing random about this, we get [[Aliasing]]!
+Problem: There's nothing random about this, we get [[MSc/Computer Graphics/Sample Placement/Aliasing]]!
 ## Sequence Scrambling
 Idea: Scramble the deterministic sequences to get rid of regularities. Can be applied very simply.
 

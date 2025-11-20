@@ -15,5 +15,7 @@ Improvements:
 - PCA Basis #TODO
 - Modal Derivatives #TODO
 - Machine learning: Learn the subspace
+	- Give it examples of deformations
+	- Subspace structure will be terrible
 ## Simulation Setup
 [[Subspace Simulation Basics]]
