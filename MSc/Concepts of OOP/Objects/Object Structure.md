@@ -1,0 +1,1 @@
+Set of objects that are connected via references.

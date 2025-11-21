@@ -4,7 +4,7 @@ Place samples within a pixel more cleverly.
 ### Random Sampling
 Problem: Some places are oversampled, others have no information.
 ### Regular (Grid) Sampling
-Problem: [[MSc/Computer Graphics/Sample Placement/Aliasing]]
+Problem: [[Aliasing (Graphics)]]
 ### Stratified Sampling
 [[#Regular (Grid) Sampling]], but randomize the placement of samples within the grid.
 ![[Stratified Sampling.png|200]]
