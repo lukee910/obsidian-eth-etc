@@ -1,4 +1,4 @@
-	## Setup / Task Handout
+## Setup / Task Handout
 Setup: Contact Simulation (Sphere Collider vs Spring Network). Find static equilibrium.
 
 Note: Our setup doesn't enforce contact, only encourage it. Could use something with an asymptote at 0 energy $(r-\varepsilon)^{2}/r^{2}$. Problem is, solver will have trouble finding a solution (slow and accurate vs fast and have some surface penetration).
