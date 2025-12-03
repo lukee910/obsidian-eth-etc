@@ -1,6 +1,8 @@
 [[Generics]]
 Same as with list / pointer pointer subtyping issues, must not be [[Subtyping|subtypes]].
 
+Invariant. Neither [[Covariant]] nor [[Contravariant]].
+
 i.e.
 `List<Student> </: List<Object>`
 ## Approaches
