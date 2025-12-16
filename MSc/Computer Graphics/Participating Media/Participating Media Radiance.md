@@ -47,7 +47,7 @@ $$
 $$
 This fraction is the [[#Transmittance]].
 ## Transmittance
-### Transmittance Homogenous Volume
+### Transmittance Homogeneous Volume
 $$
 T_{r}(x, y) = e^{-\sigma_{t}\|x-y\|}
 $$

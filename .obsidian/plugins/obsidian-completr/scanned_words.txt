@@ -244,6 +244,9 @@ TgJ
 Typed
 TUT
 TuK
+Thesis
+Title
+Tasks
 For
 Find
 FB
@@ -997,6 +1000,9 @@ mapping
 mrp
 mXI
 mee
+mapped
+modern
+mangling
 there
 that
 the
@@ -1798,6 +1804,11 @@ assumptions
 aaO
 arrow
 alb
+algebraic
+areas
+appearance
+attributes
+anti
 such
 symmetric
 semidefinite
@@ -2219,6 +2230,12 @@ suitable
 saw
 steadily
 sfO
+sharpness
+statistical
+simulated
+screen
+splatting
+somehow
 can
 centered
 ctq
@@ -2665,6 +2682,9 @@ cZZ
 cEE
 circular
 contains
+closer
+closeness
+configurable
 be
 by
 bT
@@ -2899,6 +2919,8 @@ bTT
 brittle
 buqqd
 bIdd
+brush
+bilateral
 Any
 Analysis
 AV
@@ -3482,6 +3504,9 @@ pma
 pVdd
 pqi
 pGw
+painting
+preserving
+process
 non
 negatively
 nKDN
@@ -3660,6 +3685,7 @@ nQR
 nested
 nonsensical
 numbered
+neural
 diagonalized
 data
 definition
@@ -3985,6 +4011,9 @@ deal
 dependent
 demqi
 demqjo
+details
+dense
+ddddddd
 with
 wd
 wq
@@ -4446,6 +4475,9 @@ rwon
 rui
 rsOb
 ran
+repelling
+reparametrize
+resampling
 loss
 largest
 lc
@@ -4663,6 +4695,8 @@ login
 lighting
 library
 lQh
+levels
+limitation
 is
 io
 in
@@ -4935,6 +4969,9 @@ increasing
 iPUU
 ikk
 iQQ
+interpolation
+incredibly
+interpret
 given
 gAMA
 gj
@@ -5125,6 +5162,7 @@ gJH
 gknn
 gHDU
 gcc
+generalizes
 formed
 fx
 fKg
@@ -5342,6 +5380,7 @@ formats
 finished
 finish
 ffMX
+fitting
 Principle
 Prop
 Polynomial
@@ -5616,6 +5655,11 @@ PTO
 Pii
 Pointing
 PXP
+Pointshop
+Parametrize
+Parametrization
+Paint
+Pixel
 Component
 Characteristic
 Cd
@@ -5943,6 +5987,9 @@ Cyclic
 Calls
 Call
 CAT
+Conventions
+Currently
+Comments
 Where
 Wn
 Wy
@@ -6119,6 +6166,9 @@ WVa
 WDDDD
 WFDDDDr
 WO
+Weigh
+Warping
+Weights
 value
 vog
 vnuT
@@ -6867,6 +6917,12 @@ SiBBb
 Sgq
 Spec
 SVVB
+Spherical
+Skipped
+Surfels
+Splatting
+Shadow
+Should
 IHDR
 IDATx
 IR
@@ -7296,6 +7352,8 @@ HGDG
 Heggu
 HDDF
 Hvv
+Haptic
+Holes
 qj
 qO
 qM
@@ -7701,6 +7759,9 @@ EdC
 ENG
 Escaping
 EBT
+Eigenvalues
+EWA
+Estimates
 XDD
 Xd
 Xc
@@ -8826,6 +8887,12 @@ RWX
 RnnN
 Revisited
 Rzz
+Resampling
+Resolution
+Resample
+Renderers
+Reducing
+Resources
 LE
 Lh
 Lc
@@ -9499,6 +9566,9 @@ DDv
 DDDzI
 DRr
 DDF
+Done
+Dealing
+Description
 Kp
 Kt
 KN
@@ -9643,6 +9713,7 @@ KHM
 KDZ
 KIIe
 KAA
+Kernels
 jn
 jw
 jfY
@@ -10325,6 +10396,7 @@ Vtq
 VZnx
 VHDD
 Vjgu
+Variations
 zk
 zRG
 zN
@@ -10661,6 +10733,8 @@ NNv
 NWXXe
 Nu
 NRv
+NanoVDB
+NFOR
 Mv
 Mg
 MLs
@@ -10909,6 +10983,9 @@ MYuA
 MBsr
 MEs
 MJJFhh
+MLS
+Much
+Master
 Zb
 ZF
 Zi
@@ -11728,6 +11805,7 @@ Yhl
 YCT
 Yhp
 YRR
+Yet
 ßro
 ßx
 ßR
