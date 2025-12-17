@@ -9,6 +9,7 @@ C# added proper generics in the bytecode, so do not have to do this.
 - Casts are added where necessary
 - Only one classfile and only one class object represents all instantiations.
 ## Example
+### Generics
 ```Java
 // -- Generic Class
 class Cell<T extends Object> {
@@ -42,6 +43,8 @@ c = new Cell();
 c.set("Hello");
 String s = (String) c.get(); // Added cast!
 ```
+### Common Supertype
+[[COOP HS2021#1B]]: Inferred types are the least common superclass? #Unclear : Example.
 ## Implications
 At runtime, we do not know the type information of generic classes!
 

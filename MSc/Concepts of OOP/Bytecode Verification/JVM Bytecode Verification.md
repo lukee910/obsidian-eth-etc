@@ -5,4 +5,6 @@ Implementing [[Java Security]] for [[JVM Bytecode]].
 
 Compiler also helps, by we don't trust that in this setup.
 ## Approaches
-At runtime, do [[Bytecode Verification via Type Inference]].
+At runtime, use one of the following approaches:
+- [[Bytecode Verification via Type Inference]]
+- [[Bytecode Verification via Type Checking]]

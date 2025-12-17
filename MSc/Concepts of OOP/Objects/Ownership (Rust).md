@@ -25,9 +25,9 @@ let q = createPerson(a); // !! Compile time error: use of moved value
 ## Borrowing
 Temporary [[#Ownership Transfer]].
 
-Idea: I want to retain ownership, but want to lend this to the other function.
+Idea: I want to retain ownership, but want to lend this to the other function. While borrowed, ownership is lost and the field is inaccessible!
 
-This is done via prefixing `&` to the variable (ignore the `mut` here):
+This is done via prefixing `&` to the variable (ignore the `mut` here, see [[Immutable References (Rust)]]):
 ```c++
 fn compare(a: &mut Address, b: &mut Address) -> Ordering {
 	a.getCity().cmp(b.getCity())

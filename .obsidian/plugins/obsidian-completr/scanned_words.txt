@@ -247,6 +247,9 @@ TuK
 Thesis
 Title
 Tasks
+Text
+Textual
+Treat
 For
 Find
 FB
@@ -458,6 +461,8 @@ FZj
 FaaU
 FjR
 FT
+Foundational
+Fine
 each
 exists
 expressed
@@ -753,6 +758,11 @@ eLD
 enter
 ebl
 epp
+embed
+enable
+erased
+exam
+entirely
 matrix
 matrices
 mA
@@ -1003,6 +1013,9 @@ mee
 mapped
 modern
 mangling
+money
+member
+multiply
 there
 that
 the
@@ -1276,6 +1289,14 @@ tRy
 taw
 terminating
 terminates
+try
+tasks
+train
+tendons
+token
+targeting
+translated
+target
 orthogonal
 optimizing
 on
@@ -1492,6 +1513,7 @@ olz
 oEm
 oFc
 okay
+older
 and
 as
 an
@@ -1809,6 +1831,12 @@ areas
 appearance
 attributes
 anti
+answers
+answer
+adapt
+adapting
+awareness
+abstract
 such
 symmetric
 semidefinite
@@ -2236,6 +2264,9 @@ simulated
 screen
 splatting
 somehow
+show
+synthesis
+sim
 can
 centered
 ctq
@@ -2685,6 +2716,11 @@ contains
 closer
 closeness
 configurable
+chunk
+concepts
+content
+compatibility
+cloning
 be
 by
 bT
@@ -2921,6 +2957,8 @@ buqqd
 bIdd
 brush
 bilateral
+budget
+basic
 Any
 Analysis
 AV
@@ -3195,6 +3233,9 @@ Array
 AAo
 Axx
 Atq
+Academia
+Accessing
+Annotations
 positive
 projection
 principal
@@ -3507,6 +3548,9 @@ pGw
 painting
 preserving
 process
+physics
+prediction
+patches
 non
 negatively
 nKDN
@@ -3686,6 +3730,8 @@ nested
 nonsensical
 numbered
 neural
+nor
+necessary
 diagonalized
 data
 definition
@@ -4014,6 +4060,11 @@ demqjo
 details
 dense
 ddddddd
+distilling
+decomposed
+descriptors
+disambiguates
+disambiguate
 with
 wd
 wq
@@ -4478,6 +4529,9 @@ ran
 repelling
 reparametrize
 resampling
+reproduce
+relighting
+renaming
 loss
 largest
 lc
@@ -4697,6 +4751,9 @@ library
 lQh
 levels
 limitation
+limited
+lab
+lines
 is
 io
 in
@@ -4972,6 +5029,14 @@ iQQ
 interpolation
 incredibly
 interpret
+inputs
+internet
+industry
+introducing
+inserted
+inaccessible
+invocation
+invoking
 given
 gAMA
 gj
@@ -5163,6 +5228,7 @@ gknn
 gHDU
 gcc
 generalizes
+generative
 formed
 fx
 fKg
@@ -5381,6 +5447,9 @@ finished
 finish
 ffMX
 fitting
+foundational
+finicky
+fails
 Principle
 Prop
 Polynomial
@@ -5660,6 +5729,9 @@ Parametrize
 Parametrization
 Paint
 Pixel
+Previously
+Personalizing
+Practilight
 Component
 Characteristic
 Cd
@@ -5990,6 +6062,9 @@ CAT
 Conventions
 Currently
 Comments
+CLoSD
+Casts
+Constructor
 Where
 Wn
 Wy
@@ -6169,6 +6244,7 @@ WO
 Weigh
 Warping
 Weights
+Worth
 value
 vog
 vnuT
@@ -6348,6 +6424,8 @@ various
 vbT
 vxo
 vBtt
+vice
+versa
 Get
 GW
 Gd
@@ -6567,6 +6645,9 @@ Gmm
 GacS
 GLFAA
 GOO
+Generative
+GANs
+Guiding
 SGD
 See
 Sn
@@ -6923,6 +7004,14 @@ Surfels
 Splatting
 Shadow
 Should
+StyleGAN
+Signal
+Shapes
+Supertype
+Scratch
+Smallest
+Supports
+Searches
 IHDR
 IDATx
 IR
@@ -7153,6 +7242,14 @@ Iof
 IlJ
 Invalid
 Initialization
+Intrinsic
+Isolate
+Implications
+Impossible
+Inference
+Inheriting
+Ignore
+Includes
 HIG
 HU
 HA
@@ -7354,6 +7451,7 @@ HDDF
 Hvv
 Haptic
 Holes
+Human
 qj
 qO
 qM
@@ -7487,6 +7585,7 @@ qdHn
 qTdW
 qDDDDd
 qFHH
+queries
 EDDDDD
 Et
 EDDD
@@ -7762,6 +7861,10 @@ EBT
 Eigenvalues
 EWA
 Estimates
+Exploration
+Erasure
+Encapsulation
+Entry
 XDD
 Xd
 Xc
@@ -8490,6 +8593,9 @@ Bdd
 Backs
 BSSC
 BHmW
+Bermano
+Bridge
+Backwards
 Qr
 Qd
 QDDDDDDJR
@@ -8647,6 +8753,7 @@ QQq
 QAP
 QJK
 QSc
+Queries
 RN
 RC
 Ru
@@ -8893,6 +9000,7 @@ Resample
 Renderers
 Reducing
 Resources
+Ranking
 LE
 Lh
 Lc
@@ -9112,6 +9220,7 @@ LMu
 Lnn
 Legend
 Letting
+LDM
 xV
 xz
 xzTS
@@ -9569,6 +9678,9 @@ DDF
 Done
 Dealing
 Description
+Distilling
+Diffusion
+Describing
 Kp
 Kt
 KN
@@ -9714,6 +9826,7 @@ KDZ
 KIIe
 KAA
 Kernels
+Know
 jn
 jw
 jfY
@@ -9872,6 +9985,7 @@ jkkQW
 jnnQg
 jointly
 jMbbl
+join
 Ox
 OzI
 Often
@@ -10077,6 +10191,7 @@ Ojw
 OtQV
 Once
 Oxx
+Overrides
 kzd
 kg
 kS
@@ -10222,6 +10337,7 @@ kinds
 klb
 kWSQu
 kXDj
+keys
 VL
 Vk
 VO
@@ -10735,6 +10851,8 @@ Nu
 NRv
 NanoVDB
 NFOR
+Neither
+Null
 Mv
 Mg
 MLs
@@ -11292,6 +11410,7 @@ JII
 JJJX
 Jdee
 JJJpt
+Jump
 Uz
 UK
 Use
@@ -11666,6 +11785,8 @@ hki
 hzv
 heR
 hIq
+hierarchically
+handler
 Yq
 YTC
 Yb

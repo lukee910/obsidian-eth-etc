@@ -7,3 +7,5 @@ Portable Java executables.
 - Each instruction is type correct
 - Only initialized variables are used
 - Not stack over- or underflow
+## Types
+[[Bytecode Verification via Type Inference]]

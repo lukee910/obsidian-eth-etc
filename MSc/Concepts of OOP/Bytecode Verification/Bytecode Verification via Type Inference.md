@@ -32,6 +32,7 @@ astore n:
 invokevirtual C.m.sigma:
 (t'_n. .. .t'_1.t'.S, R) -> (r.S, R), if sigma = r(t_1, ..., t_n) AND t' <: C AND t'_i <: t_i
 ```
+Note: $\sigma$ is the return type of an invocation.
 ## Finding Errors
 Errors are denoted by the absence of a transition rule that could be applied. Either a type mismatch or Stack over-/underflow.
 ## Types Available
@@ -45,3 +46,9 @@ Errors are denoted by the absence of a transition rule that could be applied. Ei
 ## Multiple Predecessors
 Motivation: Jumps may lead to joins in control flow. Instructions have several predecessors.
 ![[Smallest Common Supertype Example.png]]
+## Handling Multiple Subtyping
+Interfaces make things complicated.
+
+Solution: Ignore interfaces in the JVM, just take the smallest common supertype class of each. Treat interfaces as object.
+
+Problem: Runtime check necessary when invoking methods on an interface, since there is no type available.
