@@ -11,9 +11,8 @@ Some issues:
 - Have to consider lighting
 ### Optimization Formulation
 Idea: Minimize the texture difference for each image.
-#TODO: Formulas slide 23-26
 $$
-\min\sum\limits_{i} \|  \|
+\min\sum\limits_{i} \lambda \| T(u,v) - T_{i}(u, v) \| + \| \nabla T \|
 $$
 ### Issues
 - Lambertian surface assumptions

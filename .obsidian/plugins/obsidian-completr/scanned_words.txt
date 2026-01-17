@@ -250,6 +250,7 @@ Tasks
 Text
 Textual
 Treat
+Translation
 For
 Find
 FB
@@ -763,6 +764,8 @@ enable
 erased
 exam
 entirely
+extrinsic
+extended
 matrix
 matrices
 mA
@@ -1016,6 +1019,7 @@ mangling
 money
 member
 multiply
+mirrors
 there
 that
 the
@@ -1297,6 +1301,8 @@ token
 targeting
 translated
 target
+tiny
+tangential
 orthogonal
 optimizing
 on
@@ -1837,6 +1843,8 @@ adapt
 adapting
 awareness
 abstract
+analytic
+artistic
 such
 symmetric
 semidefinite
@@ -2267,6 +2275,11 @@ somehow
 show
 synthesis
 sim
+scatters
+scatterers
+simpler
+simplifies
+sized
 can
 centered
 ctq
@@ -2721,6 +2734,8 @@ concepts
 content
 compatibility
 cloning
+checkerboard
+correction
 be
 by
 bT
@@ -2959,6 +2974,8 @@ brush
 bilateral
 budget
 basic
+barrel
+bending
 Any
 Analysis
 AV
@@ -3236,6 +3253,8 @@ Atq
 Academia
 Accessing
 Annotations
+Auto
+Assuming
 positive
 projection
 principal
@@ -3551,6 +3570,8 @@ process
 physics
 prediction
 patches
+pdf
+pincushion
 non
 negatively
 nKDN
@@ -4065,6 +4086,9 @@ decomposed
 descriptors
 disambiguates
 disambiguate
+distortion
+decentering
+directed
 with
 wd
 wq
@@ -4532,6 +4556,7 @@ resampling
 reproduce
 relighting
 renaming
+radial
 loss
 largest
 lc
@@ -4754,6 +4779,8 @@ limitation
 limited
 lab
 lines
+link
+lens
 is
 io
 in
@@ -5037,6 +5064,7 @@ inserted
 inaccessible
 invocation
 invoking
+intrinsic
 given
 gAMA
 gj
@@ -5450,6 +5478,11 @@ fitting
 foundational
 finicky
 fails
+folder
+facets
+fitted
+flips
+focal
 Principle
 Prop
 Polynomial
@@ -5732,6 +5765,7 @@ Pixel
 Previously
 Personalizing
 Practilight
+Picture
 Component
 Characteristic
 Cd
@@ -6065,6 +6099,8 @@ Comments
 CLoSD
 Casts
 Constructor
+Conrady
+Compute
 Where
 Wn
 Wy
@@ -7012,6 +7048,7 @@ Scratch
 Smallest
 Supports
 Searches
+Smooth
 IHDR
 IDATx
 IR
@@ -7250,6 +7287,8 @@ Inference
 Inheriting
 Ignore
 Includes
+Index
+Identical
 HIG
 HU
 HA
@@ -7865,6 +7904,8 @@ Exploration
 Erasure
 Encapsulation
 Entry
+Extrinsic
+Euclidean
 XDD
 Xd
 Xc
@@ -8596,6 +8637,8 @@ BHmW
 Bermano
 Bridge
 Backwards
+Barrel
+Brown
 Qr
 Qd
 QDDDDDDJR
@@ -9001,6 +9044,8 @@ Renderers
 Reducing
 Resources
 Ranking
+Radial
+Refracted
 LE
 Lh
 Lc
@@ -9221,6 +9266,7 @@ Lnn
 Legend
 Letting
 LDM
+Later
 xV
 xz
 xzTS
@@ -9681,6 +9727,11 @@ Description
 Distilling
 Diffusion
 Describing
+Diameter
+Driven
+Dielectric
+Depend
+Derived
 Kp
 Kt
 KN
@@ -10192,6 +10243,7 @@ OtQV
 Once
 Oxx
 Overrides
+Oren
 kzd
 kg
 kS
@@ -10853,6 +10905,8 @@ NanoVDB
 NFOR
 Neither
 Null
+Namely
+Nayar
 Mv
 Mg
 MLs
@@ -11787,6 +11841,7 @@ heR
 hIq
 hierarchically
 handler
+homography
 Yq
 YTC
 Yb

@@ -1,1 +1,1 @@
-- [ ] Add script that adds symbol as preview text
+- [ ] Auto-link \_Topic notes to all notes in same name folder

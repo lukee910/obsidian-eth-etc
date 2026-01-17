@@ -4,11 +4,8 @@ Lambertian Reflection, Perfect Reflection
 ## Fresnel Equations for Conductors
 vs [[CG 03V2 Light and Matter#Fresnel Equations]].
 #TODO: This.
-
-## BRDF of Specular Reflection
-#TODO: In [[BRDF#BRDF of Ideal Specular Reflection]]
-## BTDF of Specular Refraction
-#TODO: Formula
+## Specular BSDF
+![[Ideal Specular BSDFs]]
 
 For refraction, the hemisphere will be compressed into a cone in the medium, represented by $\frac{\eta_{1}^{2}}{\eta_{2}^{2}}$.
 ## Rendering with Delta BRDFs

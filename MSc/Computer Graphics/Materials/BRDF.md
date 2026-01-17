@@ -1,4 +1,12 @@
-Bidirectional Reflectance Distribution Function
+---
+aliases:
+  - BTDF
+  - BSDF
+---
+BRDF: Bidirectional Reflectance Distribution Function
+BTDF: Bidirectional Transmittance Distribution Function
+
+BSDF: Bidirectional Scattering Distribution Function (general term)
 
 $$
 f_{r}(x, \omega_{i}, \omega_{r}) = \frac{d L_{r}(x, \omega_{r})}{d E_{i}(x, \omega_{i})} = \frac{d L_{r}(x, \omega_{r})}{L_{i}(x, \omega_{i}) \cos(\theta_{i})\ d \omega_{i}} \quad \left[ \frac{1}{sr} \right]
@@ -16,10 +24,6 @@ $$
 \int_{H^{2}} f_{r}(\omega_{i}, \omega_{r}) \cos(\theta_{i})\ d\omega_{i} \leq 1,\quad \forall \omega_{r}
 $$
 ## Isotropic
-#TODO 
-isotropic vs anisotropic
-## BRDF of Ideal Specular Reflection
-#TODO: This
-$$
-f_{r}(x, \vec{\omega_{i}}, \vec{\omega_{r}}) = F_{r}(\vec{\omega_{i}}) \#TODO: This
-$$
+[[Isotropic]] BRDFs scatter the light uniformly. Example: Perfect diffuse.
+
+

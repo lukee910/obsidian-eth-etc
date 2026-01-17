@@ -1,3 +1,5 @@
+"22-image-based-rendering.pdf"
+
 Looking at the spectrum between image based approaches (more so CV) and geometry based representations (more so CG).
 
 1. [[3D Reconstruction and Texture]] ("more CG way")

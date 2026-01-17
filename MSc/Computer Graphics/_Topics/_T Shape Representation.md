@@ -2,4 +2,4 @@
 [[Implicit Shapes]]
 [[Polygonal Meshes]]
 [[Intersect Checks]]
-[[CG 11V2 3D Scene Representations]]
+[[CG 11V2 Image-based Rendering, 3D Scene Reconstruction]]
