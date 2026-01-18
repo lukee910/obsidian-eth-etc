@@ -19,15 +19,7 @@ E(x) = \frac{d\Phi(A)}{dA(x)}
 $$
 
 We get the equivalence:
-$$
-\begin{align}
-L(x, \vec{\omega}) &= \frac{d^{2} \Phi(A)}{\cos(\theta)\ dA(x)\ d\vec{w}}
-\\
-L(x, \vec{\omega}) &= \frac{d E(x)}{\cos(\theta)\ d\vec{w}} \quad (\text{Insert } E(x)) \\
-L(x, \vec{\omega}) \cos \theta\ d \vec{\omega} &= dE(x) \\
-\int_{H^{2}} L(x, \vec{\omega}) \cos \theta\ d \vec{\omega} &= E(x)
-\end{align}
-$$
+[[Radiance#Relation to Irradiance]]
 ## Material
 [[_T Materials]]
 ### BRDF vs BTDF, reflection vs refraction
@@ -40,4 +32,4 @@ $$
 ### Fresnel Equations
 [[Fresnel Equations]]
 ### Total Internal Reflection
-#TODO
+#TODO #Later

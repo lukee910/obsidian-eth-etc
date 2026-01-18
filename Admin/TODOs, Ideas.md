@@ -1,1 +1,2 @@
 - [ ] Auto-link \_Topic notes to all notes in same name folder
+- [ ] Reference collection (make a note per linked paper)?

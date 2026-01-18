@@ -23,7 +23,7 @@ The practicalities of it.
 Pre-production vs production. Pre-production is 70% of the time.
 
 Process / Possible Steps (may be concurrent):
-- ... #TODO
+- ...
 - Creative Development
 	- Research Trip
 - Storyboarding

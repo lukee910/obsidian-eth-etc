@@ -90,4 +90,4 @@ Don't think too much about the realism, think about the emotion you want to conv
 ## On Busy Images
 Make sure there's enough breathing space around the main subject (i.e. things without a lot of detail). Can also be achieved with blurring etc., not just with model changes.
 ## Cheat Sheet
-#TODO: Last slide
+#TODO #Later : Last slide

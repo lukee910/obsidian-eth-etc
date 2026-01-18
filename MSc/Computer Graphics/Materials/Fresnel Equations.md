@@ -25,7 +25,6 @@ $$
 Note: Faster approximations available (e.g. [Schlick](https://en.wikipedia.org/wiki/Schlick%27s_approximation)).
 ## Conductors
 [[Conductor Material]]
-#TODO 
 $$
 \begin{align}
 \rho_{||}^{2} &= \frac{(\eta^{2} + k^{2}) \cos^{2} \theta_{i} - 2\eta \cos \theta_{i} + 1}{(\eta^{2} + k^{2}) \cos^{2} \theta_{i} + 2\eta \cos \theta_{i} + 1} \\
