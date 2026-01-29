@@ -17,4 +17,23 @@ Same as [[#1.1]], but simpler.
 #### 1.3. i)
 [[CG Exam Prep - Shape Representation#Implicit and Parametric Surface Equivalence]]
 #Unclear $\Leftarrow$ proof direction, how? Something with the circle equation.
-
+### 1.4
+[[Implicit Shapes]]
+Note:
+- $f \cup g == min(f, g)$
+- $f \cap g == max(f, g)$
+- $f \setminus g == max(f, -g)$
+### 1.5
+()
+### 1.6
+[[Euler-Poincaré Formula]]
+## Part 2: Texture Mapping and Ray Tracing
+### 2.1 Barycentric Interpolation
+[[Barycentric Coordinates]]
+### 2.2 Ray Disk Intersection
+[[_T Intersection Calculations]]
+- Set up equation for $p \in$ shape for the shape to intersect with
+- Replace $p$ with $o + t \cdot d$
+## Part 3: Bounding Volume Hierarchy
+[[Object Subdivision Data Structures#Bounding Volume Hierarchy BVH]]
+Lmao they forgot to switch out the solutions for this

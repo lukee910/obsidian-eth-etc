@@ -261,6 +261,9 @@ Trigonometric
 Trigonometry
 TTb
 TEt
+Triangulation
+Tables
+Twin
 For
 Find
 FB
@@ -486,6 +489,8 @@ FcU
 FLd
 FJJhk
 FGi
+Faces
+Face
 each
 exists
 expressed
@@ -1063,6 +1068,7 @@ mkkK
 mJOO
 mFkq
 mns
+meaningful
 there
 that
 the
@@ -1579,6 +1585,7 @@ oXl
 ohs
 ohhHOO
 oQA
+outer
 and
 as
 an
@@ -1910,6 +1917,10 @@ antiderivative
 aCZZ
 aYS
 aRO
+adjacency
+assumption
+adjacencies
+adjacent
 such
 symmetric
 semidefinite
@@ -2358,6 +2369,8 @@ sMv
 sYye
 sGmL
 sad
+stores
+storage
 can
 centered
 ctq
@@ -2826,6 +2839,7 @@ cheat
 ctm
 cxW
 cLI
+connection
 be
 by
 bT
@@ -3362,6 +3376,8 @@ Ahh
 AqE
 AzJJtT
 AvD
+Adjacency
+Adjacencies
 positive
 projection
 principal
@@ -3686,6 +3702,7 @@ physically
 pRm
 pvq
 pXm
+parametric
 non
 negatively
 nKDN
@@ -4943,6 +4960,7 @@ leaving
 lek
 lmUz
 lIZ
+lies
 is
 io
 in
@@ -5236,6 +5254,7 @@ iSS
 iNr
 iond
 iiJ
+iff
 given
 gAMA
 gj
@@ -5973,6 +5992,7 @@ PDr
 PYm
 Pqav
 PXN
+Poincar
 Component
 Characteristic
 Cd
@@ -7294,6 +7314,8 @@ SUU
 Shape
 SFK
 SLq
+Substitute
+Storage
 IHDR
 IDATx
 IR
@@ -7545,6 +7567,8 @@ Itz
 IzG
 IIT
 IZv
+Inside
+Interpolation
 HIG
 HU
 HA
@@ -7756,6 +7780,7 @@ HHYY
 HuL
 Hna
 HsWy
+Half
 qj
 qO
 qM
@@ -8190,6 +8215,7 @@ Exiting
 EDDDDDDDDd
 EDDDDDDDD
 Evy
+Equivalence
 XDD
 Xd
 Xc
@@ -8957,6 +8983,8 @@ Bill
 Bfff
 BSe
 BKD
+Boolean
+Barycentric
 Qr
 Qd
 QDDDDDDJR
@@ -9615,6 +9643,7 @@ LLO
 LwH
 Lxx
 LPx
+Lists
 xV
 xz
 xzTS
@@ -10632,6 +10661,7 @@ Ovv
 OrB
 Ozl
 OZB
+Outside
 kzd
 kg
 kS
@@ -11601,6 +11631,7 @@ Mao
 Meshes
 MMG
 Mza
+Mostly
 Zb
 ZF
 Zi
