@@ -804,6 +804,7 @@ eCCC
 estimator
 eVr
 eAd
+equivalences
 matrix
 matrices
 mA
@@ -1921,6 +1922,7 @@ adjacency
 assumption
 adjacencies
 adjacent
+acute
 such
 symmetric
 semidefinite
@@ -2371,6 +2373,7 @@ sGmL
 sad
 stores
 storage
+substitution
 can
 centered
 ctq
@@ -3378,6 +3381,7 @@ AzJJtT
 AvD
 Adjacency
 Adjacencies
+Appearance
 positive
 projection
 principal
@@ -3703,6 +3707,7 @@ pRm
 pvq
 pXm
 parametric
+pointlight
 non
 negatively
 nKDN
@@ -3887,6 +3892,7 @@ necessary
 nWxr
 nOJJ
 nkiew
+note
 diagonalized
 data
 definition
@@ -4723,6 +4729,8 @@ reciprocal
 rougher
 rgc
 rsXGr
+remember
+reflect
 loss
 largest
 lc
@@ -6336,6 +6344,8 @@ Confirm
 Cyy
 Cks
 CJK
+Circumference
+Critical
 Where
 Wn
 Wy
@@ -7316,6 +7326,7 @@ SFK
 SLq
 Substitute
 Storage
+Snell
 IHDR
 IDATx
 IR
@@ -7569,6 +7580,7 @@ IIT
 IZv
 Inside
 Interpolation
+Important
 HIG
 HU
 HA
@@ -7781,6 +7793,7 @@ HuL
 Hna
 HsWy
 Half
+Hemisphere
 qj
 qO
 qM
@@ -8216,6 +8229,7 @@ EDDDDDDDDd
 EDDDDDDDD
 Evy
 Equivalence
+Express
 XDD
 Xd
 Xc
@@ -9414,6 +9428,7 @@ RBucc
 RMB
 RSC
 RiH
+Radiometric
 LE
 Lh
 Lc
@@ -9644,6 +9659,7 @@ LwH
 Lxx
 LPx
 Lists
+Lmao
 xV
 xz
 xzTS

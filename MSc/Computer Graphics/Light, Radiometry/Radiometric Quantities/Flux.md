@@ -1,3 +1,9 @@
+---
+aliases:
+  - Radiant Flux
+  - Radiant Power
+---
+
 $$
 \Phi(A) \quad \left[ \frac{J}{s} = W \right]
 $$

@@ -5,9 +5,9 @@
 Compute tangent vectors $s_{u}, s_{v}$.
 [[CG Exam Prep - Shape Representation#Tangents and Normals]]
 #### 1.1. ii)
-[[CG Recap Trigonometry#Unit Circle]]: Know the 0 / 30 / 45 / 60 / 90 values of $\sin, \cos$ by heart.
+[[CG Recap Geometry#Unit Circle]]: Know the 0 / 30 / 45 / 60 / 90 values of $\sin, \cos$ by heart.
 #### 1.1. iii)
-[[CG Recap Trigonometry#Cross Product]]
+[[CG Recap Geometry#Cross Product]]
 #### 1.1. iv)
 What surface. #Unclear : How to tell?
 ### 1.2

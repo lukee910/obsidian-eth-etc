@@ -29,3 +29,10 @@ a_{2}b_{3} - a_{3}b_{2} \\ a_{3}b_{1} - a_{1}b_{3} \\ a_{1}b_{2} - a_{2}b_{1}
 \end{align}
 $$
 ![[Cross Product.png]]
+## Shape Formulas
+### Circle
+- $A = r^{2} \pi$
+- Circumference: $u = 2 r \pi$
+### Sphere
+- Surface: $A = 4 r^{2} \pi$
+- Volume: $V = \frac{4}{3} r^{3} \pi$

@@ -129,6 +129,8 @@ Usually it's not possible to exactly cancel out the PDF. Even matching the shape
 Common strategy: Sample proportional to the integrand (or on one term of the integrand).
 ### Sampling Arbitrary Distributions
 Idea: Get a random variable $X_{i}$ for the desired distribution based on a simple [[Uniform Random Variable]] $\xi$.
+
+#TODO: Something's not entirely right here. How to use this for exercise [[CG Sheet 2#3.1 Jacobian Method]]?
 #### Inversion Method Process
 1. Compute the CDF $P(x) = \int^{x}_{0} p(x')\ dx$
 	1. Antiderivative of wished for $p(x)$

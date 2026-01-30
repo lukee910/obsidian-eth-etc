@@ -33,3 +33,4 @@ We get the equivalence:
 [[Fresnel Equations]]
 ### Total Internal Reflection
 #TODO #Later
+[[Snell's Law]]
