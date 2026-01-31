@@ -149,6 +149,15 @@ $$
 
 Idea: Jacobian determinant describes local stretching of $T$. It is a local, linear approximation of $T$.
 See [[#Linear Map]] example for how this works.
+#### Jacobian Method
+(From exercise sheet 2 solution: [[CG Sheet 2#3.1 Jacobian Method]])
+
+1. Find the inverse transformation: $x = T_{Z}^{-1}(z)$
+2. Differentiate the inverse transformation to find $\frac{dx}{dz}$
+   Note: $\frac{dx}{dz} = \frac{d}{dz} T_{Z}^{-1}(z)$
+3. Use the Jacobian formula for transformation of variables:
+   $$p_{Z}(z) = p_{X}(x) \left| \frac{dx}{dz} \right|$$
+   where $p_{X}(x)$ is the PDF of $X$
 ### Sampling Examples
 #### Linear Map
 [[#Sampling Arbitrary Distributions]]

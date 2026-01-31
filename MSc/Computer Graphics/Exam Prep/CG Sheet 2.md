@@ -39,8 +39,17 @@ With Blinn-Phong, it's always an acute angle (since we reflect only in the hemis
 ## Part 3: Monte Carlo Integration
 [[_T Monte Carlo Integration]]
 ### 3.1 Jacobian Method
-Jacobian Method: ![[CG 04V2 Monte Carlo#Transforming Between Distributions]]
-
-![[CG Recap Analysis#Jacobian]]
+[[CG Recap Analysis#Jacobian]]
+Jacobian Method: ![[CG 04V2 Monte Carlo#Jacobian Method]]
+#### 1)
+$z = x^{\frac{2}{3}}$:
+1. $T_{Z}^{-1}(z)$: $z = x^{\frac{2}{3}} \Leftrightarrow z^{\frac{3}{2}} = x$
+2. $\frac{dx}{dz}$: $\frac{dx}{dz} = \frac{d}{dz} z^{\frac{3}{2}} = \frac{3}{2}z^\frac{1}{2}$
+3. $p_{Z}(z)$: $p_{Z}(z) = p_{X}(x) \left| \frac{dx}{dz} \right|$
+   $p_{X}(x)$ range: $z \in [0, 1[ \Rightarrow z^{\frac{3}{2}} \in [0, 1[ \Rightarrow x \in [0, 1[$. We get:
+   $$p_{Z}(z) = \begin{cases}
+1 \cdot \left| \frac{3}{2} \sqrt{z} \right| = \frac{3}{2} \sqrt{z} & z \in [0, 1[  \\
+0 & else
+\end{cases}$$
 
 

@@ -10179,6 +10179,8 @@ DQQ
 DLK
 DGGcnn
 DFFJb
+Dimensions
+Differentiate
 Kp
 Kt
 KN
