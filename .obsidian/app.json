@@ -3,5 +3,6 @@
   "attachmentFolderPath": "Files",
   "newFileLocation": "current",
   "newFileFolderPath": "",
-  "promptDelete": false
+  "promptDelete": false,
+  "spellcheck": false
 }

@@ -22,10 +22,10 @@ I think: $\Phi(A)$ is the flux _leaving the pointlight_, $A$ is the "pointlight 
 ### 1.3 Point Light
 [[Radiant Intensity]]
 [[Solid Angle]]
-### 1.4 Anisotropic point light
+### 1.4 Anisotropic Point Light
 [[CG Recap Analysis#Integrating over the Hemisphere]]
 ## Part 2: Appearance Modeling
-### 2.1 Critical Angle of total internal reflection
+### 2.1 Critical Angle of Total Internal Reflection
 [[Snell's Law]]
 ### 2.2 Snell's Law as Vectors
 [[Snell's Law]]

@@ -166,7 +166,7 @@ Goal: $p(y) = 2y$.
 #### 2D Distribution
 #TODO: 2D Distribution via marginal density
 #### Uniform Sampling of a Disk
-Note: Switch from x,y to r,theta: We start with x^2, y^2 in the formula, then we want to switch to polar. #TODO: This
+Note: Switch from $x,y$ to $r,\theta$: We start with x^2, y^2 in the formula, then we want to switch to polar. #TODO: This
 #### Recipe
 #TODO: Slide 98
 #### Direct Sphere Sampling
@@ -194,7 +194,7 @@ Monte Carlo-ify:
 Note: For the result on slide 69: Uniform sampling can generate varied values, cosine sampling only gets ${0,1}$. That's why there are white values in the top image.
 
 #TODO: Slide 77
-## More integration dimensions
+## More Integration Dimensions
 * Anti-aliasing (image space)
 * Light visibility (surface of area lights)
 * Depth-of-field (camera aperture)
