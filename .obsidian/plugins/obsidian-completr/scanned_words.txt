@@ -2378,6 +2378,10 @@ sad
 stores
 storage
 substitution
+spherical
+subtends
+substitutions
+substituting
 can
 centered
 ctq
@@ -2850,6 +2854,7 @@ connection
 chhXh
 ccclmm
 cLLLX
+convo
 be
 by
 bT
@@ -4250,6 +4255,7 @@ dISS
 dLVT
 daP
 dO
+diminishes
 with
 wd
 wq
@@ -4743,6 +4749,7 @@ rsXGr
 remember
 reflect
 reLLLJ
+relates
 loss
 largest
 lc
@@ -5717,6 +5724,7 @@ fhQ
 fhFq
 fQfe
 fZh
+farther
 Principle
 Prop
 Polynomial
@@ -6016,6 +6024,7 @@ PYm
 Pqav
 PXN
 Poincar
+Prove
 Component
 Characteristic
 Cd
@@ -7348,6 +7357,7 @@ SLq
 Substitute
 Storage
 Snell
+Seemingly
 IHDR
 IDATx
 IR
@@ -7603,6 +7613,7 @@ Inside
 Interpolation
 Important
 Inn
+Integrator
 HIG
 HU
 HA
@@ -9461,6 +9472,8 @@ RiH
 Radiometric
 RXB
 RPB
+Rephrasing
+Ring
 LE
 Lh
 Lc
@@ -10181,6 +10194,7 @@ DGGcnn
 DFFJb
 Dimensions
 Differentiate
+Determinant
 Kp
 Kt
 KN
@@ -10499,6 +10513,7 @@ jii
 jS
 jKJJ
 juB
+jacobian
 Ox
 OzI
 Often
@@ -11694,6 +11709,7 @@ Mostly
 Mvv
 MYRh
 Mxx
+Malley
 Zb
 ZF
 Zi
@@ -12415,6 +12431,7 @@ heart
 hQz
 hQd
 hlR
+hemispherical
 Yq
 YTC
 Yb

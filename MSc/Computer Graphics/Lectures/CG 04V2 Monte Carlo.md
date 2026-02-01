@@ -69,6 +69,13 @@ p(x,y) = \begin{cases}
 0 & \text{otherwise}
 \end{cases}
 $$
+Corresponding to:
+$$
+p(r, \phi) = \begin{cases}
+\frac{r}{\pi} & r < R \text{ (on disk)} \\ \\
+0 & \text{otherwise}
+\end{cases}
+$$
 Goal: Draw samples distributed as: $(X_{i}, Y_{i}) \sim p(x, y)$
 Problem: Pseudo random number generators give us only canonical uniform distribution.
 ### Rejection Sampling
@@ -138,25 +145,27 @@ Idea: Get a random variable $X_{i}$ for the desired distribution based on a simp
 3. Obtain [[Uniform Random Variable]] $\xi$
 4. Compute $X_{i} = P^{-1}(\xi)$
 ![[Inversion Method.png]]
-#### Transforming Between Distributions
+#### Jacobian Method
 Given: n-dimensional random variable $X_{i} \sim p_{x}(X)$
-Goal: Distribution of $Y_{i} = T(X_{i})$, where $T$ is some transformation.
+Goal: Distribution $p_{y}(Y_{i})$ of $Y_{i} = T(X_{i})$, where $T$ is some transformation.
 
+Note: This chapter uses a lot of substitutions. For example, substituting $x = T^{-1}(z)$. 
+##### General Case
+Optional: Find $X_{i} = T^{-1}(Y_{i})$
 New density is:
 $$
-p_{y}(y) = p_{y}(T(x)) = \frac{p_{x}(x)}{|J_{T}(x)|}
+p_{y}(y) = p_{y}(T(x)) = \frac{p_{x}(x)}{|J_{T}(x)|} = p_{x}(X) \cdot \left| J_{T^{-1}}(y) \right|
 $$
 
 Idea: Jacobian determinant describes local stretching of $T$. It is a local, linear approximation of $T$.
 See [[#Linear Map]] example for how this works.
-#### Jacobian Method
+##### 1-D
 (From exercise sheet 2 solution: [[CG Sheet 2#3.1 Jacobian Method]])
-
 1. Find the inverse transformation: $x = T_{Z}^{-1}(z)$
 2. Differentiate the inverse transformation to find $\frac{dx}{dz}$
    Note: $\frac{dx}{dz} = \frac{d}{dz} T_{Z}^{-1}(z)$
 3. Use the Jacobian formula for transformation of variables:
-   $$p_{Z}(z) = p_{X}(x) \left| \frac{dx}{dz} \right|$$
+   $$p_{Z}(z) = p_{X}(x) \left| \frac{dx}{dz} \right| = p_{X}(x) \left| \frac{d}{dz} T_{Z}^{-1}(z) \right|$$
    where $p_{X}(x)$ is the PDF of $X$
 ### Sampling Examples
 #### Linear Map

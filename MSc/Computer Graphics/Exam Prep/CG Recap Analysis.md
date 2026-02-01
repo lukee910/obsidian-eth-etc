@@ -37,5 +37,4 @@ $$
 $$
 Note the integration bounds.
 ## Jacobian
-![[Jacobian.png]]
-
+![[Jacobian]]

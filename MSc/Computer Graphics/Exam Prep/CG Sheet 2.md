@@ -39,7 +39,7 @@ With Blinn-Phong, it's always an acute angle (since we reflect only in the hemis
 ## Part 3: Monte Carlo Integration
 [[_T Monte Carlo Integration]]
 ### 3.1 Jacobian Method
-[[CG Recap Analysis#Jacobian]]
+[[Jacobian]]
 Jacobian Method: ![[CG 04V2 Monte Carlo#Jacobian Method]]
 #### 1)
 $z = x^{\frac{2}{3}}$:
@@ -53,3 +53,9 @@ $z = x^{\frac{2}{3}}$:
 \end{cases}$$
 
 
+### 3.2 Malley's Method
+Same as this: [[CG 04V2 Monte Carlo#Cosine-Weighted Hemispherical Sampling]]
+Prove that this is correct.
+### 3.3 Uniformly Sampling a Ring
+Same steps as [[#3.2 Malley's Method]].
+#TODO 
