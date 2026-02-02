@@ -1,6 +1,8 @@
 ## MC Integration II & Light Sources
 ### 1.1 Half-Direction Transform
-#Unclear: How does the spherical coordinates derivation actually work?
+[[Solid Angle#Differential Solid Angle]]
+
+#Unclear: Why does the law of reflection apply here, how are we oriented around $\vec{\omega}_{i}$?
 ### 1.2 Area/Hemispherical Transform
 Relation between area domain and hemispherical domain.
 [[Solid Angle]]
@@ -15,4 +17,6 @@ The jacobian determinant relates the differential quantities in different domain
 ![[Monte Carlo Estimator]]
 
 ### 1.4 Point Light Power
+[[Lambert's Cosine Law]]: In this setup, $dA(x) = \cos\theta\ dx\ dy$
 
+Note: Integration-Wizardry, that's _not_ happening at the exam.

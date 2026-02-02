@@ -44,7 +44,7 @@ $$
 $$
 "Integrate [[Radiance]] over hemisphere and area"
 ## Ray Tracing
-[[_T Ray Tracing]]
+[[_T Light Tracing]]
 - This is the fundamental quantity for ray tracing.
 - Remains constant along a ray (in vacuum)
 - Incident [[Radiance]] at one point can be expressed as outgoing [[Radiance]] at another point

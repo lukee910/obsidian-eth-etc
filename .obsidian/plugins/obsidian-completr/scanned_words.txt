@@ -264,6 +264,7 @@ TEt
 Triangulation
 Tables
 Twin
+TSSstt
 For
 Find
 FB
@@ -492,6 +493,8 @@ FGi
 Faces
 Face
 Fxx
+Forms
+Foreshortening
 each
 exists
 expressed
@@ -806,6 +809,8 @@ estimator
 eVr
 eAd
 equivalences
+eaa
+endpoint
 matrix
 matrices
 mA
@@ -1071,6 +1076,7 @@ mJOO
 mFkq
 mns
 meaningful
+mmmD
 there
 that
 the
@@ -1363,6 +1369,7 @@ tTS
 tggVq
 tpp
 traversing
+tUUUMMMeee
 orthogonal
 optimizing
 on
@@ -1592,6 +1599,8 @@ oQA
 outer
 oPQ
 ohR
+oriented
+omega
 and
 as
 an
@@ -1928,6 +1937,8 @@ assumption
 adjacencies
 adjacent
 acute
+apg
+ammm
 such
 symmetric
 semidefinite
@@ -2383,6 +2394,10 @@ spherical
 subtends
 substitutions
 substituting
+spotlight
+spanned
+subtended
+stretched
 can
 centered
 ctq
@@ -2856,6 +2871,9 @@ chhXh
 ccclmm
 cLLLX
 convo
+comes
+coming
+connecting
 be
 by
 bT
@@ -3106,6 +3124,8 @@ bzH
 bgg
 bll
 bjjJnn
+baa
+byFF
 Any
 Analysis
 AV
@@ -3398,6 +3418,7 @@ Adjacency
 Adjacencies
 Appearance
 ABB
+And
 positive
 projection
 principal
@@ -3724,6 +3745,7 @@ pvq
 pXm
 parametric
 pointlight
+profiles
 non
 negatively
 nKDN
@@ -3909,6 +3931,7 @@ nWxr
 nOJJ
 nkiew
 note
+nGdjkkCCC
 diagonalized
 data
 definition
@@ -4257,6 +4280,9 @@ dLVT
 daP
 dO
 diminishes
+dvv
+dQTT
+decreases
 with
 wd
 wq
@@ -4456,6 +4482,7 @@ wss
 wQEU
 wLa
 wtR
+wuu
 rank
 reconstruction
 rc
@@ -5284,6 +5311,8 @@ iNr
 iond
 iiJ
 iff
+iggG
+iKK
 given
 gAMA
 gj
@@ -5726,6 +5755,8 @@ fhFq
 fQfe
 fZh
 farther
+fcccEEEx
+fVuu
 Principle
 Prop
 Polynomial
@@ -6371,6 +6402,11 @@ Cks
 CJK
 Circumference
 Critical
+CKK
+CVVV
+Certain
+Conservation
+Converting
 Where
 Wn
 Wy
@@ -6557,6 +6593,8 @@ WFd
 Wiz
 WpvvVV
 WdddH
+WYY
+Wizardry
 value
 vog
 vnuT
@@ -6752,6 +6790,9 @@ vwww
 vmi
 vJvEQ
 vrrR
+vertical
+vOO
+vec
 Get
 GW
 Gd
@@ -7359,6 +7400,9 @@ Substitute
 Storage
 Snell
 Seemingly
+SZP
+SMM
+Source
 IHDR
 IDATx
 IR
@@ -7616,6 +7660,10 @@ Important
 Inn
 Integrator
 Infinitesimally
+IZZ
+Illumination
+IES
+Implemented
 HIG
 HU
 HA
@@ -7970,6 +8018,7 @@ qwIq
 qJJJ
 qdh
 qrrz
+qMOO
 EDDDDD
 Et
 EDDD
@@ -8401,6 +8450,8 @@ XYZv
 XfsBqaBqa
 XmL
 XBB
+XYYi
+XOO
 yf
 yF
 ya
@@ -8778,6 +8829,8 @@ uUj
 uJI
 uXXX
 uVV
+uttx
+uBD
 Bd
 Bi
 BE
@@ -9041,6 +9094,9 @@ BKD
 Boolean
 Barycentric
 BdNNNJ
+Bpp
+BBBdee
+BQQQ
 Qr
 Qd
 QDDDDDDJR
@@ -9476,6 +9532,8 @@ RXB
 RPB
 Rephrasing
 Ring
+Represents
+Reciprocity
 LE
 Lh
 Lc
@@ -9854,6 +9912,8 @@ xX
 xyO
 xNng
 xyyamm
+xbaee
+xIbb
 DZ
 DDDD
 Descent
@@ -10197,6 +10257,7 @@ DFFJb
 Dimensions
 Differentiate
 Determinant
+Defined
 Kp
 Kt
 KN
@@ -10894,6 +10955,9 @@ kqq
 kbUG
 ktp
 kuHi
+kKK
+kyp
+kii
 VL
 Vk
 VO
@@ -11712,6 +11776,8 @@ Mvv
 MYRh
 Mxx
 Malley
+MNOOWQQ
+Mqqq
 Zb
 ZF
 Zi
@@ -12033,6 +12099,8 @@ JxyG
 JRtu
 JDD
 Jku
+Jvvv
+Jacobians
 Uz
 UK
 Use
@@ -12434,6 +12502,7 @@ hQz
 hQd
 hlR
 hemispherical
+horizontal
 Yq
 YTC
 Yb
@@ -12587,6 +12656,9 @@ Yji
 Ynp
 YYYR
 Yz
+YYYSSSUUU
+YZZ
+YQQQzzz
 ßro
 ßx
 ßR
@@ -12602,6 +12674,7 @@ Yz
 öm
 öt
 öpn
+öl
 üt
 ün
 äH

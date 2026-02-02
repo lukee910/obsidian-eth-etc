@@ -13,13 +13,13 @@ f_{r}(x, \omega_{i}, \omega_{r}) = \frac{d L_{r}(x, \omega_{r})}{d E_{i}(x, \ome
 $$
 
 ![[BRDF variables graph.png]]
-## Physically-based BRDFs
+## Physically-Based BRDFs
 Needs two properties:
-### Helmholtz reciprocity
+### Helmholtz Reciprocity
 $$
 f_{r}(x, \omega_{i}, \omega_{r}) = f_{r}(x, \omega_{r}, \omega_{i})
 $$
-### Energy conservation
+### Energy Conservation
 $$
 \int_{H^{2}} f_{r}(\omega_{i}, \omega_{r}) \cos(\theta_{i})\ d\omega_{i} \leq 1,\quad \forall \omega_{r}
 $$

@@ -1,5 +1,5 @@
 ## Learn by Heart
-[[CG Exam Prep - Learn By Heart]]
+[[CG Exam Prep - Learn By Heart Overview]]
 ## Recap
 <sub>How have I forgotten this?</sub>
 ### Trigonometry
