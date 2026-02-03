@@ -7,3 +7,6 @@
 - [ ] [[Inverse Square Law]]
 - [ ] Recap substitution shenanigans in [[CG Recap Analysis]]
 - [x] [[CG Sheet 3#1.1 Half-Direction Transform]]: Differential solid angle shenanigans -> (see [Discord](https://discord.com/channels/813725473585758239/955782046662418442/1467561583013003284) convo) -> [[Solid Angle#Differential Solid Angle]]
+- [ ] [[Multiple Importance Sampling]]
+- [ ] Slides: Direct Illumination III and Global Illumination I
+

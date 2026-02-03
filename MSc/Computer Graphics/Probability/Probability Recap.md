@@ -2,7 +2,7 @@
 Continuous random variables use probability densities, since any given outcome has probability 0.
 
 Notable Things:
-![[Cumulative Distribution Function (CDF)]]
+![[Cumulative Distribution Function]]
 
 ![[Probability Density Function]]
 

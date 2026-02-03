@@ -79,38 +79,7 @@ $$
 Goal: Draw samples distributed as: $(X_{i}, Y_{i}) \sim p(x, y)$
 Problem: Pseudo random number generators give us only canonical uniform distribution.
 ### Rejection Sampling
-#### Disk
-```c
-Vec2 v;
-do {
-	// sample
-	v.x = 1 - 2 * drand48();
-	v.y = 1 - 2 * drand48();
-// while sample invalid
-} while (v.length() * v.length() > 1)
-```
-#### Sphere
-```c
-Vec3 v;
-do {
-	// sample
-	v.x = 1 - 2 * drand48();
-	v.y = 1 - 2 * drand48();
-	v.z = 1 - 2 * drand48();
-// while sample invalid
-} while (v.length() * v.length() > 1)
-// Project onto sphere surface
-v /= v.length();
-```
-Note: For hemisphere, sample sphere and then flip on appropriate axis if it's in the wrong hemisphere.
-#### Properties
-Pros:
-- Flexible
-Cons:
-- Inefficient
-- Problems with low-discrepancy sampling
-
-Used for: Complex shapes. If you have an analytical solution (See [[CG 04V2 Monte Carlo#Inversion Method Process]]), use that.
+![[Rejection Sampling]]
 ## Importance Sampling
 We are trying to integrate $\int f(x) dx$ with our estimator $F_{N} = \frac{1}{N} \sum\limits_{i=1}^{N} \frac{f(X_{i})}{p(X_{i})}$ ([[Monte Carlo Estimator#Formula]]).
 
@@ -139,13 +108,17 @@ Idea: Get a random variable $X_{i}$ for the desired distribution based on a simp
 
 #TODO: Something's not entirely right here. How to use this for exercise [[CG Sheet 2#3.1 Jacobian Method]]?
 #### Inversion Method Process
-1. Compute the CDF $P(x) = \int^{x}_{0} p(x')\ dx$
+[[_T Sampling Recipe]] Inversion Method
+
+1. Compute the [[Cumulative Distribution Function|CDF]] $P(x) = \int^{x}_{0} p(x')\ dx$
 	1. Antiderivative of wished for $p(x)$
 2. Compute inverse $P^{-1}(x)$
 3. Obtain [[Uniform Random Variable]] $\xi$
 4. Compute $X_{i} = P^{-1}(\xi)$
 ![[Inversion Method.png]]
 #### Jacobian Method
+[[_T Sampling Recipe]] Jacobian Method
+
 Given: n-dimensional random variable $X_{i} \sim p_{x}(X)$
 Goal: Distribution $p_{y}(Y_{i})$ of $Y_{i} = T(X_{i})$, where $T$ is some transformation.
 
@@ -167,12 +140,14 @@ See [[#Linear Map]] example for how this works.
 3. Use the Jacobian formula for transformation of variables:
    $$p_{Z}(z) = p_{X}(x) \left| \frac{dx}{dz} \right| = p_{X}(x) \left| \frac{d}{dz} T_{Z}^{-1}(z) \right|$$
    where $p_{X}(x)$ is the PDF of $X$
+### Area-Preserving Sampling
+[[Area-Preserving Sampling]]
 ### Sampling Examples
-#### Linear Map
+#### Linear Map $p(y) = 2y$
 [[#Sampling Arbitrary Distributions]]
 
 Goal: $p(y) = 2y$.
-- [[Cumulative Distribution Function (CDF)|CDF]] via antiderivative: $P(y) = y^{2}$
+- [[Cumulative Distribution Function|CDF]] via antiderivative: $P(y) = y^{2}$
 - $P^{-1}(y) = \sqrt{y}$
 - Apply $P^{-1}$ pattern to target $Y_{i}$ and [[Uniform Random Variable]] $X_{i}$:
 	- $Y_{i} = \sqrt{X_{i}}$
@@ -182,11 +157,22 @@ Goal: $p(y) = 2y$.
 	- $|J_{T}(x)| = |\frac{dy}{dx}| = \frac{1}{2\sqrt{x}}$
 	- $p(y) = 2 \sqrt{x} = 2y$
 #### 2D Distribution
-#TODO: 2D Distribution via marginal density
+Draw samples $(X, Y)$ from a 2D distribution $p(x, y)$
+
+If $p(x,y)$ is [[Separable (Probability)|separable]], i.e. $p(x, y) = p_{x}(x) p_{y}(y)$, independently sample.
+
+Otherwise, compute [[Marginal Density]]:
+$$
+p(x) = \int p(x, y)\ dy
+$$
+And the [[Conditional Density]]:
+$$
+p(y|x) = \frac{p(x, y)}{p(x)}
+$$
+
+Procedure: First sample $X_{i} \sim p(x)$, then $Y_{i} \sim p(y|x)$.
 #### Uniform Sampling of a Disk
-Note: Switch from $x,y$ to $r,\theta$: We start with x^2, y^2 in the formula, then we want to switch to polar. #TODO: This
-#### Recipe
-#TODO: Slide 98
+[[Uniform Sampling of a Disk]]
 #### Direct Sphere Sampling
 #TODO: Slide 101
 #### Simplified Direct Sphere Sampling

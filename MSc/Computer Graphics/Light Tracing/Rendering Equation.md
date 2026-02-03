@@ -13,3 +13,5 @@ Two paths:
 - [[Direct Illumination]]
 - [[Indirect Illumination]]
 See: [[Reflection Equation]]
+## Notes
+Note that there's no $\cos \theta_{o}$ term, since that would be covered in the [[BRDF]] $f_{r}$
