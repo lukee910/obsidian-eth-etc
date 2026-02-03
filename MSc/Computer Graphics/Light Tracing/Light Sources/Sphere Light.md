@@ -1,6 +1,8 @@
-Typically defined at point $p$ with radius $r$ and emitted [[Flux|Radiant Power]] $\Phi$. Has finite area $4 \pi r^{2}$.
+Typically defined at point $p$ with radius $r$ and emitted [[Flux|Radiant Power]] $\Phi$ or [[Radiance]] $L_{e}$. Has finite area $4 \pi r^{2}$. Note: In Nori, it is defined with [[Radiance]].
 ## $L_{e}$
-$L_{e} = \$ #TODO
+If defined with [[Radiance]], return $L_{e}$ directly.
+
+#Unclear: $L_{e}$ for $\Phi$.
 ## Sampling
 ### Sampling Subtended Angle
 Best approach: Uniformly sample [[Solid Angle]] [[Subtended Angle (Geometry)|subtended]] by the sphere.

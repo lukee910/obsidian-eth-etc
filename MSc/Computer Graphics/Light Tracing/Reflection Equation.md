@@ -50,5 +50,5 @@ Note:
 ## Direct Illumination
 Applying the [[#Surface Area Integration]] formulation to [[Direct Illumination]]:
 ![[Reflection Eq Direct Illumination.png|600]]
-
-
+## Importance Sampling
+[[Reflection Equation Importance Sampling]]
