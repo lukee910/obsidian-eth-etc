@@ -28,7 +28,7 @@ a_{2}b_{3} - a_{3}b_{2} \\ a_{3}b_{1} - a_{1}b_{3} \\ a_{1}b_{2} - a_{2}b_{1}
 \end{pmatrix}
 \end{align}
 $$
-![[Cross Product.png]]
+![[Cross Product Calculation.png]]
 ## Shape Formulas
 ### Circle
 - $A = r^{2} \pi$

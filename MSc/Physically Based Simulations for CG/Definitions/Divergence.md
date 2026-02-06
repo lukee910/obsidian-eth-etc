@@ -1,6 +1,7 @@
 ---
 aliases:
-  - Divergence
+  - $\nabla \cdot$
+  - Divergence ($\nabla \cdot$)
 ---
 Divergence "$\nabla \cdot$"
 ## Definition

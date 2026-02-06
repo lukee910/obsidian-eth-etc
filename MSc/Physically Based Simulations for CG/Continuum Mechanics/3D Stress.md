@@ -35,7 +35,7 @@ $$
 
 Doing this for all components:
 $$
-\frac{f_{int}}{dV} = \begin{pmatrix}
+\frac{f^{int}}{dV} = \begin{pmatrix}
 f_{x} \\ f_{y} \\ f_{z}
 \end{pmatrix} = \begin{pmatrix}
 \frac{\partial}{\partial x}\sigma_{x} + \frac{\partial}{\partial y} \tau_{xy} + \frac{\partial}{\partial z} \tau_{xz} \\ \frac{\partial}{\partial x}\tau_{xy} + \frac{\partial}{\partial y} \sigma_{y} + \frac{\partial}{\partial z} \tau_{yz} \\ \frac{\partial}{\partial x}\tau_{xz} + \frac{\partial}{\partial y} \tau_{yz} + \frac{\partial}{\partial z} \sigma_{z}
@@ -43,11 +43,13 @@ f_{x} \\ f_{y} \\ f_{z}
 $$
 ### Governing PDE for Stress
 $$
-\nabla \cdot \sigma + f^{b} = 0
+\nabla \cdot \sigma + f^{ext} = 0
 $$
 (Strong form)
 
-Note: Very complicated. We'll rarely use this, instead use [[Discrete Energy Approach]] (see [[Linear Elasticity Model]]).
+Note:
+- Static equilibrium between Cauchy stress $\sigma$ and body force density $f^{ext}$
+- Very complicated. We'll rarely use this, instead use [[Discrete Energy Approach]] (see [[Linear Elasticity Model]]).
 #### Derivation of Internal Stress X-Component
 Note: Each of these three terms describes the stress at the two faces of each axis of the unit cube.
 

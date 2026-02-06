@@ -42,5 +42,5 @@ Describe the relation between stress and strain in a simplified model:
 ### Nonlinear Elasticity
 [[Nonlinear Elasticity]]
 ## Finite Elements
-Then, we have to discretize it:
+Then, we have to discretise it:
 [[Finite Element Discretization]]

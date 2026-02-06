@@ -9,29 +9,19 @@ Commonality: Zero shear modulus (cannot resist any shear force applied to them, 
 Note: We'll not look at liquids, mostly gasses (liquids have some tricky edge conditions)
 ## Calculus Review
 ### Functions & Gradients
-#TODO: Slide 6
 Note: $\nabla f^{T} \Delta x$ change can be written as a dot product!
+[[Gradient (Nabla)|$\nabla$]]
 ### Vector Fields
-Vector field assigns a vector to every point in space
-$$
-\mathbf{u}(x,y,z) = \left( u(x,y,z), v(x,y,z), w(x,y,z) \right)^{T}
-$$
+[[Vector Field]]
 ### Divergence
 How much vectors diverge at a certain point. Can tell us if it's a source or a sink.
 
-[[Divergence (Nabla *)|Divergence]]
+[[Divergence|Divergence ($\nabla \cdot$)]]
 ### Curl
 How fast vector field is rotating around a given point.
-$$
-\nabla \times \mathbf{u} = \nabla \times (u,v,w) = \left( \frac{\partial w}{\partial y} - \frac{\partial v}{\partial z}, \frac{\partial u}{\partial z} - \frac{\partial w}{\partial x}, \frac{\partial v}{\partial x} - \frac{\partial u}{\partial y} \right)^T
-$$
-This can tell us if the field is incompressible (which we want for fluids). Notably, check $\nabla \varphi$ for compressibility: 
-![[Curl Helmholtz decomp..png]]
+[[Curl]]
 ### Laplacian
-Laplacian is the composition of gradient and divergence operators.
-$$
-\nabla^{2} f = \nabla \cdot \nabla f = \frac{\partial^{2} f}{\partial x^{2}} + \frac{\partial^{2} f}{\partial y^{2}}+ \frac{\partial^{2} f}{\partial z^2}
-$$
+[[Laplacian]]
 ## Modeling Fluid Dynamics
 [[Navier Stokes Equation#Incompressible]]
 
@@ -41,13 +31,35 @@ This chapter basically derives the [[Navier Stokes Equation]].
 Incompressibility means, that any region $\Omega$ must preserve its volume. Equivalently, net flux through boundary $\partial \Omega$ with normal $\mathbf{n}$ must be $0$.
 
 Note: Gasses are compressible, but at CG speeds, we can pretend they're not. Makes our lives easier.
-
 ### Momentum Equation
 [[Navier Stokes Equation#Momentum Equation]]
 Recall: Momentum = mass times velocity
 
 #### Cauchy Momentum Equation
-#TODO: Cauchy Momentum Equation
+[[3D Stress#Governing PDE for Stress]]:
+$$
+\nabla \cdot \sigma + f^{ext} = 0
+$$
+
+There we get the Cauchy Moment Equation:
+$$
+\rho \frac{du}{dt} = \nabla \cdot \sigma + f^{ext}
+$$
+Note:
+- This generalizes the governing PDE to a dynamic equilibrium, i.e. particles are allowed to move.
+#### Stress
+Question: What form does $\sigma$ take for fluids?
+$$
+\sigma = \tau - pI
+$$
+Where:
+- See [[3D Stress#Cauchy's Stress Theorem]] for $\tau, \sigma$
+- $p = \frac{1}{3}(\sigma_{xx} + \sigma_{yy} + \sigma_{zz})$ pressure is the negative mean **normal stress**.
+	- Pressure: Whatever it takes to make the velocity field divergence-free
+- $\tau = \sigma + p I$ deviatoric part, traceless, describes **visocous stress**.
+	- Viscosity:
+		- Resists relative motion in fluid proportional to [[Laplacian|Laplacian ($\nabla^2$)]]
+		- Visually, how far from average is the velocity at a given location?
 #### Stokes' Assumption
 * Stress depends linearly on velocity gradient $\mathbf{u}$.
 * Fluid is isotropic (same in all direction)
@@ -64,11 +76,12 @@ Divergence of $\tau$ follows as Laplacian of $\mathbf{u}$:
 $$
 \nabla \cdot \tau = \mu \nabla \cdot \nabla \mathbf{u}
 $$
-### Interpreting Pressure and Viscosity Terms
-#TODO: This.
-### Plugging In
-#TODO: This.
-(On slide: Outlined term is what doesn't line up yet)
+### Checkpoint: Viscous Stress and Cauchy Momentum
+By combining $\sigma = \tau - pI$, $\tau = \mu(\nabla \mathbf{u} + (\nabla \mathbf{u})^T)$ and the [[#Cauchy Momentum Equation]], we get:
+$$
+\rho \frac{du}{dt} = \nabla \cdot \sigma + f^{ext} = -\nabla p + \mu \nabla^{2}u + f^{ext}
+$$
+Not quite at the [[Navier Stokes Equation]] yet: Should be $\frac{\partial u}{\partial t} + u \cdot \nabla u$ on the left hand side.
 ### Eulerian vs Lagrangian
 #### Eulerian
 Compute how quantity $q$ changes locally in time and space.
@@ -79,8 +92,10 @@ Look at: Total derivatives $\frac{dq}{dt}$.
 
 Function only depends on time, since $q$ depends on $x,t$, but $x$ is a function of $t$.
 
-#TODO: Material Derivative $Dq/Dt$
-
+$$
+\frac{dq_{i}}{dt} = \frac{\partial q}{\partial t} + \frac{\partial q}{\partial x_{i}}\frac{\partial x_{i}}{\partial t} = \frac{\partial q}{\partial t} + u_{i}\cdot \frac{\partial q}{\partial x} = \frac{Dq}{Dt}
+$$
+$\frac{Dq}{Dt}$ is the material derivative, the rate of change of $q$ belonging to a given material/fluid element (particle) moving within a material/fluid.
 ### Vector Quantities
 * Same equation applies to vector quantities (e.g. colour, velocity, density, ...)
 * For Navier Stokes: Advect velocity ($\mathbf{u} \cdot \nabla \mathbf{u}$).
@@ -93,6 +108,7 @@ Three types of boundary conditions for solid objects:
 * For non-moving boundaries, we have: $\mathbf{u} \cdot \mathbf{n} = 0$
 * Moving boundaries: $\mathbf{u} \cdot \mathbf{n} = \mathbf{u}_{\text{solid}} \cdot \mathbf{n}$
 * For viscous fluids, impose no-slip condition: $\mathbf{u} = \mathbf{u}_{\text{solid}}$
+	* Fluid gets "dragged" along the side of the moving object, sticks to it
 ## Solving the Navier Stokes Equations
 Some issues, we have constraints, not just PDEs!
 

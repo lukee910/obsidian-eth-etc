@@ -13,6 +13,13 @@ Lecture Topics:
 ## Basics
 ### Taylor
 $y(t+h) = y(t) + hy'(t) + \frac{h^{2}}{2!}y''(t) + \ldots$
+### Vector Calculus
+- [[Gradient (Nabla)|$\nabla$]]
+- [[Vector Field]]
+- [[Divergence|Divergence ($\nabla \cdot$)]]
+- [[Curl|Curl ($\nabla \times u$)]]
+- [[Cross Product|Cross Product ($v \times w$)]]
+- [[Laplacian|Laplacian ($\nabla^2$)]]
 ## Mass Spring Systems
 [[_T Mass-Spring Systems]]
 [[Mass-Spring Systems - Overview]]
@@ -132,7 +139,6 @@ Cauchy's Stress Theorem: $t(x, n) = \sigma(x) \cdot n$
 	- Elastic stretching force per area
 * $\tau_{ij}$: Shear stress
 	* Force in direction $i$ induced by stretching in direction $j$
-* 
 Where:
 $$
 \sigma(x) \cdot n = \begin{pmatrix}
@@ -141,7 +147,7 @@ $$
 $$
 ...we get the strong form governing PDE for stress:
 $$
-\nabla \cdot \sigma + f^{b} = 0
+\nabla \cdot \sigma + f^{ext} = 0
 $$
 (But instead [[Discrete Energy Approach]]. See [[Linear Elasticity Model]])
 ### Elasticity Models
@@ -184,5 +190,62 @@ $$
 Note:
 - $F$ linear in $x_{i}$
 - $F$ constant across an element (e.g. tetrahedron)
+## Fluid Simulation
+[[04V Fluid Simulation]]
+![[Navier Stokes Equation]]
 
+Note: We consider **gasses** incompressible here, treat them the same as fluids.
+
+### Cauchy Moment Equation
+$$
+\rho \frac{du}{dt} = \nabla \cdot \sigma + f^{ext}
+$$
+### Stress
+$$
+\sigma = \tau - pI
+$$
+- $p = \frac{1}{3}(\sigma_{xx} + \sigma_{yy} + \sigma_{zz})$ pressure is the negative mean **normal stress**.
+	- Pressure: Whatever it takes to make the velocity field divergence-free
+- $\tau = \sigma + p I$ deviatoric part, traceless, describes **visocous stress**.
+	- Viscosity:
+		- Resists relative motion in fluid proportional to [[Laplacian|Laplacian ($\nabla^2$)]]
+		- Visually, how far from average is the velocity at a given location?
+### Eulerian vs Lagrangian
+- Eulerian
+	- Compute quantity $q$ at a location in time and space
+	- Partial derivaties $\frac{\partial q}{\partial t}, \frac{\partial q}{\partial x}$
+- Lagrangian
+	- Compute quantity $q$ for given particle
+	- Total derivatives $\frac{dq}{dt}$
+- Material Derivative $\frac{Dq}{Dt}$: Determines the rate of change of $q$ for a given particle as it moves through the material/fluid
+### Solving Navier Stokes
+- Constraints (Boundary Conditions)
+	- Following conditions must hold at that boundary, with $n$ the normal of the boundary
+	- Non-moving boundaries: $u \cdot n = 0$
+	- Moving obstacles: $u \cdot n = u_{solid} \cdot n$
+	- No-slip condition (viscous fluids): $u = u_{solid}$
+		- Fluid gets "dragged" along the side of the moving object, sticks to it
+#### Advection
+- Discretisation
+	- Regular grid: Store pressure $p_{i,j}$ and velocity $u_{i,j} = (u_{i,j}, v_{i,j})$ at points $x_{i,j}$
+		- Problems with collocation, like [[Aliasing (Graphics)]]
+	- Staggered Grid (MAC Grid, Marker and Cell)
+		- Pressure $p_{i,j}$ is at the center of the grid.
+		* $x$-part of velocity $u_{\frac{i+1}{2}, j}$ in middle of $x=const$ face.
+		* $y$-part of velocity $v_{i, \frac{j+1}{2}}$ in middle of $y=const$ face.
+		* Velocity derivatives at cell centers are computed using centered differences:
+$$\frac{\partial u}{\partial x}(x_{i,j}) = \frac{u_{i+\frac{1}{2}, j} - u_{i-\frac{1}{2}, j}}{\Delta x}$$
+		* Problem: Where does the particle go? $\Rightarrow$ Lagrangian Advection
+* Lagrangian Advection
+	* Solve lagrangian equation $\frac{Du}{Dt} = 0$ 
+	* Look backward in time from grid point to see where data comes from, interpolate at previous time
+#### Viscosity
+Solve viscous ODE. Leads to sparse linear system:
+$$
+\left( I - \frac{\Delta t \mu}{\rho} \nabla^{2} \right) u_{new} = u_{old}
+$$
+#### External Forces
+Usually okay to do with [[Solving ODEs#Explicit Euler]].
+#### Pressure
+From [[Poisson Equation]] for unknown pressure, get one equation per cell. Sparse system of linear equations, use sparse solver.
 

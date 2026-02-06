@@ -1,5 +1,7 @@
 ## Idea
 Start at continuous model, take strain, stress, energy, and equilibrium conditions.
+[[1D Case for Continuum Mechanics]]
+[[3D Case for Continuum Mechanics]]
 
 Then, discretise with Finite Elements:
 * Decompose model into elements (e.g. tetrahedra)

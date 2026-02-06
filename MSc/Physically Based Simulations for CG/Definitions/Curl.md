@@ -1,12 +1,11 @@
-Determine type membership and [[Subtyping|subtype]] relations based on availability of methods and fields.
+---
+aliases:
+  - Curl ($\nabla \times u$)
+---
 
-vs [[Nominal Subtyping]]
-
-### Curl
 How fast vector field is rotating around a given point.
 $$
 \nabla \times \mathbf{u} = \nabla \times (u,v,w) = \left( \frac{\partial w}{\partial y} - \frac{\partial v}{\partial z}, \frac{\partial u}{\partial z} - \frac{\partial w}{\partial x}, \frac{\partial v}{\partial x} - \frac{\partial u}{\partial y} \right)^T
 $$
 
-This can tell us if the field is incompressible (which we want for fluids). Notably, check $\nabla \varphi$ for compressibility: 
-![[Curl Helmholtz decomp..png]]
+See: [[Cross Product|Cross Product ($v \times w$)]]
