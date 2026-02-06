@@ -3,10 +3,11 @@
 * Deformed State $\Omega \subset \mathbb{R}^{3}$, described by positions $x$
 ### Displacement Field
 Displacement field $u$ maps from $\bar{\Omega}$ to $\Omega$
-![[3D CM FEM setup.png]]
+![[3D CM FEM setup.png|600]]
 Note: $u$ doesn't connect to energy as easily. Imagine moving an object to the right, has a displacement but no additional stored energy.
 ### Deformations
 Choose (undeformed) material points $\bar{x}_{1}, \bar{x}_{2}$ and $\bar{d} = \bar{x}_{2} - \bar{x}_{1}$ s.t. $|\bar{d}|$ is infinitesimal.
+![[Displacement Vector Deformed.png|300]]
 
 Consider deformed vector $d$:
 $$
@@ -28,8 +29,9 @@ $$
 $$
 F = (I + \nabla u)
 $$
-## 3D Non-Linear Strain
-[[3D Non-Linear Strain]]
+Maps undeformed vectors to deformed vectors, $d = F\bar{d}$.
+## 3D Nonlinear Strain
+[[3D Nonlinear Strain]]
 ## 3D Stress
 [[3D Stress]]
 ## Elasticity Models

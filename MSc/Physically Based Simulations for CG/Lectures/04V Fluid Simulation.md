@@ -19,14 +19,7 @@ $$
 ### Divergence
 How much vectors diverge at a certain point. Can tell us if it's a source or a sink.
 
-$$
-\nabla \cdot \mathbf{u} = \left( \frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z} \right)^{T \mathbf{u}}= \frac{\partial \mathbf{u}}{\partial x} + \frac{\partial \mathbf{u}}{\partial y}, \frac{\partial \mathbf{u}}{\partial z}
-$$
-
-NOTE $\nabla \mathbf{u}$ is a **matrix**!
-NOTE: $\nabla \cdot \mathbf{u} \neq \nabla \mathbf{u}$:  $\nabla \cdot u = tr(\nabla \mathbf{u})$.
-#TODO: Write the nabla stuff in definitions somewhere.
-![[Divergence Fluid.png]]
+[[Divergence (Nabla *)|Divergence]]
 ### Curl
 How fast vector field is rotating around a given point.
 $$
@@ -73,7 +66,7 @@ $$
 $$
 ### Interpreting Pressure and Viscosity Terms
 #TODO: This.
-### Plugging in
+### Plugging In
 #TODO: This.
 (On slide: Outlined term is what doesn't line up yet)
 ### Eulerian vs Lagrangian
@@ -88,7 +81,7 @@ Function only depends on time, since $q$ depends on $x,t$, but $x$ is a function
 
 #TODO: Material Derivative $Dq/Dt$
 
-### Vector quantities
+### Vector Quantities
 * Same equation applies to vector quantities (e.g. colour, velocity, density, ...)
 * For Navier Stokes: Advect velocity ($\mathbf{u} \cdot \nabla \mathbf{u}$).
 ### Plugging in, again

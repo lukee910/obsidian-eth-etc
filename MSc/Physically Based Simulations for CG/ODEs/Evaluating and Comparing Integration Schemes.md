@@ -24,6 +24,7 @@ A method with local error $\mathcal{O(h^{p+1})}$ is $p$-accurate.
 ## Comparing Integration Schemes
 Comparing is challenging, depends on the case/model.
 ### Dahlquist's Test Equation
+I _think_ the idea is: Apply any integration scheme to estimate $y$ via the given $y'$. Compare the integration result to analytical result $y$ for different $a$ (or $\lambda$) parameters.
 
 | Test Equation        | Analytical Solution        |
 | -------------------- | -------------------------- |
@@ -61,7 +62,7 @@ $$
 Stability Condition: For $|(1+h\lambda)^{n} y_{1}| < \infty$, we need $|(1 + h\lambda)| < 1$.
 (Recall: Damped system $\Rightarrow$ $\lambda < 0$)
 
-Especially bad for [[Stiff Problem]]s.
+Especially bad for [[Stiff Problem]].
 #### Implicit Euler
 [[Solving ODEs#Implicit Euler]]
 Implicit Euler Update: $y_{n+1} = y_{n} + h \lambda y_{n+1}$

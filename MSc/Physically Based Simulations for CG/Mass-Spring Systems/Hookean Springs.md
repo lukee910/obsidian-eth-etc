@@ -25,7 +25,7 @@ E(l) &= E(L) + \int_{L}^{l} \frac{dE}{dx}(x) dx = \int_{L}^{l}-f^{int}(x) dx \\
 f^{int} &= -\frac{dE}{dx} = -k(l - L)
 \end{align}
 $$
-### Work in $R^n$
+### Work In $R^n$
 Spring between points $x_{1}, x_{2}$, $e = x_{2}-x_{1}$. Force on $x_{1}$:
 $$
 \begin{align}

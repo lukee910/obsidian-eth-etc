@@ -6,9 +6,9 @@ When the same stretch is applied in two different directions, you get the same f
 ## Linear Isotropic Material
 (generalized Hooke's law)
 
-Energy density: $\Psi = \frac{1}{2} \lambda\ tr(\varepsilon)^{2} + \mu\ tr(\varepsilon^{2})$ ($\varepsilon$ [[3D Non-Linear Strain#Cauchy Strain|Cauchy Strain]], matrix; $\lambda,\gamma$ Lamé parameters, scalar)
+Energy density: $\Psi = \frac{1}{2} \lambda\ tr(\varepsilon)^{2} + \mu\ tr(\varepsilon^{2})$ ($\varepsilon$ [[3D Nonlinear Strain#Cauchy Strain|Cauchy Strain]], matrix; $\lambda,\mu$ Lamé parameters, scalar)
 
-Cauchy Stress: $\sigma = \frac{\partial \Psi}{\partial \varepsilon} = \lambda\ tr(\varepsilon) I + 2 \gamma \varepsilon$.
+Cauchy Stress: $\sigma = \frac{\partial \Psi}{\partial \varepsilon} = \lambda\ tr(\varepsilon) I + 2 \mu \varepsilon$.
 
 Interpretation: $tr(\varepsilon^{2})$ penalizes all strain components equally. $\lambda\ tr(\varepsilon)^{2}$ penalizes dilatations, i.e. volume changes. Traces approximates the determinant of the volume change, but is linear so easier to compute.
 

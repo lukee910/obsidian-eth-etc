@@ -3,6 +3,6 @@ Make a finite differences approximation. Your error should decrease quadraticall
 
 Similar for Hessians.
 ## Energy
-Install a on-the-fly differentation library, check if it makes sense.
+Install an on-the-fly differentiation library, check if it makes sense.
 
 `tiny-ad` for cpp.

@@ -8,7 +8,7 @@ We have from Hooke's law: $\sigma = E \varepsilon$ ($E$: Young's elasticity modu
 
 Note: Here we assume the other two directions are not doing anything. For real silicone, the other two dimensions would have to contract in order to preserve volume.
 ## Segment Deformation
-[[CM 1D segment deformation with forces.png]]
+![[CM 1D segment deformation with forces.png]]
 Segment $[x_{i}, x_{j}]$ with $L_{ij} = x_{j} - x_{i}$ and $l_{ij} = x'_{j} - x'_{i}$.
 ### Displacement Field
 Displacement Field: $u(x) = x' - x$ (deformed minus undeformed)

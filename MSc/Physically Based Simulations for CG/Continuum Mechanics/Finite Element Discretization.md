@@ -15,7 +15,7 @@ We can always compute them. From the triangle example:
 ![[Finite Element Triangle.png]]
 Basis functions are linear: $N_{i}(\bar{x},\bar{y}) = a_{i}\bar{x} + b_{i}\bar{y} + c_{i}$.
 
-From $N_{i}(\bar{x}_{j}) = \delta_{ij}$ (Chirac delta, basis functions must interpolate and be 1 only at their node) we obtain:
+From $N_{i}(\bar{x}_{j}) = \delta_{ij}$ ([[Dirac Delta]], basis functions must interpolate and be 1 only at their node) we obtain:
 $$
 \begin{bmatrix}
 x_{1} & y_{1} & 1 \\ x_{2} & y_{2} & 1 \\ x_{3} & y_{3} & 1
@@ -45,4 +45,4 @@ Use the basis functions to define continuous geometry of element as: #TODO
 $$
 F = I + \frac{\partial u(\bar{x})}{\partial \bar{x}} = \frac{\partial x(\bar{x})}{\partial \bar{x}} = \sum\limits_{i} x_{i} \left( \frac{\partial N_{i}}{\partial \bar{x}} \right)^{T}
 $$
-Note: $F \in \mathbb{R}^{3x3}$ and $F$ is linear in $x_{i}$. $N_{i}$ are linear on element $\to$ $F$ is constant across element.
+Note: $F \in \mathbb{R}^{3x3}$ and $F$ is linear in $x_{i}$. $N_{i}$ are linear on element $\Rightarrow$ $F$ is constant across element.

@@ -17,10 +17,10 @@ $$
 * $\sigma_{i}$: Normal stress components (def. see [[1D Case for Continuum Mechanics#Setup]])
 * $\tau_{ij}$: Shear stress components
 Entries of $\sigma$ are force components on unit cube (for constant stress):
-![[Cauchy Stress Cube.png]]
+![[Cauchy Stress Cube.png|250]]
 ## Stress Equilibrium
 Stress varies spatially. Consider traction forces acting on the unit cube:
-![[3D Stress Force Balance Unit Cube.png]]
+![[3D Stress Force Balance Unit Cube.png|400]]
 We will focus on the x axis.
 
 ### Internal Force Density of Stress
@@ -48,9 +48,9 @@ $$
 (Strong form)
 
 Note: Very complicated. We'll rarely use this, instead use [[Discrete Energy Approach]] (see [[Linear Elasticity Model]]).
-#### Derivation of internal stress x-component
+#### Derivation of Internal Stress X-Component
 Note: Each of these three terms describes the stress at the two faces of each axis of the unit cube.
 
-For the x-axis-faces, we look at the normal stress $\sigma_{x}$. The total force is $\sigma_{x}(x) \cdot (-dy\ dz)$ from the "back" face, plus $\sigma_{x}(x + dx) \cdot (dy\ dz)$ from the "front" face. Over all, that's $(\sigma_{x}(x + dx) - \sigma_{x}(x)) \cdot dy\ dz$. The $dy\ dz$ gets cancelled on $\frac{f_{x}}{dx \cdot dy \cdot dz}$.
+For the x-axis-faces, we look at the normal stress $\sigma_{x}$. The total force is $\sigma_{x}(x) \cdot (-dy\ dz)$ from the "back" face, plus $\sigma_{x}(x + dx) \cdot (dy\ dz)$ from the "front" face. Overall, that's $(\sigma_{x}(x + dx) - \sigma_{x}(x)) \cdot dy\ dz$. The $dy\ dz$ gets cancelled on $\frac{f_{x}}{dx \cdot dy \cdot dz}$.
 
 The other faces contribute only sheer stress. The same type of operation and cancellation happens.

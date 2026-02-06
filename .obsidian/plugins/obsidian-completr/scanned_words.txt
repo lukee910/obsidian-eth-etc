@@ -270,6 +270,8 @@ TUU
 TUu
 TwZ
 Transformation
+True
+Tends
 For
 Find
 FB
@@ -826,6 +828,7 @@ ehY
 eas
 eppp
 emissive
+evaluations
 matrix
 matrices
 mA
@@ -1101,6 +1104,7 @@ mll
 mZpttTW
 mfO
 measures
+markdown
 there
 that
 the
@@ -1398,6 +1402,9 @@ tAzz
 tNk
 trr
 teZNw
+timestep
+third
+tetrahedron
 orthogonal
 optimizing
 on
@@ -1640,6 +1647,8 @@ oll
 ofIj
 oxJse
 oqY
+online
+optimise
 and
 as
 an
@@ -1979,6 +1988,7 @@ acute
 apg
 ammm
 app
+almost
 such
 symmetric
 semidefinite
@@ -2446,6 +2456,8 @@ suA
 suyyYv
 separable
 specifically
+scheme
+skip
 can
 centered
 ctq
@@ -2933,6 +2945,13 @@ cddt
 ccCy
 cvp
 compute
+cloned
+cdot
+conserves
+caused
+collapses
+compression
+calculating
 be
 by
 bT
@@ -3187,6 +3206,8 @@ baa
 byFF
 bnS
 bfn
+browse
+barriers
 Any
 Analysis
 AV
@@ -3486,6 +3507,8 @@ AeJ
 AN
 Awu
 Adaption
+Alternatively
+Applied
 positive
 projection
 principal
@@ -4009,6 +4032,7 @@ nnnZZ
 nNNN
 nik
 nCmm
+nodal
 diagonalized
 data
 definition
@@ -4369,6 +4393,10 @@ djj
 dOOOZ
 dkk
 duku
+differentation
+discretise
+displaced
+dilations
 with
 wd
 wq
@@ -4882,6 +4910,8 @@ rah
 rYU
 ryjjJ
 rXG
+repository
+reaching
 loss
 largest
 lc
@@ -5125,6 +5155,7 @@ lHKBG
 liC
 lmG
 lKb
+lose
 is
 io
 in
@@ -5254,7 +5285,6 @@ impose
 ideas
 integral
 idk
-integrate
 implicit
 interact
 indicator
@@ -5429,6 +5459,12 @@ iwO
 iyH
 iEQt
 independently
+implications
+induced
+infinity
+invert
+interpolate
+inverting
 given
 gAMA
 gj
@@ -5633,6 +5669,7 @@ ghhH
 gObccy
 gea
 gggG
+guess
 formed
 fx
 fKg
@@ -5882,6 +5919,8 @@ fsAAAJJJjjjqqqjjjFFFii
 fsaa
 fee
 format
+filename
+fly
 Principle
 Prop
 Polynomial
@@ -6550,6 +6589,14 @@ Contributions
 Convenient
 Cartesian
 Coordinates
+Clone
+Corresponds
+Compare
+Comparison
+Conserves
+Continuum
+Cheaper
+Chirac
 Where
 Wn
 Wy
@@ -7572,6 +7619,9 @@ SZZj
 SUUUff
 SKkNf
 SslE
+Slower
+Softens
+Solves
 IHDR
 IDATx
 IR
@@ -7841,6 +7891,8 @@ IStf
 Ihh
 Interval
 Inverting
+Install
+Interpolate
 HIG
 HU
 HA
@@ -8059,6 +8111,7 @@ HJJB
 HKk
 HHHH
 HLNN
+Hookean
 qj
 qO
 qM
@@ -8205,6 +8258,7 @@ qCk
 qSUUE
 qKbN
 qsKJ
+quadratically
 EDDDDD
 Et
 EDDD
@@ -8509,6 +8563,9 @@ Euuu
 Eqq
 EXo
 EQt
+Exit
+Expensive
+Element
 XDD
 Xd
 Xc
@@ -9043,6 +9100,7 @@ uWW
 uIP
 uiI
 uda
+undisplaced
 Bd
 Bi
 BE
@@ -9315,6 +9373,7 @@ BKym
 BfZ
 BnZ
 BvhT
+Basics
 Qr
 Qd
 QDDDDDDJR
@@ -10009,6 +10068,7 @@ LuuuNNNyy
 Lzy
 LJ
 LwyJ
+Logs
 xV
 xz
 xzTS
@@ -10508,6 +10568,10 @@ DPeHMM
 DQLKK
 DGGs
 Desired
+Download
+Differentiable
+Displaced
+Divide
 Kp
 Kt
 KN
@@ -11061,6 +11125,8 @@ OHMM
 OaD
 Ouu
 OJJJLLL
+Obsidian
+Open
 kzd
 kg
 kS
@@ -11423,6 +11489,7 @@ VYY
 VQQ
 VEr
 VVVv
+Vault
 zk
 zRG
 zN
@@ -11793,6 +11860,8 @@ Nori
 NLKKs
 Nwm
 NUUUU
+Neo
+Nodal
 Mv
 Mg
 MLs
@@ -12072,6 +12141,9 @@ MKEQ
 Mixed
 Mix
 Mats
+Mechanics
+Modulus
+Measure
 Zb
 ZF
 Zi
@@ -12818,6 +12890,7 @@ hQV
 hiiy
 hVTIS
 hlh
+headache
 Yq
 YTC
 Yb
