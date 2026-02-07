@@ -7,7 +7,7 @@ Two passes:
 Connect to eye subpaths using Kernel Density Estimation.
 ## Photon Tracing
 Emit photons, scatter them and store them at randomly many of the bounces.
-### Initial Definitions per Photon
+### Initial Definitions Per Photon
 - $x_{p}$: position
 - $\vec{\omega}_{p}$: direction
 - $\Phi_{p}$: photon power ([[Flux]], not [[Radiance]])
@@ -37,9 +37,9 @@ divide all photon powers by number of emitted photons;
 - Possibly store photon
 - Sample BRDF/BSDF
 - Calculate new power based on BSDF/BRDF
-- Continue the bounces (Russian Roulette, re-weigh power)
+- Continue the bounces (Russian Roulette, reweigh power)
 Pseudocode on [[CG 07V2 Global Illumination III]] Slide 65.
-#### Storing the photons
+#### Storing the Photons
 - Store only on diffuse (or moderately glossy) surfaces.
 - Stored data can explode, use packing ([[CG 07V2 Global Illumination III]] Slide 67)
 #### Path Termination
@@ -77,7 +77,9 @@ Using a non-constant kernel:
 Note: Photon count and found photons have to be relatively in balance. E.g. 100k photons and only 50 photons in the radiance estimate may be very splotchy.
 ## Improvements
 ### Caustic Improvements
-#TODO: Slide 90
+- Higher quality map to tackle caustics
+	- Only store $LS+D$ paths
+	- Shoot many photons at specular objects to fill it
 ### Final Gather
 Use MC ray tracing to push the density estimation (blotchy area) one bounce further from the camera.
 ## Testing

@@ -16,5 +16,7 @@
 	- For normalized $\vec{\omega}$: $\cos \theta = \vec{\omega}.z$.
 		- See: [[CG Sheet 4#3) `integrateDirect`]]
 		- See: Nori local coordinates setting
-
-
+- Photon Mapping
+	- [[Heckbert's Classification]], [[CG Sheet 4#3.1]] -> What kind of paths are covered
+	- Need infinite storage for true integral
+	- Free path sampling in homogeneous media: $t = -\frac{\ln(1 - \xi)}{\sigma_{t}}$

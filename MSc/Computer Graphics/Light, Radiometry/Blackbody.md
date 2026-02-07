@@ -1,6 +1,6 @@
 Hypothetic body that completely absorbs all wavelengths of thermal radiations.
 
-Emissions from a perfect blackbody: Continuous across the spectrum. Color spectrum of emission is purely defined by the temperature of the material.
+Emissions from a perfect blackbody: Continuous across the spectrum. Colour spectrum of emission is purely defined by the temperature of the material.
 
 Emission is defined by [[Planck's Law]].
 

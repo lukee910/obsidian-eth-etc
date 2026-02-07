@@ -8,7 +8,7 @@ $$
 L_{s}(x_{t}, \vec{\omega}) = \int_{S^{2}} f_{p}(x_{t}, \vec{\omega}', \vec{\omega}) L_{i}(x_{t}, \vec{\omega}')\ d \vec{\omega}'
 $$
 ### Single Scattering
-$L_{i}$ arrives directly from a light source (direct illumination). i.e.:
+$L_{i}$ arrives directly from a light source (direct illumination). I.e.:
 $$
 L_{i}(x, \vec{\omega}) = T_{r}(x, r(x, \vec{\omega})) L_{e}(r(x, \vec{\omega}), -\vec{\omega})
 $$

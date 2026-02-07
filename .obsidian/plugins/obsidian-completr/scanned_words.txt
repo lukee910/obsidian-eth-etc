@@ -273,6 +273,9 @@ Transformation
 True
 Tends
 Thinking
+Tricks
+Track
+Them
 For
 Find
 FB
@@ -510,6 +513,7 @@ FYEQ
 FPw
 Following
 Formulations
+False
 each
 exists
 expressed
@@ -1412,6 +1416,9 @@ taken
 traceless
 treat
 travels
+tackle
+tweaked
+tight
 orthogonal
 optimizing
 on
@@ -1657,6 +1664,7 @@ oqY
 online
 optimise
 obstacles
+occurs
 and
 as
 an
@@ -1997,6 +2005,7 @@ apg
 ammm
 app
 almost
+accounts
 such
 symmetric
 semidefinite
@@ -2469,6 +2478,7 @@ skip
 satisfying
 surrounding
 sticks
+say
 can
 centered
 ctq
@@ -3524,6 +3534,7 @@ Adaption
 Alternatively
 Applied
 About
+Along
 positive
 projection
 principal
@@ -3858,6 +3869,7 @@ pwwwss
 pdp
 parameterization
 planes
+preferable
 non
 negatively
 nKDN
@@ -4419,6 +4431,7 @@ differ
 deviatoric
 derivaties
 dragged
+decide
 with
 wd
 wq
@@ -4934,6 +4947,7 @@ ryjjJ
 rXG
 repository
 reaching
+reweigh
 loss
 largest
 lc
@@ -5944,6 +5958,7 @@ fee
 format
 filename
 fly
+fake
 Principle
 Prop
 Polynomial
@@ -6626,6 +6641,7 @@ Chirac
 Curvate
 Checkpoint
 Colliding
+Combines
 Where
 Wn
 Wy
@@ -7261,6 +7277,7 @@ GUVV
 GXO
 GcQ
 Getting
+Gains
 SGD
 See
 Sn
@@ -7656,6 +7673,7 @@ Solves
 Scalar
 Sparse
 Side
+Sand
 IHDR
 IDATx
 IR
@@ -7928,6 +7946,7 @@ Inverting
 Install
 Interpolate
 Improving
+Interaction
 HIG
 HU
 HA
@@ -8295,6 +8314,7 @@ qSUUE
 qKbN
 qsKJ
 quadratically
+quality
 EDDDDD
 Et
 EDDD
@@ -8602,6 +8622,9 @@ EQt
 Exit
 Expensive
 Element
+Equivalent
+Expanding
+Else
 XDD
 Xd
 Xc
@@ -9865,6 +9888,7 @@ RQY
 Relate
 Resists
 Resampled
+Relates
 LE
 Lh
 Lc
@@ -11911,6 +11935,7 @@ Nwm
 NUUUU
 Neo
 Nodal
+Nebulae
 Mv
 Mg
 MLs
@@ -12943,6 +12968,7 @@ hlh
 headache
 harmonic
 hand
+homogeneous
 Yq
 YTC
 Yb

@@ -1,5 +1,5 @@
 ## Idea
-Simulate the volumes properly.
+Simulate the [[Participating Media]] properly.
 
 With Path Tracing etc., the [[Radiance]] stays constant on a ray. This will be different here.
 ## Examples
@@ -17,9 +17,7 @@ With Path Tracing etc., the [[Radiance]] stays constant on a ray. This will be d
 	- Visible sun rays
 - Aerial Perspective, Atmospheric Perspective
 	- Objects in the distance become more faded
-- Nebulas
+- Nebulae
 	- Note: Most of this theory was initially developed for astrophysics before being adopted to CG
-## Properties to simulate
-- Emission
-- Absorption
-- Scattering
+## Radiance
+[[Participating Media Radiance]]

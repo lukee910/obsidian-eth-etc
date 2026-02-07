@@ -4,14 +4,15 @@ Get the next interaction with the medium. The thinner the [[Participating Media]
 #TODO: Slides 16 slide 76-77
 ## Sampling Examples
 ### Homogeneous Media
+[[Transmittance]]
 $$
 T_{r}(t) = e^{-\sigma_{t}(t)}
 $$
-PDF:
+[[Probability Density Function|PDF]]:
 $$
 \begin{align}
 p(t) &\propto e^{-\sigma_{t}(t)} \\
-p(t) &= \frac{e^{-\sigma_{t}(t)}}{\int_{0}^{\infty} e^{-\sigma_{t}(s)}\ ds} = e^{-\sigma_{t}(t)}
+p(t) &= \frac{e^{-\sigma_{t}(t)}}{\int_{0}^{\infty} e^{-\sigma_{t}(s)}\ ds} = \sigma_{t} e^{-\sigma_{t}(t)}
 \end{align}
 $$
 #TODO: Slides 16 Slide 78
@@ -23,7 +24,7 @@ $$
 What if we hit a surface first at $s < t_{max}$ (with $t_{max}$ the extent of the volume)?
 - Generate random number $\xi$
 - Compute distance $t = s$
-- Compute PDF $p(s) = e^{-\sigma_{t}(s)}$ (= [[Participating Media Radiance#Transmittance|Transmittance]])
+- Compute PDF $p(s) = e^{-\sigma_{t}(s)}$ (= [[Transmittance]])
 
 Choose approach based on which case we have, where the surface we hit is.
 ### Heterogeneous Media
@@ -55,7 +56,6 @@ Cons:
 ![[Free-Path Sampling Ray Marching.png]]
 #### Delta Tracking
 Use this if you want unbiased sampling.
-
 [[Delta Tracking]]
 
 Transmittance via delta tracking:

@@ -22,5 +22,8 @@ With: $z$ unspecified, $x = B$, $y = A$.
 ## Part 3: Photon Mapping
 ### 3.1
 [[Heckbert's Classification]]
-a) $L(D|S)*D$
-b) $$
+[[Photon Mapping]]
+- [[Photon Mapping#Final Gather]]
+- [[Photon Mapping#Caustic Improvements]]
+### 3.2
+[[Photon Mapping]]
