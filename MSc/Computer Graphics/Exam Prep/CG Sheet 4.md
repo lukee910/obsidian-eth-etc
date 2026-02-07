@@ -15,3 +15,5 @@ $$
 L_{r}(x, z) = \int_{A} f_{r}(x, y, z) L_{i}(x, y) G(x, y)\ dA(y)
 $$
 With: $z$ unspecified, $x = B$, $y = A$.
+## Part 2: Global Illumination and Light Paths
+
