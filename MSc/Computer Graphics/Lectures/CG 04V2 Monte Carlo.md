@@ -174,12 +174,7 @@ Procedure: First sample $X_{i} \sim p(x)$, then $Y_{i} \sim p(y|x)$.
 #### Uniform Sampling of a Disk
 [[Uniform Sampling of a Disk]]
 #### Direct Sphere Sampling
-#TODO: Slide 101
-#### Simplified Direct Sphere Sampling
-Improvement on slide 101 (green box) is based on Pythagorean theory, move the $\cos$ up and use $\sin = 1 - \cos^{2}$.
-
-Alternative view of looking at it:
-Use [[Archimedes' Hat-Box Theorem]]:
+[[Directly Sampling a Sphere]]
 #### Cosine-Weighted Hemispherical Sampling
 Turns out: Generating points uniformly on the disc and then projecting these points to the surface of the hemisphere produces the desired distribution.
 ![[Cosine-weighted Hemisphere Sampling.png]]

@@ -23,7 +23,6 @@ $$
 Nominator: Path throughput up to bounce $i$. Denominator: Pdf product up to bounce $i$. 
 ## Path Tracing
 #TODO: Slide 39, how it is composed in code
-#TODO: Add "Next Event Estimation" to terminology
 
 Note ray tracing vs path tracing: Ray tracing loses throughput, as ray counts explode. For path tracing, we just continue one ray across it, *constant number* of paths. Add [[#Russian Roulette]] and we have a *decreasing number* of paths.
 ### Progressive Path Tracing
@@ -31,9 +30,9 @@ Alternative way of writing path tracing. Difference is only about user feedback.
 
 "Normal" path tracing is "Blocked": Calculates blocks in a go. Can only see the result when the block is done for all samples.
 
-Progressive: Progressively samples better over all the pixels. Image is built up progressively as it is rendered.
+Progressive: Progressively samples better overall the pixels. Image is built up progressively as it is rendered.
 ### Path Tracing Caustics
-Really hard, because Next Event Estimation doesn't work. Have to gamba that the BRDF bounces hit.
+Really hard, because [[Next Event Estimation]] doesn't work. Have to gamba that the BRDF bounces hit.
 
 Can we do this better? See [[#Duality of Radiance and Importance]]
 ## Duality of Radiance and Importance

@@ -43,7 +43,6 @@ Motivation:
 $$
 L_{r}(x, \vec{\omega}_{r}) = \int_{H^{2}} f_{r}(x, \vec{\omega}_{i}, \vec{\omega}_{r}) L_{e}\left(r(x, \vec{\omega}_{i}), -\vec{\omega}_{i}\right) \cos \theta_{i}\ d\vec{\omega}_{i}
 $$
-
 [[Probability Density Function|PDF]]:
 $$
 p_{1}(\vec{\omega}) = \frac{\cos \theta}{\pi}
@@ -62,7 +61,7 @@ p_{2}(x) &= \frac{1}{A} \\
 &= \frac{1}{A} \frac{d^{2}}{\cos \theta}
 \end{align}
 $$
-#Unclear Which $\theta$?
+Note: PDF is on the $\cos \theta$ on the bounce surface
 #### Combining Contributions
 Idea: Sample from the average PDF:
 $$
@@ -74,8 +73,7 @@ The following _does not_ reduce [[Variance]], since Variance is additive (but sh
 $$
 \frac{0.5}{N_{1}} \sum\limits_{i=1}^{N_{1}}\frac{f(x_{i})}{p_{1}(x_{i})} + \frac{0.5}{N_{2}} \sum\limits_{i=1}^{N_{2}}\frac{f(x_{i})}{p_{2}(x_{i})}
 $$
-
-Getting the probabilities:
-### Mixed Importance Sampling vs Multiple Importance Sampling
+## Multiple Importance Sampling
 [[Multiple Importance Sampling]]
-
+## Resampled Importance Sampling
+[[Resampled Importance Sampling]]

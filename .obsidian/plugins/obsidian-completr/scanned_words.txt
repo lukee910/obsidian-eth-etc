@@ -509,6 +509,7 @@ Fyyy
 FYEQ
 FPw
 Following
+Formulations
 each
 exists
 expressed
@@ -1410,6 +1411,7 @@ tetrahedron
 taken
 traceless
 treat
+travels
 orthogonal
 optimizing
 on
@@ -2961,6 +2963,8 @@ caused
 collapses
 compression
 calculating
+circumscribing
+cylinder
 be
 by
 bT
@@ -3853,6 +3857,7 @@ pjjjEE
 pwwwss
 pdp
 parameterization
+planes
 non
 negatively
 nKDN
@@ -5482,6 +5487,7 @@ infinity
 invert
 interpolate
 inverting
+ist
 given
 gAMA
 gj
@@ -6247,6 +6253,7 @@ Parameterization
 Pay
 Pairs
 Programming
+Paths
 Component
 Characteristic
 Cd
@@ -7920,6 +7927,7 @@ Interval
 Inverting
 Install
 Interpolate
+Improving
 HIG
 HU
 HA
@@ -8139,6 +8147,7 @@ HKk
 HHHH
 HLNN
 Hookean
+Heuristic
 qj
 qO
 qM
@@ -9404,6 +9413,7 @@ BfZ
 BnZ
 BvhT
 Basics
+Balance
 Qr
 Qd
 QDDDDDDJR
@@ -9854,6 +9864,7 @@ RBL
 RQY
 Relate
 Resists
+Resampled
 LE
 Lh
 Lc
@@ -11162,6 +11173,7 @@ Ouu
 OJJJLLL
 Obsidian
 Open
+Optimized
 kzd
 kg
 kS

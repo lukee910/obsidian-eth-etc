@@ -16,4 +16,11 @@ L_{r}(x, z) = \int_{A} f_{r}(x, y, z) L_{i}(x, y) G(x, y)\ dA(y)
 $$
 With: $z$ unspecified, $x = B$, $y = A$.
 ## Part 2: Global Illumination and Light Paths
-
+### 2.1
+[[Heckbert's Classification]]
+[[Next Event Estimation]]
+## Part 3: Photon Mapping
+### 3.1
+[[Heckbert's Classification]]
+a) $L(D|S)*D$
+b) $$
