@@ -514,6 +514,8 @@ FPw
 Following
 Formulations
 False
+Free
+Focus
 each
 exists
 expressed
@@ -1112,6 +1114,7 @@ mZpttTW
 mfO
 measures
 markdown
+mini
 there
 that
 the
@@ -1665,6 +1668,7 @@ online
 optimise
 obstacles
 occurs
+occlusions
 and
 as
 an
@@ -2052,7 +2056,6 @@ sHY
 sf
 sm
 scyK
-sample
 samples
 sPo
 sb
@@ -2479,6 +2482,8 @@ satisfying
 surrounding
 sticks
 say
+subsets
+surjective
 can
 centered
 ctq
@@ -2975,6 +2980,9 @@ compression
 calculating
 circumscribing
 cylinder
+contain
+capture
+cracks
 be
 by
 bT
@@ -3232,6 +3240,8 @@ bfn
 browse
 barriers
 belonging
+blurrier
+blank
 Any
 Analysis
 AV
@@ -3535,6 +3545,7 @@ Alternatively
 Applied
 About
 Along
+Aperture
 positive
 projection
 principal
@@ -4062,6 +4073,7 @@ nik
 nCmm
 nodal
 naturally
+nah
 diagonalized
 data
 definition
@@ -5707,6 +5719,7 @@ gObccy
 gea
 gggG
 guess
+going
 formed
 fx
 fKg
@@ -5959,6 +5972,8 @@ format
 filename
 fly
 fake
+focusing
+forth
 Principle
 Prop
 Polynomial
@@ -6269,6 +6284,8 @@ Pay
 Pairs
 Programming
 Paths
+Pat
+Plenoptic
 Component
 Characteristic
 Cd
@@ -7674,6 +7691,7 @@ Scalar
 Sparse
 Side
 Sand
+SIGGRAPH
 IHDR
 IDATx
 IR
@@ -8167,6 +8185,8 @@ HHHH
 HLNN
 Hookean
 Heuristic
+Heart
+Hanrahan
 qj
 qO
 qM
@@ -9437,6 +9457,7 @@ BnZ
 BvhT
 Basics
 Balance
+Buffers
 Qr
 Qd
 QDDDDDDJR
@@ -9613,6 +9634,7 @@ Qcc
 QZZ
 QUUY
 Question
+Quickly
 RN
 RC
 Ru
@@ -10137,6 +10159,7 @@ LJ
 LwyJ
 Logs
 Leads
+Levoy
 xV
 xz
 xzTS
@@ -10642,6 +10665,7 @@ Displaced
 Divide
 Determines
 Discretisation
+Depths
 Kp
 Kt
 KN
@@ -10800,6 +10824,7 @@ KKKCrr
 KJJj
 KMM
 KhX
+Kerbl
 jn
 jw
 jfY
@@ -11563,6 +11588,7 @@ VVVv
 Vault
 Visuall
 Visually
+Viewpoint
 zk
 zRG
 zN
@@ -12219,6 +12245,8 @@ Mechanics
 Modulus
 Measure
 Markdown
+Mildenhall
+Marc
 Zb
 ZF
 Zi
@@ -12382,6 +12410,7 @@ Zjj
 Znxe
 ZZs
 ZZb
+Zitnick
 Jc
 Jz
 JYg
@@ -12744,6 +12773,7 @@ UCI
 Uyyy
 Uee
 UUk
+Unobserved
 hard
 hN
 hM

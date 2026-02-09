@@ -18,17 +18,16 @@ Where:
 - $\sigma$ is the noise variance of the image.
 - $k$: #TODO
 - $\varepsilon$: Prevent division by 0
-Do this per color channel.
+Do this per colour channel.
 
-Apply this on a patch of size $2f+1$ pairwise. Increasing $f$ makes it more blurry, but removes noise.
+Apply this on a patch of size $2f+1$ pairwise. Increasing $f$ makes it blurrier, but removes noise.
 ### Non-Local Means Filter (NL-Means)
 `Buades et. al 2006`
 Development with speed improvement of [[#Bilateral Filter]].
-#### NL-Means with non-uniform variance
+#### NL-Means with Non-Uniform Variance
 $$
-d^{2}(p,q) = \frac{(u(p) - u(q))^{2} - Var[p] + \min(Var[q], Var[p])}{\varepsilon + k^{2} \cdot 2\sigma^{2} \#TODO}
+d^{2}(p,q) = \frac{(u(p) - u(q))^{2} - Var[p] + \min(Var[q], Var[p])}{\varepsilon + k^{2} \cdot (Var[p] + Var[q])}
 $$
-#TODO
 ## Applying Denoising to Monte Carlo Ray Tracing
 Problem: Variance is non-uniform, both spatially and per channel. Hence, [[#NL-Means with non-uniform variance]].
 ## Variance Estimation
@@ -39,11 +38,19 @@ $$
 Var[p] = \left( \frac{1}{n-1} \sum\limits_{i=1}^{n}(x_{i} - \bar{x})^{2} \right) / n
 $$
 Where the term in the brackets is the sample variance.
-#TODO: What is $\bar{x}$?
-### 2-buffers Variance (Correlated Samples)
+Where:
+- $n$ is the number of samples within $p$
+- $\bar{x}$ is the average value of all samples within $p$
+- $x_{i}$ is the value of a sample within $p$
+### 2-Buffers Variance (Correlated Samples)
 For any option in [[Sample Placement - Overview#Approaches]], the independent approach does not work.
 
 Idea: Generate two images with different RNG seeds. Compute the variance estimate across these two images (image difference squared divided by four).
+
+Two series of samples ($x_{i,\ldots}$) with $N$ samples each.
+$$
+Var[p] = \frac{1}{4} \left( \sum\limits_{i=1}^{N} x_{i,1} - \sum\limits_{i=1}^{N} x_{i,2} \right)
+$$
 
 Problem: The variance itself is noisy, since it's only based on two samples.
 

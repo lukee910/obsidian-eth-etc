@@ -23,7 +23,7 @@ But, also just a patch on a patch.
 * octree (uniformly subdivide nodes)
 * kd-tree (adaptive sizes, AABB, most common)
 * bsp-tree (binary spatial partition, non-trivial traversal)
-### kd-tree
+### Kd-Tree
 Binary tree with variable volume sizes.
 
 Example:

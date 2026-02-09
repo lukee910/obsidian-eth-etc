@@ -105,16 +105,18 @@ Usually it's not possible to exactly cancel out the PDF. Even matching the shape
 Common strategy: Sample proportional to the integrand (or on one term of the integrand).
 ### Sampling Arbitrary Distributions
 Idea: Get a random variable $X_{i}$ for the desired distribution based on a simple [[Uniform Random Variable]] $\xi$.
-
-#TODO: Something's not entirely right here. How to use this for exercise [[CG Sheet 2#3.1 Jacobian Method]]?
 #### Inversion Method Process
 [[_T Sampling Recipe]] Inversion Method
 
-1. Compute the [[Cumulative Distribution Function|CDF]] $P(x) = \int^{x}_{0} p(x')\ dx$
+1. If you have two variables: Compute the individual probabilities
+	1. E.g. if given $p(\theta, \phi)$, get $p(\theta)$ by integrating over $\phi$ and $p(\phi) = \frac{p(\theta, \phi)}{p(\theta)}$
+2. Compute the [[Cumulative Distribution Function|CDF]] $P(x) = \int^{x}_{0} p(x')\ dx'$
 	1. Antiderivative of wished for $p(x)$
-2. Compute inverse $P^{-1}(x)$
-3. Obtain [[Uniform Random Variable]] $\xi$
-4. Compute $X_{i} = P^{-1}(\xi)$
+3. Compute inverse $P^{-1}(x)$
+4. Compute $X_{i}$
+	1. Obtain [[Uniform Random Variable]] $\xi$
+	2. Compute $X_{i} = P^{-1}(\xi)$
+	3. Alternatively: $\xi = P(x) \Rightarrow x = P^{-1}(\xi)$
 ![[Inversion Method.png]]
 #### Jacobian Method
 [[_T Sampling Recipe]] Jacobian Method

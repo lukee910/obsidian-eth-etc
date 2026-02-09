@@ -1,4 +1,4 @@
-"22-image-based-rendering.pdf"
+"22-image-based-rendering"
 
 Looking at the spectrum between image based approaches (more so CV) and geometry based representations (more so CG).
 

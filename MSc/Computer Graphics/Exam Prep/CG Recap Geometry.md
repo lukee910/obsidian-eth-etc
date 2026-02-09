@@ -10,6 +10,10 @@ sin & 0  & \frac{1}{2}        & \frac{\sqrt{2}}{2} & \frac{\sqrt{3}}{2} & 1     
 tan & 0  & \frac{1}{\sqrt{3}} & 1                    & \sqrt{3}           & +\infty       & 0     \\
 \end{array}
 $$
+$\sin$ order:
+$$
+\sin(): 0,\frac{\pi}{6},\frac{\pi}{4},\frac{\pi}{2},\pi = \frac{\sqrt{0}}{2}, \frac{\sqrt{1}}{2},\frac{\sqrt{2}}{2},\frac{\sqrt{3}}{2}, \frac{\sqrt{4}}{2}
+$$
 ![[unit_circle.png|500]]
 ### Important Equations
 - $\cos^{2} + \sin^{2} = 1$

@@ -1,12 +1,34 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": true,
+  "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "path:\"MSc/Computer Graphics\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:\"MSc/Physically Based Simulations for CG\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 643889
+      }
+    },
+    {
+      "query": "path:\"MSc/Concepts of OOP\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5413856
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -17,6 +39,6 @@
   "repelStrength": 12.5803334138681,
   "linkStrength": 1,
   "linkDistance": 162,
-  "scale": 0.1547411534497884,
+  "scale": 0.1031607689665256,
   "close": true
 }

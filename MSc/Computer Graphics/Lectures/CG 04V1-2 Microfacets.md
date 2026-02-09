@@ -9,11 +9,10 @@ Lambertian Reflection, Perfect Reflection
 Use the delta function properties to not fully solve the integral over the hemisphere. Specular directions are solved explicitly via the Dirac delta, only reflected from one direction.
 
 ## Polarization
-idk what the point of this part was, #Unclear ?
-
+Idk what the point of this part was, #Unclear?
 ## Advanced Models
 Rough conductors and dielectrics.
-Idea: Microscale is not smooth for a flat surface, has some roughness.
+Idea: Micro scale is not smooth for a flat surface, has some roughness.
 ### Empirical Models
 Empirical, Glossy.
 #### Phong

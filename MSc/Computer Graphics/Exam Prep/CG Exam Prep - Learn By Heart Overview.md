@@ -20,3 +20,5 @@
 	- [[Heckbert's Classification]], [[CG Sheet 4#3.1]] -> What kind of paths are covered
 	- Need infinite storage for true integral
 	- Free path sampling in homogeneous media: $t = -\frac{\ln(1 - \xi)}{\sigma_{t}}$
+- Denoising
+	- [[Image-Based Denoising#Sample Mean Variance (Independent Samples)]] Sample Variance
