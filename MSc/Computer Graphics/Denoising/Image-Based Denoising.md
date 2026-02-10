@@ -42,7 +42,7 @@ Where:
 - $n$ is the number of samples within $p$
 - $\bar{x}$ is the average value of all samples within $p$
 - $x_{i}$ is the value of a sample within $p$
-### 2-Buffers Variance (Correlated Samples)
+### 2-Buffer Variance (Correlated Samples)
 For any option in [[Sample Placement - Overview#Approaches]], the independent approach does not work.
 
 Idea: Generate two images with different RNG seeds. Compute the variance estimate across these two images (image difference squared divided by four).
