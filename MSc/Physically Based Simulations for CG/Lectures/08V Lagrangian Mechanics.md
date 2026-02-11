@@ -3,13 +3,14 @@ Alternative to [[08V Articulated Rigid Bodies, Multi-Body Systems]]
 ## General Recipe
 - Choose a set of generalized coordinates $q$ that describe the system
 	- Independent and completely determine the configuration of the system
-	- Use the generalized coordinates to define the cartesian coordinates of any point in the system we are modeling. $x(q)$ must be explicitly specified. The derivatives of that map gives the velocities.
+	- E.g. the angle of a pendulum (instead of the position directly)
+	- Use the generalized coordinates to define the Cartesian coordinates of any point in the system we are modeling. $x(q)$ must be explicitly specified. The derivatives of that map gives the velocities.
 - Write down kinetic and potential energies $K,\ U$.
 - Write down Lagrangian $L:= K - U$
 - Dynamics are then given by Euler-Lagrange equation: $\frac{d}{dt}\frac{\partial L}{\partial \dot{q}} = \frac{\partial L}{\partial q}$
 ### Example: Arm $q$
 All we care about is the angle of the elbow joint. This angle alone already fully determines the system.
-### Example: Particle moving under Gravity
+### Example: Particle Moving Under Gravity
 ![[Lagrangian Particle under Gravity.png|250]]
 - Generalized coordinates: $q := x$ (identity map)
 - Kinetic energy: $K = \frac{1}{2}\dot{x}^{T}m\dot{x}$

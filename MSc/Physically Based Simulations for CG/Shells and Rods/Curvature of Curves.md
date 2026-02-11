@@ -2,7 +2,7 @@
 What's the change in curve?
 ## Curvature
 With:
-- $\gamma(s) = (x(s), y(s), z(s))^{T}$ arc-length parametrized curve
+- $\gamma(s) = (x(s), y(s), z(s))^{T}$ arc-length parameterized curve
 - $t = \gamma'$ tangent, with $|t|=1$
 - $n = \frac{t'}{|t'|}$ normal
 

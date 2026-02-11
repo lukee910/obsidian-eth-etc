@@ -20,6 +20,17 @@ $y(t+h) = y(t) + hy'(t) + \frac{h^{2}}{2!}y''(t) + \ldots$
 - [[Curl|Curl ($\nabla \times u$)]]
 - [[Cross Product|Cross Product ($v \times w$)]]
 - [[Laplacian|Laplacian ($\nabla^2$)]]
+### Skew-Symmetric
+$A$ is a skew-symmetric matrix iff $A = -A^{T}$. The skew-symmetric matrix for a vector $a$ is unique, noted $[a]$.
+
+Relation to cross product:
+$a \times b = [a]b$
+### Quaternions
+$q = w + xi + yj + zk$, where $i^{2} = j^{2} = k^{2} = ijk = -1$.
+Often noted as $q = [w, v]$, where $v = \begin{pmatrix}x \\ y \\ z\end{pmatrix}$.
+#### Rotation Quaternions
+$q(\theta_{a}, v_{a})$ (rotate around $v_{a}$ by $\theta_{a}$): $q = \begin{bmatrix}w \\ v\end{bmatrix} = \begin{bmatrix}\cos \frac{\theta_{a}}{2} \\ \sin \frac{\theta_{a}}{2} v_{a} \end{bmatrix}$
+Rotate vector $v$ around $q=q(\theta_{a}, v_{a})$: $Rot(v, q) = qv = q \cdot (0, v) \cdot q^{-1}$.
 ## Mass Spring Systems
 [[_T Mass-Spring Systems]]
 [[Mass-Spring Systems - Overview]]
@@ -206,14 +217,14 @@ $$
 $$
 - $p = \frac{1}{3}(\sigma_{xx} + \sigma_{yy} + \sigma_{zz})$ pressure is the negative mean **normal stress**.
 	- Pressure: Whatever it takes to make the velocity field divergence-free
-- $\tau = \sigma + p I$ deviatoric part, traceless, describes **visocous stress**.
+- $\tau = \sigma + p I$ deviatoric part, traceless, describes **viscous stress**.
 	- Viscosity:
 		- Resists relative motion in fluid proportional to [[Laplacian|Laplacian ($\nabla^2$)]]
 		- Visually, how far from average is the velocity at a given location?
 ### Eulerian vs Lagrangian
 - Eulerian
 	- Compute quantity $q$ at a location in time and space
-	- Partial derivaties $\frac{\partial q}{\partial t}, \frac{\partial q}{\partial x}$
+	- Partial derivatives $\frac{\partial q}{\partial t}, \frac{\partial q}{\partial x}$
 - Lagrangian
 	- Compute quantity $q$ for given particle
 	- Total derivatives $\frac{dq}{dt}$
@@ -225,19 +236,20 @@ $$
 	- Moving obstacles: $u \cdot n = u_{solid} \cdot n$
 	- No-slip condition (viscous fluids): $u = u_{solid}$
 		- Fluid gets "dragged" along the side of the moving object, sticks to it
+- Steps: Solve advection, then viscosity, then external forces, then pressure. Then repeat.
 #### Advection
 - Discretisation
 	- Regular grid: Store pressure $p_{i,j}$ and velocity $u_{i,j} = (u_{i,j}, v_{i,j})$ at points $x_{i,j}$
 		- Problems with collocation, like [[Aliasing (Graphics)]]
-	- Staggered Grid (MAC Grid, Marker and Cell)
-		- Pressure $p_{i,j}$ is at the center of the grid.
+	- Staggered Grid (MAC Grid; Marker and Cell)
+		- Pressure $p_{i,j}$ is at the centre of the grid.
 		* $x$-part of velocity $u_{\frac{i+1}{2}, j}$ in middle of $x=const$ face.
 		* $y$-part of velocity $v_{i, \frac{j+1}{2}}$ in middle of $y=const$ face.
-		* Velocity derivatives at cell centers are computed using centered differences:
+		* Velocity derivatives at cell centers are computed using centred differences:
 $$\frac{\partial u}{\partial x}(x_{i,j}) = \frac{u_{i+\frac{1}{2}, j} - u_{i-\frac{1}{2}, j}}{\Delta x}$$
 		* Problem: Where does the particle go? $\Rightarrow$ Lagrangian Advection
 * Lagrangian Advection
-	* Solve lagrangian equation $\frac{Du}{Dt} = 0$ 
+	* Solve Lagrangian equation $\frac{Du}{Dt} = 0$ 
 	* Look backward in time from grid point to see where data comes from, interpolate at previous time
 #### Viscosity
 Solve viscous ODE. Leads to sparse linear system:
@@ -248,4 +260,259 @@ $$
 Usually okay to do with [[Solving ODEs#Explicit Euler]].
 #### Pressure
 From [[Poisson Equation]] for unknown pressure, get one equation per cell. Sparse system of linear equations, use sparse solver.
+## Constraints
+[[_T Constraint Materials]]
+### Constraint
+[[Constraint]]
+A constraint $C(x_{1}, \ldots, x_{n}) : \mathbb{R}^{3n} \to \mathbb{R}$ is:
+- A scalar-valued function of one or several arguments
+- An implicit expression for a relation that must hold between its arguments
+
+Note: Constraint should be convex, because otherwise we get a mess.
+
+Convention: $C(x) = 0 \Leftrightarrow$ Constraint satisfied
+### Penalty Function, Penalty Force
+[[Penalty Function]]
+Potential energy function that can be derived (negative gradient, $-\frac{\partial E_{C}}{\partial x_{j}}$) to get the [[Penalty Force]].
+Types:
+- Polynomial, especially quadratic
+	- The easy choice
+	- Do not prevent constraint violations
+- Barrier Functions
+	- $P_{lb}(x) = -k \ln C(x)$
+	- Infinite energy to violate constraint
+	- Highly nonlinear, must be used carefully
+
+[[Penalty Force]]: Force applied to system to improve constraint.
+### Constraint Misc
+- Locking
+	- Prevention of bending because edges would have to be compressed
+	- Cloth only easily bends if edges are aligned to bending direction
+### Constraint Methods
+#### Position Based Dynamics
+1. Step: Unconstrained step
+2. Project: Iterate over constraints, apply local corrections, reduce constraint violation
+##### Strain Limiting
+- Edge-based strain limiting
+	- + Good for cloth sim
+	- - Mesh-dependent
+	- - Limits are the same in each direction
+#### Projective Dynamics
+Between [[#Position Based Dynamics]] and [[#Finite Elements Method]].
+
+Idea:
+- Given current configuration $x$
+- For each constraint
+	- Find closest configuration $p$ on constraint manifold (i.e. $p_{i}=\arg\min_{C_{i}(p)=0} d(x, p)$)
+- Find new configuration that is closest to all $p_{i}$
+	- Linear solve a large system with all $p_{i}$
+
+Note:
+- $p$: Auxiliary variables, don't always have to be the same as the $x$
+	- E.g. take $p$ vectors of spring rest length instead of positions $x$
+- $d$: Distance function
+	- Some conditions, #Unclear 
+
+Note:
+- Convergence:
+	- More iterations than Newton's Method, but each iteration faster
+	- Linear convergence (vs Newton's Quadratic, if close to solution)
+- + Convergence much better than [[#Position Based Dynamics]] and initially better than Newton's Method
+- - Not as accurate as [[#Finite Elements Method]]
+- - Damping if terminated too early
+- - Not meant for hard constraints
+#### Fast Projection
+Idea:
+- Find $\delta x_{i}$ vector to nearest configuration with satisfied constraint
+- Take gradient of constraints at current configuration, assume $C(x_{i} + \delta x_{i}) \approx C(x_{i}) + \nabla C(x_{i})\delta x_{i}$
+- Whack those constraints together and solve
+- Repeat (optional)
+
+Note:
+- + Enforces hard constraints after single linear solve
+- - May not get closer after that initial step
+- - Doesn't find optimal solution (i.e. closest configuration)
+#### Nonlinear Programming
+- Solve inequality constraints as nonlinear programming
+- Solves Locking
+- - Slow to converge
+#### Constraint Method Overview
+[[#Position Based Dynamics]]:
+- Fast
+- Constraints not really enforced
+[[#Projective Dynamics]]:
+- Faster than PBD
+- No strict constraint enforcement
+[[#Fast Projection]]:
+- Fast initial guess, but convergence not guaranteed
+- Strict enforcement (to first order)
+[[#Nonlinear Programming]]
+- Slow to converge
+- Good for preventing locking
+## Shells and Rods
+[[_T Shells and Rods]]
+### Shells
+- Shells: Surface-like flexible objects
+- Deformations:
+	- Stretching (in-plane)
+	- Bending (out-of-plane)
+	- Resistance to bending weaker than to stretching
+		- We get buckling (crumpled up things)
+- Curvature #TODO #Unclear 
+	- [[Curvature of Curves]]
+		- $\kappa = |t'| = \gamma''^{T} n = t'^{T} n$
+	- $\kappa_{n}(x)$: Normal curvature (scalar): Curvature of the normal at that point
+	- $\kappa_{1} = \min_{t} \kappa_{n}(t)$
+		- $t$ unit vector in tangent plane
+	- $\kappa_{2} = \max_{t} \kappa_{n}(t)$
+	- Mean curvature: $H = \frac{1}{2}(\kappa_{1} + \kappa_{2})$
+		- Depends on bending
+	- Gaussian curvature: $K = \kappa_{1} \cdot \kappa_{2}$
+		- Can only be changed through stretching
+### Rods
+E.g. for hair simulation.
+
+[[Discrete Rods]]
+
+#### Kirchhoff Rods
+[[Kirchhoff Rods]]:
+Adapted Framed Curve:
+$$
+\Gamma(s) = \{ \gamma(s);\ t(s), m_{1}(s), m_{2}(s) \}
+$$
+With:
+- $\gamma$: [[#Centerline Curve]]
+- $t(s) = \gamma'(s)$: Tangent, *adapted* to material frame (hence the name)
+- $t(s), m_{1}(s), m_{2}(s)$: [[#Material Frame]]
+![[Kirchhoff Rod Setup.png]]
+## Rigid Body Dynamics
+[[_T Rigid Body Dynamics]]
+vs [[#Continuum Mechanics]], [[#Finite Elements Method]]: Not deformable
+
+- $p$: Centre of mass
+- $R$: Rotation of rigid body, rotation matrix
+- Storing an RB in code:
+	- $p(t)$: CoM position in time
+	- $R(t)$: Rotation in time
+- Point on a rigid body:
+	- $\bar{x}$: Local coordinates (assumed given, origin at centre of mass)
+	- $x$: global coordinates, $x = p + R\bar{x}$
+	- Versus: [[#Continuum Mechanics]] displacement vectors
+- $r, \bar{r}$: Sometimes used instead of $x$. Same meaning.
+### Spin to Win
+#### Angular Velocity
+Spin, $\omega(t)$
+- Direction of $\omega$ gives the axis that the RB is rotating around
+- Magnitude of $\omega$ gives the speed at which the RB is spinning ($\left[\frac{rad}{s}\right]$)
+#### Moment of Inertia
+$I$. "Angular mass" for rotational part of RB's motion. Constant in body coordinates, can be precomputed. In world coordinates: $I = RI_{b}R^{T}$.
+
+Getting $I_{b}$: Analytical solutions exist, but often just do point sampling to get an estimate.
+#### Torque
+Angular force. $\tau(t) = \sum\limits_{i} r_{i} \times f_{i}(t)$ ("Lever where the force is applied times the force itself").
+
+Net(=total) torque depends on the point where a force is applied, but net force does not.
+### Articulated Rigid Bodies
+Joint: Join two points on two rigid bodies, $x_{a} = p_{a} + R_{a}\bar{r}_{a}$, $x_{b} = p_{b} + R_{b}\bar{r}_{b}$. For example, $x_{a} = x_{b}$ as the goal.
+
+Approaches:
+- Springs (0 rest length)
+	- High stiffness required to actually come close
+		- High stiffness causes numerical issues
+- Constraint (0 distance as target)
+	- General formulation, works well
+### Lagrangian Mechanics
+vs [[#Articulated Rigid Bodies]]
+
+Elegant formulation on reduced coordinates.
+
+Recipe:
+- Choose a set of generalized coordinates $q$ that describe the system
+	- Independent and completely determine the configuration of the system
+	- E.g. the angle of a pendulum (instead of the position directly)
+	- Must have map to position: $x(q)$
+- Write down kinetic and potential energies $K,\ U$.
+- Write down Lagrangian $L:= K - U$
+- Dynamics are then given by Euler-Lagrange equation: $\frac{d}{dt}\frac{\partial L}{\partial \dot{q}} = \frac{\partial L}{\partial q}$
+
+For many particles, the generalized coordinates $q$ contain information for all particles, combined somehow. E.g. $q = [ x_{root}, \theta_{1}, \theta_{2}, \ldots]$ for a set of particles connected by unit length edges, this gives us all information for the entire system.
+## Subspace Simulation
+Idea: Find a low-dimensional subspace that captures likely/desired behaviour, simulate that subspace.
+### Low-Frequency Deformations
+Idea: These deformations that are easy to induce.
+
+Linear Modes: Deformations corresponding to the eigenvectors of the optimization problem.
+
+Notes:
+- + Fast to solve
+- + Accurate for:
+	- Low frequency deformations
+	- Small deformations
+- - Inaccurate for:
+	- Large deformations
+	- Rotations
+### Summary
+Other methods exist to choose a better basis and non-linear spaces. Anyways.
+
+- + Accelerate
+- + Fast independent of model complexity
+- - Expensive pre-computations
+	- Need to be redone when geometry/material changes
+- - Motion that doesn't match the chosen basis is not captured
+## Collisions
+[[_T Collisions]]
+
+Collision Handling = Collision Detection + Collision Response
+
+### Collision Detection - Broad and Narrow Phase
+Idea:
+1. Broad: Get potentially colliding triangle pairs (PCTP)
+	1. Bounding volumes
+2. Narrow: Perform distance test on PCTPs
+
+Broad:
+[[Collision Detection - Bounding Volumes]]
+
+Narrow:
+- Triangle-triangle distance
+- Edge-edge distance
+- Distance problem
+	- Optimisation problem
+	- Quadratic problem
+### Continuous Collision Detection
+Idea: Don't miss collisions during timesteps.
+### Collision Handling
+#### Impulse-Based Collision Response:
+- Step ignoring collisions
+- Correct positions with a force
+
+Note:
+- NEEDS that the initial configuration doesn't have collisions,!
+- Cannot reliably prevent intersections
+	- Collisions may be missed across a timestep
+- Cannot recover from intersections
+#### Inelastic Projections
+Idea: Minimize the length of the intersection contour (outline) between two meshes.
+
+Can often, but not always recover.
+### Coupling Physics and Collisions
+#### Incremental Potential Contact (IPC)
+- Smoothly clamped, locally supported barrier function for collision penalties.
+	- Continuous collision condition
+- Intersection aware line search for the step newton iteration
+	- Just making the energy smaller is not good enough
+	- Have to do [[Continuous Collision Detection]] during each newton step.
+## Differential Simulation
+"How does a change in parameters affect the outcome of the simulation model?"
+- Targeted animation, control
+- Machine Learning
+
+Simulation setup:
+Parameters $p$ $\rightarrow$ Equilibrium state $x(p)$, where $x(p) = \arg\min_{x} W(x, p)$, $W$ potential energy. Then, derive $\frac{\partial x}{\partial p}$ somehow.
+
+Solve with gradient descent, but slow.
+- BFGS: Quasi Newton Method.
+- Gauss-Newton: Second Order Newton's Method.
+
+Quasi Newton Method: Like the Newton's Method but using an approximation for the derivative instead of the real one.
 

@@ -5,7 +5,7 @@ A constraint $C(x_{1}, \ldots, x_{n}) : \mathbb{R}^{3n} \to \mathbb{R}$ is:
 ## Satisfied
 A constraint is *satisfied* if $C = 0$.
 This is a convention.
-## Examples of n-ary constraints
+## Examples of n-ary Constraints
 - Constant position: $C(x_{1})$
 - Constant distance: $C(x_{1}, x_{2})$
 - ...constant area, volume for 3-ary and 4-ary constraints.

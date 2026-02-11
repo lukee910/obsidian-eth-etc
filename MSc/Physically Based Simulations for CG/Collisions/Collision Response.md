@@ -1,5 +1,5 @@
 What to do when we collide. Optimally, we're not colliding afterwards.
-## Impluses
+## Impulses
 [[Collision Response - Impulses]]
 ## Coupling Collision Handling and Physics
 Idea: Use penalty functions for collision response.

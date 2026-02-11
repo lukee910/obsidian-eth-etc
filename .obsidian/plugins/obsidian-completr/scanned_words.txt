@@ -276,6 +276,9 @@ Thinking
 Tricks
 Track
 Them
+Tower
+Torque
+Targeted
 For
 Find
 FB
@@ -516,6 +519,7 @@ Formulations
 False
 Free
 Focus
+Follow
 each
 exists
 expressed
@@ -838,6 +842,9 @@ eas
 eppp
 emissive
 evaluations
+early
+enforced
+enforcement
 matrix
 matrices
 mA
@@ -1115,6 +1122,9 @@ mfO
 measures
 markdown
 mini
+meant
+missed
+minimization
 there
 that
 the
@@ -1422,6 +1432,9 @@ travels
 tackle
 tweaked
 tight
+terminated
+transport
+timesteps
 orthogonal
 optimizing
 on
@@ -1669,6 +1682,8 @@ optimise
 obstacles
 occurs
 occlusions
+optimization
+outline
 and
 as
 an
@@ -2010,6 +2025,9 @@ ammm
 app
 almost
 accounts
+assumed
+attractions
+affect
 such
 symmetric
 semidefinite
@@ -2484,6 +2502,9 @@ sticks
 say
 subsets
 surjective
+signs
+simulation
+spaces
 can
 centered
 ctq
@@ -2983,6 +3004,14 @@ cylinder
 contain
 capture
 cracks
+centre
+centred
+corrections
+cloth
+crumpled
+come
+computations
+contour
 be
 by
 bT
@@ -3242,6 +3271,8 @@ barriers
 belonging
 blurrier
 blank
+bends
+buckling
 Any
 Analysis
 AV
@@ -3546,6 +3577,10 @@ Applied
 About
 Along
 Aperture
+Auxiliary
+Articulated
+Anyways
+Accelerate
 positive
 projection
 principal
@@ -3881,6 +3916,9 @@ pdp
 parameterization
 planes
 preferable
+preventing
+parameterized
+pendulum
 non
 negatively
 nKDN
@@ -4960,6 +4998,9 @@ rXG
 repository
 reaching
 reweigh
+rotational
+redone
+recovery
 loss
 largest
 lc
@@ -5204,6 +5245,8 @@ liC
 lmG
 lKb
 lose
+limiting
+locking
 is
 io
 in
@@ -5514,6 +5557,8 @@ invert
 interpolate
 inverting
 ist
+increasingly
+ignoring
 given
 gAMA
 gj
@@ -5720,6 +5765,7 @@ gea
 gggG
 guess
 going
+goal
 formed
 fx
 fKg
@@ -5974,6 +6020,7 @@ fly
 fake
 focusing
 forth
+faster
 Principle
 Prop
 Polynomial
@@ -6286,6 +6333,12 @@ Programming
 Paths
 Pat
 Plenoptic
+Prevention
+Projective
+PBD
+Parallel
+PCTPs
+Projections
 Component
 Characteristic
 Cd
@@ -6659,6 +6712,11 @@ Curvate
 Checkpoint
 Colliding
 Combines
+Curvatures
+Cylinder
+Centre
+CoM
+Contour
 Where
 Wn
 Wy
@@ -6853,6 +6911,8 @@ WIh
 WNB
 Wuu
 Whatever
+Whack
+Win
 value
 vog
 vnuT
@@ -7057,6 +7117,10 @@ vyk
 vWc
 vHG
 visocous
+viscosity
+violations
+violate
+violation
 Get
 GW
 Gd
@@ -7692,6 +7756,8 @@ Sparse
 Side
 Sand
 SIGGRAPH
+Strict
+Spin
 IHDR
 IDATx
 IR
@@ -7965,6 +8031,13 @@ Install
 Interpolate
 Improving
 Interaction
+Infinite
+Iterate
+Inaccurate
+Impulse
+Inelastic
+Impulses
+Intersections
 HIG
 HU
 HA
@@ -8187,6 +8260,8 @@ Hookean
 Heuristic
 Heart
 Hanrahan
+Highly
+Hyperbolic
 qj
 qO
 qM
@@ -8645,6 +8720,7 @@ Element
 Equivalent
 Expanding
 Else
+Enforces
 XDD
 Xd
 Xc
@@ -9459,6 +9535,8 @@ Basics
 Balance
 Buffers
 Buffer
+Barrier
+BFGS
 Qr
 Qd
 QDDDDDDJR
@@ -9912,6 +9990,10 @@ Relate
 Resists
 Resampled
 Relates
+Repeat
+Resistance
+Rotate
+Recovering
 LE
 Lh
 Lc
@@ -10161,6 +10243,9 @@ LwyJ
 Logs
 Leads
 Levoy
+Locking
+Limiting
+Lever
 xV
 xz
 xzTS
@@ -10667,6 +10752,9 @@ Divide
 Determines
 Discretisation
 Depths
+Depends
+Details
+Decoupling
 Kp
 Kt
 KN
@@ -11224,6 +11312,7 @@ OJJJLLL
 Obsidian
 Open
 Optimized
+Optimisation
 kzd
 kg
 kS
@@ -11963,6 +12052,7 @@ NUUUU
 Neo
 Nodal
 Nebulae
+NEEDS
 Mv
 Mg
 MLs
@@ -12248,6 +12338,9 @@ Measure
 Markdown
 Mildenhall
 Marc
+Misc
+Min
+Modes
 Zb
 ZF
 Zi
@@ -12584,6 +12677,7 @@ JLLEx
 JDZ
 Jef
 Jepp
+Join
 Uz
 UK
 Use
@@ -12775,6 +12869,8 @@ Uyyy
 Uee
 UUk
 Unobserved
+Unconstrained
+Under
 hard
 hN
 hM
@@ -13000,6 +13096,7 @@ headache
 harmonic
 hand
 homogeneous
+handling
 Yq
 YTC
 Yb

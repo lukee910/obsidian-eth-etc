@@ -1,4 +1,4 @@
-How to discretize rods?
+How to discretise rods?
 
 Approaches:
 - Centerline + Material Frame
@@ -29,5 +29,5 @@ Calculating the reference frame ([[Kirchhoff Rods#Bishop Natural Frame]])
 ### Parallel Transport in Time
 Follow-up paper. Idea: Parallel transport via forces from old edge to new frame.
 #TODO: Time PT
-#### Few details for implementing
+#### Few Details for Implementing
 Do update from one newton step to the next. Need to implement an implicit integration. Where?
