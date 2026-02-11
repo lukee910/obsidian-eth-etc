@@ -1,7 +1,7 @@
 #TODO
 - [x] [[CG 04V2 Monte Carlo#Sampling Examples]]
 	- What is happening there?
-- [ ] Assorted [[Radiometric Quantities]] equivalences
+- [x] Assorted [[Radiometric Quantities]] equivalences
 - [x] [[Rendering Equation]]!
 	- See also: [[CG Sheet 4#1.1]]
 - [ ] [[Inverse Square Law]]
