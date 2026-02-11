@@ -9,10 +9,15 @@ Lecture Topics:
 8. [[08V Articulated Rigid Bodies, Multi-Body Systems]]
 9. [[_T Subspace Simulation]]
 10. [[_T Collisions]]
-11. #TODO: Differentiable Simulation
+11. Differentiable Simulation
 ## Basics
 ### Taylor
 $y(t+h) = y(t) + hy'(t) + \frac{h^{2}}{2!}y''(t) + \ldots$
+### Energy
+Force is the negative gradient of the energy.
+$$
+F  = -\frac{\partial E}{\partial x}
+$$
 ### Vector Calculus
 - [[Gradient (Nabla)|$\nabla$]]
 - [[Vector Field]]
@@ -59,28 +64,29 @@ Rotate vector $v$ around $q=q(\theta_{a}, v_{a})$: $Rot(v, q) = qv = q \cdot (0,
 	- Explicit Euler
 		- "Assume no change in $y'$"
 		- $y_{n+1} = y_{n} + hf(t_{n}, y_{n})$
-		- First-order accurate ($\mathcal{O}(h^{2})$ error)
+		- *First-order* accurate ($\mathcal{O}(h^{2})$ error)
 	- Explicit Midpoint
 		- "Maybe $y'$ at the midpoint is better?"
 		- $y_{n+ \frac{1}{2}} = y_{n} + \frac{h}{2} f(t_{n}, y_{n})$
 		- $y_{n+1} = y_{n} + h f(t_{n+ \frac{1}{2}}, y_{n+ \frac{1}{2}})$
-		- Second-order accurate
+		- *Second-order* accurate
 	- Implicit Euler
 		- "Maybe $y'$ at the next step is better?"
 		- $y_{n+1} = y_{n} + f(t_{n+1}, y_{n+1})$
-		- First-order accurate
+		- *First-order* accurate
 	- Symplectic Euler
 		- Applied to pair of ODEs:
 			- $\frac{dx}{dt} = f(t, v)$
 			- $\frac{dv}{dt} = g(t, x)$
 		- $v_{n+1} = v_{n} + g(t_{n}, x_{n}) h$
 		- $x_{n+1} = x_{n} + f(t_{n}, v_{n+1}) h$
-		- First-order accurate
+		- *First-order* accurate
 	- Comparison
 		- Explicit Euler: Tends to explode.
 		- Explicit Midpoint: Slower (more evaluations).
 		- Implicit Euler: Tends to lose energy.
 		- Symplectic Euler: Conserves momentum, almost conserves energy.
+			- Special case application
 - Equation Solving: Newton's Method
 	- $g(x_{n})$: Energy (or anything else to optimise)
 	- Goal: Solve $g(x_{n+1}) = 0$
@@ -128,22 +134,28 @@ $$
 
 ![[3D Case for Continuum Mechanics#Deformation Gradient]]
 ### Strain
+$\varepsilon$, $E$.
 [[3D Nonlinear Strain]]
 Measure the change in length square by deformation in any given direction.
-- Green Strain: $E = \frac{1}{2}(F^{T}F - I)$
+- **Green Strain**: $E = \frac{1}{2}(F^{T}F - I)$
 	- Quadratic in $\nabla u$
 		- $E = \frac{1}{2}(\nabla u + \nabla u^{T} + \nabla u^{T} \nabla u)$
 	- Pros: Invariant under rotations, more accurate
 	- Cons: Expensive
-- Cauchy Strain: $\varepsilon = \frac{1}{2} (F + F^{T}) - I$
+- **Cauchy Strain**: $\varepsilon = \frac{1}{2} (F + F^{T}) - I$
 	- Linear in $\nabla u$
 		- $\varepsilon = \frac{1}{2} (\nabla u + \nabla u^{T}) - I$
 	- Pros: Simpler, Cheaper
 	- Cons: Rotation artifacts, less accurate
 - Use Green if you want precision, Cauchy only if you must
+
+Note:
+- Rotation artifacts with Cauchy strain
 ### Stress
+$\sigma$
 [[3D Stress]]
 Measure the force per area caused by the deformation. $t(x, n) = \frac{df}{dA}$ as $A \to 0$.
+*Internal forces* per area.
 ![[3D CM FEM Stress Setup.png|150]]
 Cauchy's Stress Theorem: $t(x, n) = \sigma(x) \cdot n$
 - $\sigma_{i}$: Normal stress
@@ -186,6 +198,7 @@ Cauchy stress: $\sigma = \frac{\partial\Psi}{\partial\varepsilon} = \lambda tr(\
 	* Good for up to ~20% deformation
 ## Finite Elements Method
 [[Finite Element Discretization]]
+Making [[#Continuum Mechanics]] possible to calculate.
 Instead of calculating stress, strain, deformation on continuous setting as above, approximate with some finite elements. Also, skip strong form for calculations.
 
 A finite element consists of:
@@ -311,7 +324,6 @@ Note:
 - $p$: Auxiliary variables, don't always have to be the same as the $x$
 	- E.g. take $p$ vectors of spring rest length instead of positions $x$
 - $d$: Distance function
-	- Some conditions, #Unclear 
 
 Note:
 - Convergence:

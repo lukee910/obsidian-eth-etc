@@ -10,5 +10,5 @@ $$
 $$
 ## Notes
 - In one dimension, $\nabla^{2} = \frac{\partial^{2}}{\partial x^{2}}$
-- Sum of the second partial derivatives with respect to each independent variable (in cartesian coordinates).
-- One perspective: Curvate or stress of the [[Vector Field]]. How much does the value differ from its average value taken over the surrounding points?
+- Sum of the second partial derivatives with respect to each independent variable (in Cartesian coordinates).
+- One perspective: Curvature or stress of the [[Vector Field]]. How much does the value differ from its average value taken over the surrounding points?

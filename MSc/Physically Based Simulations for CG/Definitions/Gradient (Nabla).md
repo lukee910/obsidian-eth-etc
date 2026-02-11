@@ -3,7 +3,6 @@ aliases:
   - Gradient
   - $\nabla$
 ---
-
 Gradient operator $\nabla$
 
 Note the syntax: $\nabla \cdot \mathbf{u} \neq \nabla \mathbf{u}$ (see [[Divergence]])

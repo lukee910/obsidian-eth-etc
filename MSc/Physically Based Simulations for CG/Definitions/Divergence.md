@@ -13,7 +13,7 @@ $$
 $$
 Note:
 - For $u : \mathbb{R}^{n}$, we have $\nabla \cdot u \in \mathbb{R}$.
-- Corresponds to $\nabla \cdot u = tr(\nabla \mathbf{u})$.
+- Corresponds to $\nabla \cdot u = tr(\nabla \mathbf{u})$ ([[Trace]] of [[Gradient (Nabla)|Gradient]])
 ## Notes
-In 2D:
+In 2D:tr(A) = \sum\limits_{i=1}^{n}
 ![[Divergence Fluid.png]]
